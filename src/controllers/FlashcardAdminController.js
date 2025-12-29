@@ -98,6 +98,9 @@ class FlashcardAdminController {
   static async create(req, res) {
     let responseSent = false;
 
+    // Helper to support both upload.single and upload.fields
+    const imageFile = req.file || (req.files && req.files.image && req.files.image[0]);
+
     try {
       const rawBody = req.body || {};
       const payload = FlashcardAdminController.normalizePayload(rawBody, true);
@@ -122,9 +125,9 @@ class FlashcardAdminController {
       FlashcardAdminController.ensureLevel(payload.levelId);
 
       // Upload image if provided
-      if (req.file) {
+      if (imageFile) {
         const publicId = `flashcard_${payload.id}`;
-        payload.imageUrl = await CloudinaryService.uploadImage(req.file.path, publicId);
+        payload.imageUrl = await CloudinaryService.uploadImage(imageFile.path, publicId);
       }
 
       const flashcard = Flashcard.create(payload);
@@ -138,8 +141,8 @@ class FlashcardAdminController {
       }
     } finally {
       // Clean temp upload if exists
-      if (req.file && req.file.path && fs.existsSync(req.file.path)) {
-        fs.unlinkSync(req.file.path);
+      if (imageFile && imageFile.path && fs.existsSync(imageFile.path)) {
+        fs.unlinkSync(imageFile.path);
       }
     }
   }
@@ -173,8 +176,11 @@ class FlashcardAdminController {
   }
 
   // PUT /admin/flashcards/:id - Cập nhật flashcard
-  static update(req, res) {
+  static async update(req, res) {
     let responseSent = false;
+
+    // Support both upload.single and upload.fields
+    const imageFile = req.file || (req.files && req.files.image && req.files.image[0]);
 
     try {
       // Get existing flashcard to preserve fields not in update
@@ -193,6 +199,13 @@ class FlashcardAdminController {
         isPremium_normalized: updateData.isPremium,
         existing_is_premium: existing.is_premium
       });
+
+      let imageUrl = updateData.imageUrl || existing.content.image_url;
+      if (imageFile) {
+        const publicId = `flashcard_${req.params.id}`;
+        imageUrl = await CloudinaryService.uploadImage(imageFile.path, publicId);
+      }
+
       const payload = {
         topicId: updateData.topicId || existing.topic,
         levelId: updateData.levelId || existing.level,
@@ -202,7 +215,7 @@ class FlashcardAdminController {
         hanzi: updateData.hanzi || existing.content.hanzi,
         pinyin: updateData.pinyin || existing.content.pinyin,
         englishPhonetic: updateData.englishPhonetic || existing.content.english_phonetic,
-        imageUrl: updateData.imageUrl || existing.content.image_url,
+        imageUrl,
         audioCn: updateData.audioCn || existing.content.audio.cn,
         audioEn: updateData.audioEn || existing.content.audio.en,
         audioVi: updateData.audioVi || existing.content.audio.vi,
@@ -224,6 +237,10 @@ class FlashcardAdminController {
       if (!responseSent) {
         responseSent = true;
         res.status(400).json({ error: error.message });
+      }
+    } finally {
+      if (imageFile && imageFile.path && fs.existsSync(imageFile.path)) {
+        fs.unlinkSync(imageFile.path);
       }
     }
   }

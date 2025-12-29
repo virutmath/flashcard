@@ -1,0 +1,7 @@
+.env
+.env.local
+node_modules/
+database/
+*.log
+.DS_Store
+tts-crd.json

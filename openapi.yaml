@@ -1,0 +1,472 @@
+openapi: 3.0.3
+info:
+  title: Flashcard Kids API
+  version: 0.1.0
+  description: |
+    API contract for Flashcard Kids web app.
+    Includes auth, user profile, flashcards, bookmarks, streak, badges.
+servers:
+  - url: https://api.example.com
+paths:
+  /auth/login:
+    post:
+      summary: Login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+              required: [email, password]
+      responses:
+        '200':
+          description: Logged in
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+  /auth/logout:
+    post:
+      summary: Logout
+      responses:
+        '200':
+          description: Logged out
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+  /user:
+    get:
+      summary: Get current user profile
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: User data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserPayload'
+  /bookmarks:
+    get:
+      summary: Get bookmarks for current user
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Bookmark IDs
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      bookmarks:
+                        type: array
+                        items:
+                          type: string
+                    required: [bookmarks]
+                required: [data]
+    put:
+      summary: Replace bookmarks list
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                bookmarks:
+                  type: array
+                  items:
+                    type: string
+              required: [bookmarks]
+      responses:
+        '200':
+          description: Updated bookmarks
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      bookmarks:
+                        type: array
+                        items:
+                          type: string
+                    required: [bookmarks]
+                required: [data]
+  /streak:
+    get:
+      summary: Get streak info
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Streak
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Streak'
+  /badges:
+    get:
+      summary: Get badges for current user
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Badges
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Badge'
+                required: [data]
+  /flashcards:
+    get:
+      summary: List flashcards
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/PageSize'
+        - in: query
+          name: topic
+          schema:
+            type: string
+        - in: query
+          name: level
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Flashcards
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Flashcard'
+                  meta:
+                    allOf:
+                      - $ref: '#/components/schemas/PaginationMeta'
+                      - type: object
+                        properties:
+                          topics:
+                            type: array
+                            items:
+                              type: string
+                          levels:
+                            type: array
+                            items:
+                              type: string
+                required: [data, meta]
+  /topics:
+    get:
+      summary: List topics
+      responses:
+        '200':
+          description: Topics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Topic'
+                required: [data]
+  /levels:
+    get:
+      summary: List levels
+      responses:
+        '200':
+          description: Levels
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Level'
+                  meta:
+                    $ref: '#/components/schemas/PaginationMeta'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  parameters:
+    Page:
+      name: page
+      in: query
+      description: 1-based page index
+      schema:
+        type: integer
+        minimum: 1
+        default: 1
+    PageSize:
+      name: pageSize
+      in: query
+      description: Page size (max 100)
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 100
+        default: 20
+  schemas:
+    PaginationMeta:
+      type: object
+      properties:
+        page:
+          type: integer
+          minimum: 1
+        pageSize:
+          type: integer
+          minimum: 1
+        total:
+          type: integer
+          minimum: 0
+        totalPages:
+          type: integer
+          minimum: 0
+      required: [page, pageSize, total, totalPages]
+    LoginResponse:
+      type: object
+      properties:
+        token:
+          type: string
+        user:
+          $ref: '#/components/schemas/UserProfile'
+      required: [token, user]
+      example:
+        token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.demo.token"
+        user:
+          id: "u_001"
+          name: "Demo Kid"
+          email: "demo@example.com"
+          avatar: "/assets/images/avatar.png"
+    UserProfile:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        email:
+          type: string
+        avatar:
+          type: string
+      required: [id, name, email]
+      example:
+        id: "u_001"
+        name: "Demo Kid"
+        email: "demo@example.com"
+        avatar: "/assets/images/avatar.png"
+    Streak:
+      type: object
+      properties:
+        current:
+          type: integer
+        best:
+          type: integer
+        lastUpdated:
+          type: string
+          format: date
+      example:
+        current: 5
+        best: 12
+        lastUpdated: "2025-12-11"
+    Badge:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        icon:
+          type: string
+        description:
+          type: string
+      required: [id, name]
+      example:
+        id: "b_001"
+        name: "Newcomer"
+        icon: "\ud83c\udf31"
+        description: "Hoàn thành buổi học đầu tiên"
+    UserPayload:
+      allOf:
+        - $ref: '#/components/schemas/UserProfile'
+        - type: object
+          properties:
+            streak:
+              $ref: '#/components/schemas/Streak'
+            bookmarks:
+              type: array
+              items:
+                type: string
+            badges:
+              type: array
+              items:
+                $ref: '#/components/schemas/Badge'
+      example:
+        id: "u_001"
+        name: "Demo Kid"
+        email: "demo@example.com"
+        avatar: "/assets/images/avatar.png"
+        streak:
+          current: 5
+          best: 12
+          lastUpdated: "2025-12-11"
+        bookmarks: ["fc_001", "fc_004", "fc_010"]
+        badges:
+          - id: "b_001"
+            name: "Newcomer"
+            icon: "\ud83c\udf31"
+            description: "Hoàn thành buổi học đầu tiên"
+          - id: "b_002"
+            name: "3-Day Streak"
+            icon: "\ud83d\udd25"
+            description: "Duy trì streak 3 ngày"
+          - id: "b_003"
+            name: "Memory Master"
+            icon: "\ud83e\udde0"
+            description: "Thắng 3 trận Memory"
+    Flashcard:
+      type: object
+      properties:
+        id:
+          type: string
+        topic:
+          type: string
+        level:
+          type: string
+        is_premium:
+          type: boolean
+        content:
+          $ref: '#/components/schemas/FlashcardContent'
+      required: [id, topic, level, content]
+      example:
+        id: "fc_001"
+        topic: "animals"
+        level: "HSK3"
+        is_premium: false
+        content:
+          hanzi: "猫"
+          pinyin: "māo"
+          english_phonetic: "mow"
+          image_url: "/assets/images/cat.png"
+          audio:
+            cn: "/assets/audio/cn/cat_cn.mp3"
+            en: "/assets/audio/en/cat_en.mp3"
+            vi: "/assets/audio/vi/cat_vi.mp3"
+          meanings:
+            en: "Cat"
+            vi: "Con mèo"
+          example_sentence:
+            hanzi: "这是一只猫"
+            pinyin: "Zhè shì yī zhī māo"
+            meaning_vi: "Đây là một con mèo"
+    FlashcardContent:
+      type: object
+      properties:
+        hanzi:
+          type: string
+        pinyin:
+          type: string
+        english_phonetic:
+          type: string
+        image_url:
+          type: string
+        audio:
+          type: object
+          properties:
+            cn:
+              type: string
+            en:
+              type: string
+            vi:
+              type: string
+        meanings:
+          type: object
+          properties:
+            en:
+              type: string
+            vi:
+              type: string
+        example_sentence:
+          type: object
+          properties:
+            hanzi:
+              type: string
+            pinyin:
+              type: string
+            meaning_vi:
+              type: string
+      required: [hanzi, pinyin, meanings]
+      example:
+        hanzi: "猫"
+        pinyin: "māo"
+        english_phonetic: "mow"
+        image_url: "/assets/images/cat.png"
+        audio:
+          cn: "/assets/audio/cn/cat_cn.mp3"
+          en: "/assets/audio/en/cat_en.mp3"
+          vi: "/assets/audio/vi/cat_vi.mp3"
+        meanings:
+          en: "Cat"
+          vi: "Con mèo"
+        example_sentence:
+          hanzi: "这是一只猫"
+          pinyin: "Zhè shì yī zhī māo"
+          meaning_vi: "Đây là một con mèo"
+    Topic:
+      type: object
+      properties:
+        id:
+          type: string
+        label:
+          type: string
+        count:
+          type: integer
+      example:
+        id: "animals"
+        label: "Animals"
+        count: 1
+    Level:
+      type: object
+      properties:
+        id:
+          type: string
+        label:
+          type: string
+        count:
+          type: integer
+      example:
+        id: "HSK3"
+        label: "HSK 3"
+        count: 2

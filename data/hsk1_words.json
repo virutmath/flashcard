@@ -1,0 +1,8090 @@
+[
+  {
+    "level_id": "HSK1",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaning_en": "I; me",
+    "meaning_vi": "tôi",
+    "example_hanzi": "我是学生"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaning_en": "you",
+    "meaning_vi": "bạn",
+    "example_hanzi": "你是我的朋友"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "meaning_en": "he; him",
+    "meaning_vi": "anh ấy",
+    "example_hanzi": "他是老师"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "meaning_en": "she; her",
+    "meaning_vi": "cô ấy",
+    "example_hanzi": "她是医生"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "meaning_en": "we; us",
+    "meaning_vi": "chúng tôi",
+    "example_hanzi": "我们一起学习"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "meaning_en": "you (plural)",
+    "meaning_vi": "các bạn",
+    "example_hanzi": "你们在教室里"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "meaning_en": "they; them",
+    "meaning_vi": "họ",
+    "example_hanzi": "他们喜欢运动"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaning_en": "to be",
+    "meaning_vi": "là",
+    "example_hanzi": "他是学生"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaning_en": "to have",
+    "meaning_vi": "có",
+    "example_hanzi": "我有一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "meaning_en": "to go",
+    "meaning_vi": "đi",
+    "example_hanzi": "我们去学校"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "meaning_en": "to come",
+    "meaning_vi": "đến",
+    "example_hanzi": "朋友来了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "meaning_en": "to look; watch",
+    "meaning_vi": "xem; nhìn",
+    "example_hanzi": "我看电影"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "meaning_en": "to listen",
+    "meaning_vi": "nghe",
+    "example_hanzi": "她听音乐"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "meaning_en": "to speak; say",
+    "meaning_vi": "nói",
+    "example_hanzi": "他说中文"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "meaning_en": "to read",
+    "meaning_vi": "đọc",
+    "example_hanzi": "我读书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "meaning_en": "to write",
+    "meaning_vi": "viết",
+    "example_hanzi": "他写作业"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "学",
+    "pinyin": "xué",
+    "meaning_en": "to study; learn",
+    "meaning_vi": "học",
+    "example_hanzi": "我们学汉语"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "meaning_en": "to study; learn",
+    "meaning_vi": "học",
+    "example_hanzi": "我在学习汉语"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuān",
+    "meaning_en": "to like",
+    "meaning_vi": "thích",
+    "example_hanzi": "我喜欢苹果"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "meaning_en": "to love",
+    "meaning_vi": "yêu",
+    "example_hanzi": "他们爱家人"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "meaning_en": "to want; think",
+    "meaning_vi": "muốn; nghĩ",
+    "example_hanzi": "我想喝水"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "meaning_en": "to do; make",
+    "meaning_vi": "làm",
+    "example_hanzi": "他做饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "玩",
+    "pinyin": "wán",
+    "meaning_en": "to play",
+    "meaning_vi": "chơi",
+    "example_hanzi": "孩子们玩游戏"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "meaning_en": "to run",
+    "meaning_vi": "chạy",
+    "example_hanzi": "我们在操场跑"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "meaning_en": "to walk",
+    "meaning_vi": "đi bộ",
+    "example_hanzi": "他们走路回家"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "跳",
+    "pinyin": "tiào",
+    "meaning_en": "to jump",
+    "meaning_vi": "nhảy",
+    "example_hanzi": "孩子跳得很高"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "meaning_en": "to eat",
+    "meaning_vi": "ăn",
+    "example_hanzi": "我吃米饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "meaning_en": "to drink",
+    "meaning_vi": "uống",
+    "example_hanzi": "他喝牛奶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaning_en": "to sleep",
+    "meaning_vi": "ngủ",
+    "example_hanzi": "宝宝睡觉了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning_en": "to get up",
+    "meaning_vi": "dậy",
+    "example_hanzi": "我六点起床"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "上学",
+    "pinyin": "shàngxué",
+    "meaning_en": "to go to school",
+    "meaning_vi": "đi học",
+    "example_hanzi": "孩子们上学了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "回家",
+    "pinyin": "huíjiā",
+    "meaning_en": "to go home",
+    "meaning_vi": "về nhà",
+    "example_hanzi": "我们五点回家"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "meaning_en": "to make a call",
+    "meaning_vi": "gọi điện",
+    "example_hanzi": "妈妈打电话"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning_en": "good",
+    "meaning_vi": "tốt",
+    "example_hanzi": "今天天气很好"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "坏",
+    "pinyin": "huài",
+    "meaning_en": "bad",
+    "meaning_vi": "xấu",
+    "example_hanzi": "这个习惯不好"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "meaning_en": "big",
+    "meaning_vi": "to",
+    "example_hanzi": "这只狗很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "meaning_en": "small",
+    "meaning_vi": "nhỏ",
+    "example_hanzi": "小猫很可爱"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "meaning_en": "many; much",
+    "meaning_vi": "nhiều",
+    "example_hanzi": "这里人很多"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "meaning_en": "few; little",
+    "meaning_vi": "ít",
+    "example_hanzi": "水不太少"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "meaning_en": "tall; high",
+    "meaning_vi": "cao",
+    "example_hanzi": "他个子很高"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "低",
+    "pinyin": "dī",
+    "meaning_en": "low",
+    "meaning_vi": "thấp",
+    "example_hanzi": "声音有点低"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "meaning_en": "hot",
+    "meaning_vi": "nóng",
+    "example_hanzi": "今天很热"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "meaning_en": "cold",
+    "meaning_vi": "lạnh",
+    "example_hanzi": "水很冷"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "meaning_en": "new",
+    "meaning_vi": "mới",
+    "example_hanzi": "我买了新书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "旧",
+    "pinyin": "jiù",
+    "meaning_en": "old (not new)",
+    "meaning_vi": "cũ",
+    "example_hanzi": "这张桌子很旧"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "meaning_en": "fast",
+    "meaning_vi": "nhanh",
+    "example_hanzi": "跑得很快"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "慢",
+    "pinyin": "màn",
+    "meaning_en": "slow",
+    "meaning_vi": "chậm",
+    "example_hanzi": "走得很慢"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "meaning_en": "what",
+    "meaning_vi": "cái gì",
+    "example_hanzi": "这是什么"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "meaning_en": "which; where",
+    "meaning_vi": "nào; ở đâu",
+    "example_hanzi": "你去哪"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "meaning_en": "who",
+    "meaning_vi": "ai",
+    "example_hanzi": "他是谁"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "meaning_en": "how many; how much",
+    "meaning_vi": "bao nhiêu",
+    "example_hanzi": "这个多少钱"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "meaning_en": "how",
+    "meaning_vi": "như thế nào",
+    "example_hanzi": "怎么做这个"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "为什么",
+    "pinyin": "wèishénme",
+    "meaning_en": "why",
+    "meaning_vi": "tại sao",
+    "example_hanzi": "你为什么学中文"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "个",
+    "pinyin": "gè",
+    "meaning_en": "general measure word",
+    "meaning_vi": "cái (lượng từ)",
+    "example_hanzi": "一个苹果"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "本",
+    "pinyin": "běn",
+    "meaning_en": "measure word for books",
+    "meaning_vi": "quyển (lượng từ)",
+    "example_hanzi": "三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "只",
+    "pinyin": "zhī",
+    "meaning_en": "measure word for animals",
+    "meaning_vi": "con (lượng từ)",
+    "example_hanzi": "两只猫"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "张",
+    "pinyin": "zhāng",
+    "meaning_en": "measure word for flat objects",
+    "meaning_vi": "tấm (lượng từ)",
+    "example_hanzi": "一张纸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "meaning_en": "today",
+    "meaning_vi": "hôm nay",
+    "example_hanzi": "今天我们上学"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "meaning_en": "tomorrow",
+    "meaning_vi": "ngày mai",
+    "example_hanzi": "明天去公园"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "meaning_en": "yesterday",
+    "meaning_vi": "hôm qua",
+    "example_hanzi": "昨天看电影"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "meaning_en": "now",
+    "meaning_vi": "bây giờ",
+    "example_hanzi": "现在开始上课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "早上",
+    "pinyin": "zǎoshang",
+    "meaning_en": "morning",
+    "meaning_vi": "buổi sáng",
+    "example_hanzi": "早上起床"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "meaning_en": "afternoon",
+    "meaning_vi": "buổi chiều",
+    "example_hanzi": "下午写作业"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "晚上",
+    "pinyin": "wǎnshang",
+    "meaning_en": "evening; night",
+    "meaning_vi": "buổi tối",
+    "example_hanzi": "晚上看电视"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaning_en": "o'clock; point",
+    "meaning_vi": "giờ; điểm",
+    "example_hanzi": "三点上课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "红",
+    "pinyin": "hóng",
+    "meaning_en": "red",
+    "meaning_vi": "đỏ",
+    "example_hanzi": "红苹果"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "蓝",
+    "pinyin": "lán",
+    "meaning_en": "blue",
+    "meaning_vi": "xanh dương",
+    "example_hanzi": "蓝天空"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "黄",
+    "pinyin": "huáng",
+    "meaning_en": "yellow",
+    "meaning_vi": "vàng",
+    "example_hanzi": "黄色的花"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "绿",
+    "pinyin": "lǜ",
+    "meaning_en": "green",
+    "meaning_vi": "xanh lá",
+    "example_hanzi": "绿色的草"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "meaning_en": "black",
+    "meaning_vi": "đen",
+    "example_hanzi": "黑猫"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "白",
+    "pinyin": "bái",
+    "meaning_en": "white",
+    "meaning_vi": "trắng",
+    "example_hanzi": "白云"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "粉红",
+    "pinyin": "fěnhóng",
+    "meaning_en": "pink",
+    "meaning_vi": "hồng",
+    "example_hanzi": "粉红的裙子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "橙色",
+    "pinyin": "chéngsè",
+    "meaning_en": "orange (color)",
+    "meaning_vi": "cam",
+    "example_hanzi": "橙色的球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "紫色",
+    "pinyin": "zǐsè",
+    "meaning_en": "purple",
+    "meaning_vi": "tím",
+    "example_hanzi": "紫色的花"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "灰色",
+    "pinyin": "huīsè",
+    "meaning_en": "gray",
+    "meaning_vi": "xám",
+    "example_hanzi": "灰色的帽子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "meaning_en": "cat",
+    "meaning_vi": "con mèo",
+    "example_hanzi": "这是一只猫"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "meaning_en": "dog",
+    "meaning_vi": "con chó",
+    "example_hanzi": "那是一只狗"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "meaning_en": "bird",
+    "meaning_vi": "con chim",
+    "example_hanzi": "树上有鸟"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "meaning_en": "fish",
+    "meaning_vi": "con cá",
+    "example_hanzi": "池里有鱼"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "meaning_en": "horse",
+    "meaning_vi": "con ngựa",
+    "example_hanzi": "马跑得快"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "meaning_en": "cow; ox",
+    "meaning_vi": "con bò",
+    "example_hanzi": "牛在吃草"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "meaning_en": "sheep",
+    "meaning_vi": "con cừu",
+    "example_hanzi": "羊很可爱"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "兔子",
+    "pinyin": "tùzi",
+    "meaning_en": "rabbit",
+    "meaning_vi": "con thỏ",
+    "example_hanzi": "兔子跳来跳去"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "熊",
+    "pinyin": "xióng",
+    "meaning_en": "bear",
+    "meaning_vi": "con gấu",
+    "example_hanzi": "熊很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "老虎",
+    "pinyin": "lǎohǔ",
+    "meaning_en": "tiger",
+    "meaning_vi": "con hổ",
+    "example_hanzi": "老虎很强"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "狮子",
+    "pinyin": "shīzi",
+    "meaning_en": "lion",
+    "meaning_vi": "sư tử",
+    "example_hanzi": "狮子在动物园"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "猴子",
+    "pinyin": "hóuzi",
+    "meaning_en": "monkey",
+    "meaning_vi": "con khỉ",
+    "example_hanzi": "猴子会爬树"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鸭子",
+    "pinyin": "yāzi",
+    "meaning_en": "duck",
+    "meaning_vi": "con vịt",
+    "example_hanzi": "鸭子在水里"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鹅",
+    "pinyin": "é",
+    "meaning_en": "goose",
+    "meaning_vi": "ngỗng",
+    "example_hanzi": "鹅在湖边"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "猪",
+    "pinyin": "zhū",
+    "meaning_en": "pig",
+    "meaning_vi": "con lợn",
+    "example_hanzi": "猪在吃饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "meaning_en": "dad",
+    "meaning_vi": "bố",
+    "example_hanzi": "我的爸爸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "meaning_en": "mom",
+    "meaning_vi": "mẹ",
+    "example_hanzi": "她是我的妈妈"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "meaning_en": "older brother",
+    "meaning_vi": "anh trai",
+    "example_hanzi": "我有一个哥哥"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "meaning_en": "older sister",
+    "meaning_vi": "chị gái",
+    "example_hanzi": "她是我的姐姐"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "meaning_en": "younger brother",
+    "meaning_vi": "em trai",
+    "example_hanzi": "弟弟很聪明"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "meaning_en": "younger sister",
+    "meaning_vi": "em gái",
+    "example_hanzi": "妹妹很漂亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "爷爷",
+    "pinyin": "yéye",
+    "meaning_en": "grandfather (paternal)",
+    "meaning_vi": "ông nội",
+    "example_hanzi": "爷爷讲故事"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning_en": "grandmother (paternal)",
+    "meaning_vi": "bà nội",
+    "example_hanzi": "奶奶做饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "外公",
+    "pinyin": "wàigōng",
+    "meaning_en": "grandfather (maternal)",
+    "meaning_vi": "ông ngoại",
+    "example_hanzi": "外公很亲切"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "外婆",
+    "pinyin": "wàipó",
+    "meaning_en": "grandmother (maternal)",
+    "meaning_vi": "bà ngoại",
+    "example_hanzi": "外婆很温柔"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "孩子",
+    "pinyin": "háizi",
+    "meaning_en": "child",
+    "meaning_vi": "trẻ em",
+    "example_hanzi": "孩子们在玩"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "meaning_en": "friend",
+    "meaning_vi": "bạn bè",
+    "example_hanzi": "我们是朋友"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "meaning_en": "school",
+    "meaning_vi": "trường học",
+    "example_hanzi": "我在学校"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "meaning_en": "teacher",
+    "meaning_vi": "giáo viên",
+    "example_hanzi": "老师教我们"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "meaning_en": "student",
+    "meaning_vi": "học sinh",
+    "example_hanzi": "学生认真听课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "课",
+    "pinyin": "kè",
+    "meaning_en": "lesson; class",
+    "meaning_vi": "bài học; lớp học",
+    "example_hanzi": "我们上课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "作业",
+    "pinyin": "zuòyè",
+    "meaning_en": "homework",
+    "meaning_vi": "bài tập",
+    "example_hanzi": "我做作业"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "考试",
+    "pinyin": "kǎoshì",
+    "meaning_en": "exam; test",
+    "meaning_vi": "kỳ thi",
+    "example_hanzi": "我们明天考试"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "meaning_en": "book",
+    "meaning_vi": "sách",
+    "example_hanzi": "我读书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "meaning_en": "pen",
+    "meaning_vi": "bút",
+    "example_hanzi": "用笔写字"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "铅笔",
+    "pinyin": "qiānbǐ",
+    "meaning_en": "pencil",
+    "meaning_vi": "bút chì",
+    "example_hanzi": "我用铅笔"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "本子",
+    "pinyin": "běnzi",
+    "meaning_en": "notebook",
+    "meaning_vi": "vở",
+    "example_hanzi": "写在本子上"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "书包",
+    "pinyin": "shūbāo",
+    "meaning_en": "schoolbag",
+    "meaning_vi": "cặp sách",
+    "example_hanzi": "书包很新"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "教室",
+    "pinyin": "jiàoshì",
+    "meaning_en": "classroom",
+    "meaning_vi": "phòng học",
+    "example_hanzi": "我们在教室"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "图书馆",
+    "pinyin": "túshūguǎn",
+    "meaning_en": "library",
+    "meaning_vi": "thư viện",
+    "example_hanzi": "去图书馆读书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning_en": "table",
+    "meaning_vi": "bàn",
+    "example_hanzi": "桌子很干净"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "meaning_en": "chair",
+    "meaning_vi": "ghế",
+    "example_hanzi": "椅子很舒服"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "床",
+    "pinyin": "chuáng",
+    "meaning_en": "bed",
+    "meaning_vi": "giường",
+    "example_hanzi": "床很软"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "门",
+    "pinyin": "mén",
+    "meaning_en": "door",
+    "meaning_vi": "cửa",
+    "example_hanzi": "关门"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "窗户",
+    "pinyin": "chuānghu",
+    "meaning_en": "window",
+    "meaning_vi": "cửa sổ",
+    "example_hanzi": "打开窗户"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "meaning_en": "room",
+    "meaning_vi": "phòng",
+    "example_hanzi": "房间很亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "厨房",
+    "pinyin": "chúfáng",
+    "meaning_en": "kitchen",
+    "meaning_vi": "nhà bếp",
+    "example_hanzi": "厨房很干净"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "客厅",
+    "pinyin": "kètīng",
+    "meaning_en": "living room",
+    "meaning_vi": "phòng khách",
+    "example_hanzi": "客厅很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "厕所",
+    "pinyin": "cèsuǒ",
+    "meaning_en": "toilet",
+    "meaning_vi": "nhà vệ sinh",
+    "example_hanzi": "厕所很干净"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "浴室",
+    "pinyin": "yùshì",
+    "meaning_en": "bathroom",
+    "meaning_vi": "phòng tắm",
+    "example_hanzi": "浴室有热水"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning_en": "rice (cooked)",
+    "meaning_vi": "cơm",
+    "example_hanzi": "我吃米饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "面条",
+    "pinyin": "miàntiáo",
+    "meaning_en": "noodles",
+    "meaning_vi": "mì",
+    "example_hanzi": "他喜欢吃面条"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "面包",
+    "pinyin": "miànbāo",
+    "meaning_en": "bread",
+    "meaning_vi": "bánh mì",
+    "example_hanzi": "买面包"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "meaning_en": "soup",
+    "meaning_vi": "canh",
+    "example_hanzi": "喝汤"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "meaning_en": "dish; vegetable",
+    "meaning_vi": "món ăn; rau",
+    "example_hanzi": "做菜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "meaning_en": "meat",
+    "meaning_vi": "thịt",
+    "example_hanzi": "吃肉"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鸡肉",
+    "pinyin": "jīròu",
+    "meaning_en": "chicken",
+    "meaning_vi": "thịt gà",
+    "example_hanzi": "鸡肉很香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "牛肉",
+    "pinyin": "niúròu",
+    "meaning_en": "beef",
+    "meaning_vi": "thịt bò",
+    "example_hanzi": "牛肉很好吃"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "猪肉",
+    "pinyin": "zhūròu",
+    "meaning_en": "pork",
+    "meaning_vi": "thịt lợn",
+    "example_hanzi": "猪肉很新鲜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鱼肉",
+    "pinyin": "yúròu",
+    "meaning_en": "fish meat",
+    "meaning_vi": "thịt cá",
+    "example_hanzi": "鱼肉很鲜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning_en": "fruit",
+    "meaning_vi": "trái cây",
+    "example_hanzi": "我爱吃水果"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning_en": "apple",
+    "meaning_vi": "táo",
+    "example_hanzi": "苹果很甜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "meaning_en": "banana",
+    "meaning_vi": "chuối",
+    "example_hanzi": "香蕉很好吃"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "梨",
+    "pinyin": "lí",
+    "meaning_en": "pear",
+    "meaning_vi": "lê",
+    "example_hanzi": "梨很香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "橙子",
+    "pinyin": "chéngzi",
+    "meaning_en": "orange",
+    "meaning_vi": "cam",
+    "example_hanzi": "橙子很甜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "西瓜",
+    "pinyin": "xīguā",
+    "meaning_en": "watermelon",
+    "meaning_vi": "dưa hấu",
+    "example_hanzi": "西瓜很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "葡萄",
+    "pinyin": "pútao",
+    "meaning_en": "grapes",
+    "meaning_vi": "nho",
+    "example_hanzi": "葡萄很甜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "草莓",
+    "pinyin": "cǎoméi",
+    "meaning_en": "strawberry",
+    "meaning_vi": "dâu tây",
+    "example_hanzi": "草莓很红"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "桃子",
+    "pinyin": "táozi",
+    "meaning_en": "peach",
+    "meaning_vi": "đào",
+    "example_hanzi": "桃子很香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning_en": "milk",
+    "meaning_vi": "sữa",
+    "example_hanzi": "喝牛奶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "meaning_en": "water",
+    "meaning_vi": "nước",
+    "example_hanzi": "喝水"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "meaning_en": "tea",
+    "meaning_vi": "trà",
+    "example_hanzi": "喝茶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning_en": "coffee",
+    "meaning_vi": "cà phê",
+    "example_hanzi": "喝咖啡"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "糖",
+    "pinyin": "táng",
+    "meaning_en": "sugar; candy",
+    "meaning_vi": "đường; kẹo",
+    "example_hanzi": "吃糖"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaning_en": "home; family",
+    "meaning_vi": "nhà; gia đình",
+    "example_hanzi": "回家"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "meaning_en": "hospital",
+    "meaning_vi": "bệnh viện",
+    "example_hanzi": "去医院"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning_en": "shop; store",
+    "meaning_vi": "cửa hàng",
+    "example_hanzi": "去商店买东西"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaning_en": "supermarket",
+    "meaning_vi": "siêu thị",
+    "example_hanzi": "在超市买水果"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "公园",
+    "pinyin": "gōngyuán",
+    "meaning_en": "park",
+    "meaning_vi": "công viên",
+    "example_hanzi": "去公园玩"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "meaning_en": "bank",
+    "meaning_vi": "ngân hàng",
+    "example_hanzi": "去银行"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "邮局",
+    "pinyin": "yóujú",
+    "meaning_en": "post office",
+    "meaning_vi": "bưu điện",
+    "example_hanzi": "去邮局寄信"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "餐厅",
+    "pinyin": "cāntīng",
+    "meaning_en": "restaurant",
+    "meaning_vi": "nhà hàng",
+    "example_hanzi": "在餐厅吃饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "学校门",
+    "pinyin": "xuéxiàomén",
+    "meaning_en": "school gate",
+    "meaning_vi": "cổng trường",
+    "example_hanzi": "我们在学校门见面"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "车",
+    "pinyin": "chē",
+    "meaning_en": "vehicle; car",
+    "meaning_vi": "xe; ô tô",
+    "example_hanzi": "坐车去学校"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "自行车",
+    "pinyin": "zìxíngchē",
+    "meaning_en": "bicycle",
+    "meaning_vi": "xe đạp",
+    "example_hanzi": "骑自行车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "摩托车",
+    "pinyin": "mótuōchē",
+    "meaning_en": "motorcycle",
+    "meaning_vi": "xe máy",
+    "example_hanzi": "骑摩托车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "公交车",
+    "pinyin": "gōngjiāochē",
+    "meaning_en": "bus",
+    "meaning_vi": "xe buýt",
+    "example_hanzi": "坐公交车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning_en": "taxi",
+    "meaning_vi": "xe taxi",
+    "example_hanzi": "打出租车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "地铁",
+    "pinyin": "dìtiě",
+    "meaning_en": "subway",
+    "meaning_vi": "tàu điện ngầm",
+    "example_hanzi": "坐地铁"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "meaning_en": "train",
+    "meaning_vi": "tàu hỏa",
+    "example_hanzi": "坐火车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "meaning_en": "airplane",
+    "meaning_vi": "máy bay",
+    "example_hanzi": "坐飞机"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "船",
+    "pinyin": "chuán",
+    "meaning_en": "boat",
+    "meaning_vi": "thuyền",
+    "example_hanzi": "坐船"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning_en": "computer",
+    "meaning_vi": "máy tính",
+    "example_hanzi": "用电脑学习"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "meaning_en": "mobile phone",
+    "meaning_vi": "điện thoại",
+    "example_hanzi": "看手机"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "meaning_en": "television",
+    "meaning_vi": "tivi",
+    "example_hanzi": "看电视"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电话",
+    "pinyin": "diànhuà",
+    "meaning_en": "telephone",
+    "meaning_vi": "điện thoại",
+    "example_hanzi": "打电话"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "灯",
+    "pinyin": "dēng",
+    "meaning_en": "lamp; light",
+    "meaning_vi": "đèn",
+    "example_hanzi": "开灯"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "空调",
+    "pinyin": "kōngtiáo",
+    "meaning_en": "air conditioner",
+    "meaning_vi": "máy lạnh",
+    "example_hanzi": "开空调"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "冰箱",
+    "pinyin": "bīngxiāng",
+    "meaning_en": "fridge",
+    "meaning_vi": "tủ lạnh",
+    "example_hanzi": "冰箱里有水果"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "meaning_en": "head",
+    "meaning_vi": "đầu",
+    "example_hanzi": "头很疼"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "meaning_en": "face",
+    "meaning_vi": "mặt",
+    "example_hanzi": "洗脸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "眼睛",
+    "pinyin": "yǎnjing",
+    "meaning_en": "eyes",
+    "meaning_vi": "mắt",
+    "example_hanzi": "眼睛看书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "耳朵",
+    "pinyin": "ěrduo",
+    "meaning_en": "ears",
+    "meaning_vi": "tai",
+    "example_hanzi": "耳朵听音乐"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鼻子",
+    "pinyin": "bízi",
+    "meaning_en": "nose",
+    "meaning_vi": "mũi",
+    "example_hanzi": "鼻子闻花香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "嘴",
+    "pinyin": "zuǐ",
+    "meaning_en": "mouth",
+    "meaning_vi": "miệng",
+    "example_hanzi": "嘴在说话"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "牙齿",
+    "pinyin": "yáchǐ",
+    "meaning_en": "teeth",
+    "meaning_vi": "răng",
+    "example_hanzi": "刷牙齿"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "meaning_en": "hand",
+    "meaning_vi": "tay",
+    "example_hanzi": "用手写字"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手指",
+    "pinyin": "shǒuzhǐ",
+    "meaning_en": "finger",
+    "meaning_vi": "ngón tay",
+    "example_hanzi": "手指很灵活"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "meaning_en": "foot",
+    "meaning_vi": "chân",
+    "example_hanzi": "用脚踢球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "meaning_en": "back",
+    "meaning_vi": "lưng",
+    "example_hanzi": "背很酸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "肚子",
+    "pinyin": "dùzi",
+    "meaning_en": "belly",
+    "meaning_vi": "bụng",
+    "example_hanzi": "肚子饿了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "meaning_en": "weather",
+    "meaning_vi": "thời tiết",
+    "example_hanzi": "今天天气很好"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "太阳",
+    "pinyin": "tàiyáng",
+    "meaning_en": "sun",
+    "meaning_vi": "mặt trời",
+    "example_hanzi": "太阳很亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "月亮",
+    "pinyin": "yuèliàng",
+    "meaning_en": "moon",
+    "meaning_vi": "mặt trăng",
+    "example_hanzi": "月亮很圆"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星星",
+    "pinyin": "xīngxing",
+    "meaning_en": "stars",
+    "meaning_vi": "ngôi sao",
+    "example_hanzi": "晚上有很多星星"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "meaning_en": "rain",
+    "meaning_vi": "mưa",
+    "example_hanzi": "下雨了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "meaning_en": "snow",
+    "meaning_vi": "tuyết",
+    "example_hanzi": "下雪了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "风",
+    "pinyin": "fēng",
+    "meaning_en": "wind",
+    "meaning_vi": "gió",
+    "example_hanzi": "风很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "云",
+    "pinyin": "yún",
+    "meaning_en": "cloud",
+    "meaning_vi": "mây",
+    "example_hanzi": "白云在天上"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "山",
+    "pinyin": "shān",
+    "meaning_en": "mountain",
+    "meaning_vi": "núi",
+    "example_hanzi": "山很高"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "河",
+    "pinyin": "hé",
+    "meaning_en": "river",
+    "meaning_vi": "sông",
+    "example_hanzi": "河水很清"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "海",
+    "pinyin": "hǎi",
+    "meaning_en": "sea",
+    "meaning_vi": "biển",
+    "example_hanzi": "海很蓝"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "meaning_en": "clothes",
+    "meaning_vi": "quần áo",
+    "example_hanzi": "买衣服"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "裤子",
+    "pinyin": "kùzi",
+    "meaning_en": "pants",
+    "meaning_vi": "quần",
+    "example_hanzi": "穿裤子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鞋子",
+    "pinyin": "xiézi",
+    "meaning_en": "shoes",
+    "meaning_vi": "giày",
+    "example_hanzi": "穿鞋子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "帽子",
+    "pinyin": "màozi",
+    "meaning_en": "hat",
+    "meaning_vi": "mũ",
+    "example_hanzi": "戴帽子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "裙子",
+    "pinyin": "qúnzi",
+    "meaning_en": "skirt",
+    "meaning_vi": "váy",
+    "example_hanzi": "穿裙子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "外套",
+    "pinyin": "wàitào",
+    "meaning_en": "coat",
+    "meaning_vi": "áo khoác",
+    "example_hanzi": "穿外套"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "袜子",
+    "pinyin": "wàzi",
+    "meaning_en": "socks",
+    "meaning_vi": "vớ; tất",
+    "example_hanzi": "穿袜子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "衬衫",
+    "pinyin": "chènshān",
+    "meaning_en": "shirt",
+    "meaning_vi": "áo sơ mi",
+    "example_hanzi": "穿衬衫"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning_en": "China",
+    "meaning_vi": "Trung Quốc",
+    "example_hanzi": "我住在中国"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "美国",
+    "pinyin": "Měiguó",
+    "meaning_en": "USA",
+    "meaning_vi": "Mỹ",
+    "example_hanzi": "他去美国"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "英国",
+    "pinyin": "Yīngguó",
+    "meaning_en": "UK",
+    "meaning_vi": "Anh",
+    "example_hanzi": "她从英国来"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "法国",
+    "pinyin": "Fǎguó",
+    "meaning_en": "France",
+    "meaning_vi": "Pháp",
+    "example_hanzi": "法国很美"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "德国",
+    "pinyin": "Déguó",
+    "meaning_en": "Germany",
+    "meaning_vi": "Đức",
+    "example_hanzi": "德国在欧洲"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "日本",
+    "pinyin": "Rìběn",
+    "meaning_en": "Japan",
+    "meaning_vi": "Nhật Bản",
+    "example_hanzi": "我喜欢日本文化"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "韩国",
+    "pinyin": "Hánguó",
+    "meaning_en": "Korea",
+    "meaning_vi": "Hàn Quốc",
+    "example_hanzi": "韩国料理很好吃"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "越南",
+    "pinyin": "Yuènán",
+    "meaning_en": "Vietnam",
+    "meaning_vi": "Việt Nam",
+    "example_hanzi": "他去越南旅行"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "北京",
+    "pinyin": "Běijīng",
+    "meaning_en": "Beijing",
+    "meaning_vi": "Bắc Kinh",
+    "example_hanzi": "北京是首都"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "上海",
+    "pinyin": "Shànghǎi",
+    "meaning_en": "Shanghai",
+    "meaning_vi": "Thượng Hải",
+    "example_hanzi": "上海很繁华"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "广州",
+    "pinyin": "Guǎngzhōu",
+    "meaning_en": "Guangzhou",
+    "meaning_vi": "Quảng Châu",
+    "example_hanzi": "广州在南方"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "深圳",
+    "pinyin": "Shēnzhèn",
+    "meaning_en": "Shenzhen",
+    "meaning_vi": "Thâm Quyến",
+    "example_hanzi": "深圳发展很快"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "meaning_en": "doctor",
+    "meaning_vi": "bác sĩ",
+    "example_hanzi": "医生在医院"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "护士",
+    "pinyin": "hùshi",
+    "meaning_en": "nurse",
+    "meaning_vi": "y tá",
+    "example_hanzi": "护士很细心"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "meaning_en": "to get sick",
+    "meaning_vi": "bị bệnh",
+    "example_hanzi": "他生病了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "药",
+    "pinyin": "yào",
+    "meaning_en": "medicine",
+    "meaning_vi": "thuốc",
+    "example_hanzi": "吃药"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "看病",
+    "pinyin": "kànbìng",
+    "meaning_en": "see a doctor",
+    "meaning_vi": "khám bệnh",
+    "example_hanzi": "去医院看病"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "音乐",
+    "pinyin": "yīnyuè",
+    "meaning_en": "music",
+    "meaning_vi": "âm nhạc",
+    "example_hanzi": "我喜欢音乐"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "跳舞",
+    "pinyin": "tiàowǔ",
+    "meaning_en": "to dance",
+    "meaning_vi": "nhảy múa",
+    "example_hanzi": "她喜欢跳舞"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "唱歌",
+    "pinyin": "chànggē",
+    "meaning_en": "to sing",
+    "meaning_vi": "hát",
+    "example_hanzi": "他会唱歌"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "meaning_en": "movie",
+    "meaning_vi": "phim",
+    "example_hanzi": "看电影"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "体育",
+    "pinyin": "tǐyù",
+    "meaning_en": "sports",
+    "meaning_vi": "thể thao",
+    "example_hanzi": "体育课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "运动",
+    "pinyin": "yùndòng",
+    "meaning_en": "sports; exercise",
+    "meaning_vi": "vận động",
+    "example_hanzi": "我们做运动"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "足球",
+    "pinyin": "zúqiú",
+    "meaning_en": "football (soccer)",
+    "meaning_vi": "bóng đá",
+    "example_hanzi": "踢足球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "篮球",
+    "pinyin": "lánqiú",
+    "meaning_en": "basketball",
+    "meaning_vi": "bóng rổ",
+    "example_hanzi": "打篮球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "乒乓球",
+    "pinyin": "pīngpāngqiú",
+    "meaning_en": "ping pong",
+    "meaning_vi": "bóng bàn",
+    "example_hanzi": "打乒乓球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "中国菜",
+    "pinyin": "Zhōngguó cài",
+    "meaning_en": "Chinese food",
+    "meaning_vi": "món ăn Trung Quốc",
+    "example_hanzi": "我喜欢中国菜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "meaning_en": "Chinese (language)",
+    "meaning_vi": "tiếng Hoa",
+    "example_hanzi": "我们学汉语"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "meaning_en": "Chinese (written)",
+    "meaning_vi": "tiếng Trung",
+    "example_hanzi": "中文很有趣"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "英语",
+    "pinyin": "Yīngyǔ",
+    "meaning_en": "English",
+    "meaning_vi": "tiếng Anh",
+    "example_hanzi": "她会说英语"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "meaning_en": "name",
+    "meaning_vi": "tên",
+    "example_hanzi": "你的名字是什么"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "年龄",
+    "pinyin": "niánlíng",
+    "meaning_en": "age",
+    "meaning_vi": "tuổi",
+    "example_hanzi": "你的年龄是多少"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "生日",
+    "pinyin": "shēngrì",
+    "meaning_en": "birthday",
+    "meaning_vi": "sinh nhật",
+    "example_hanzi": "今天是我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "礼物",
+    "pinyin": "lǐwù",
+    "meaning_en": "gift",
+    "meaning_vi": "quà",
+    "example_hanzi": "收到礼物"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "零",
+    "pinyin": "líng",
+    "meaning_en": "zero",
+    "meaning_vi": "không",
+    "example_hanzi": "我有零本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "meaning_en": "1",
+    "meaning_vi": "1",
+    "example_hanzi": "我有一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "meaning_en": "2",
+    "meaning_vi": "2",
+    "example_hanzi": "我有二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "meaning_en": "3",
+    "meaning_vi": "3",
+    "example_hanzi": "我有三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四",
+    "pinyin": "sì",
+    "meaning_en": "4",
+    "meaning_vi": "4",
+    "example_hanzi": "我有四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "meaning_en": "5",
+    "meaning_vi": "5",
+    "example_hanzi": "我有五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六",
+    "pinyin": "liù",
+    "meaning_en": "6",
+    "meaning_vi": "6",
+    "example_hanzi": "我有六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七",
+    "pinyin": "qī",
+    "meaning_en": "7",
+    "meaning_vi": "7",
+    "example_hanzi": "我有七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "meaning_en": "8",
+    "meaning_vi": "8",
+    "example_hanzi": "我有八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "meaning_en": "9",
+    "meaning_vi": "9",
+    "example_hanzi": "我有九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "meaning_en": "10",
+    "meaning_vi": "10",
+    "example_hanzi": "我有十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十一",
+    "pinyin": "shíyī",
+    "meaning_en": "11",
+    "meaning_vi": "11",
+    "example_hanzi": "我有十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十二",
+    "pinyin": "shíèr",
+    "meaning_en": "12",
+    "meaning_vi": "12",
+    "example_hanzi": "我有十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十三",
+    "pinyin": "shísān",
+    "meaning_en": "13",
+    "meaning_vi": "13",
+    "example_hanzi": "我有十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十四",
+    "pinyin": "shísì",
+    "meaning_en": "14",
+    "meaning_vi": "14",
+    "example_hanzi": "我有十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十五",
+    "pinyin": "shíwǔ",
+    "meaning_en": "15",
+    "meaning_vi": "15",
+    "example_hanzi": "我有十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十六",
+    "pinyin": "shíliù",
+    "meaning_en": "16",
+    "meaning_vi": "16",
+    "example_hanzi": "我有十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十七",
+    "pinyin": "shíqī",
+    "meaning_en": "17",
+    "meaning_vi": "17",
+    "example_hanzi": "我有十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十八",
+    "pinyin": "shíbā",
+    "meaning_en": "18",
+    "meaning_vi": "18",
+    "example_hanzi": "我有十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十九",
+    "pinyin": "shíjiǔ",
+    "meaning_en": "19",
+    "meaning_vi": "19",
+    "example_hanzi": "我有十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十",
+    "pinyin": "èrshí",
+    "meaning_en": "20",
+    "meaning_vi": "20",
+    "example_hanzi": "我有二十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十一",
+    "pinyin": "èrshíyī",
+    "meaning_en": "21",
+    "meaning_vi": "21",
+    "example_hanzi": "我有二十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十二",
+    "pinyin": "èrshíèr",
+    "meaning_en": "22",
+    "meaning_vi": "22",
+    "example_hanzi": "我有二十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十三",
+    "pinyin": "èrshísān",
+    "meaning_en": "23",
+    "meaning_vi": "23",
+    "example_hanzi": "我有二十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十四",
+    "pinyin": "èrshísì",
+    "meaning_en": "24",
+    "meaning_vi": "24",
+    "example_hanzi": "我有二十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十五",
+    "pinyin": "èrshíwǔ",
+    "meaning_en": "25",
+    "meaning_vi": "25",
+    "example_hanzi": "我有二十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十六",
+    "pinyin": "èrshíliù",
+    "meaning_en": "26",
+    "meaning_vi": "26",
+    "example_hanzi": "我有二十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十七",
+    "pinyin": "èrshíqī",
+    "meaning_en": "27",
+    "meaning_vi": "27",
+    "example_hanzi": "我有二十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十八",
+    "pinyin": "èrshíbā",
+    "meaning_en": "28",
+    "meaning_vi": "28",
+    "example_hanzi": "我有二十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二十九",
+    "pinyin": "èrshíjiǔ",
+    "meaning_en": "29",
+    "meaning_vi": "29",
+    "example_hanzi": "我有二十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十",
+    "pinyin": "sānshí",
+    "meaning_en": "30",
+    "meaning_vi": "30",
+    "example_hanzi": "我有三十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十一",
+    "pinyin": "sānshíyī",
+    "meaning_en": "31",
+    "meaning_vi": "31",
+    "example_hanzi": "我有三十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十二",
+    "pinyin": "sānshíèr",
+    "meaning_en": "32",
+    "meaning_vi": "32",
+    "example_hanzi": "我有三十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十三",
+    "pinyin": "sānshísān",
+    "meaning_en": "33",
+    "meaning_vi": "33",
+    "example_hanzi": "我有三十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十四",
+    "pinyin": "sānshísì",
+    "meaning_en": "34",
+    "meaning_vi": "34",
+    "example_hanzi": "我有三十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十五",
+    "pinyin": "sānshíwǔ",
+    "meaning_en": "35",
+    "meaning_vi": "35",
+    "example_hanzi": "我有三十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十六",
+    "pinyin": "sānshíliù",
+    "meaning_en": "36",
+    "meaning_vi": "36",
+    "example_hanzi": "我有三十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十七",
+    "pinyin": "sānshíqī",
+    "meaning_en": "37",
+    "meaning_vi": "37",
+    "example_hanzi": "我有三十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十八",
+    "pinyin": "sānshíbā",
+    "meaning_en": "38",
+    "meaning_vi": "38",
+    "example_hanzi": "我有三十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三十九",
+    "pinyin": "sānshíjiǔ",
+    "meaning_en": "39",
+    "meaning_vi": "39",
+    "example_hanzi": "我有三十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十",
+    "pinyin": "sìshí",
+    "meaning_en": "40",
+    "meaning_vi": "40",
+    "example_hanzi": "我有四十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十一",
+    "pinyin": "sìshíyī",
+    "meaning_en": "41",
+    "meaning_vi": "41",
+    "example_hanzi": "我有四十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十二",
+    "pinyin": "sìshíèr",
+    "meaning_en": "42",
+    "meaning_vi": "42",
+    "example_hanzi": "我有四十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十三",
+    "pinyin": "sìshísān",
+    "meaning_en": "43",
+    "meaning_vi": "43",
+    "example_hanzi": "我有四十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十四",
+    "pinyin": "sìshísì",
+    "meaning_en": "44",
+    "meaning_vi": "44",
+    "example_hanzi": "我有四十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十五",
+    "pinyin": "sìshíwǔ",
+    "meaning_en": "45",
+    "meaning_vi": "45",
+    "example_hanzi": "我有四十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十六",
+    "pinyin": "sìshíliù",
+    "meaning_en": "46",
+    "meaning_vi": "46",
+    "example_hanzi": "我有四十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十七",
+    "pinyin": "sìshíqī",
+    "meaning_en": "47",
+    "meaning_vi": "47",
+    "example_hanzi": "我有四十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十八",
+    "pinyin": "sìshíbā",
+    "meaning_en": "48",
+    "meaning_vi": "48",
+    "example_hanzi": "我有四十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四十九",
+    "pinyin": "sìshíjiǔ",
+    "meaning_en": "49",
+    "meaning_vi": "49",
+    "example_hanzi": "我有四十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十",
+    "pinyin": "wǔshí",
+    "meaning_en": "50",
+    "meaning_vi": "50",
+    "example_hanzi": "我有五十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十一",
+    "pinyin": "wǔshíyī",
+    "meaning_en": "51",
+    "meaning_vi": "51",
+    "example_hanzi": "我有五十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十二",
+    "pinyin": "wǔshíèr",
+    "meaning_en": "52",
+    "meaning_vi": "52",
+    "example_hanzi": "我有五十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十三",
+    "pinyin": "wǔshísān",
+    "meaning_en": "53",
+    "meaning_vi": "53",
+    "example_hanzi": "我有五十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十四",
+    "pinyin": "wǔshísì",
+    "meaning_en": "54",
+    "meaning_vi": "54",
+    "example_hanzi": "我有五十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十五",
+    "pinyin": "wǔshíwǔ",
+    "meaning_en": "55",
+    "meaning_vi": "55",
+    "example_hanzi": "我有五十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十六",
+    "pinyin": "wǔshíliù",
+    "meaning_en": "56",
+    "meaning_vi": "56",
+    "example_hanzi": "我有五十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十七",
+    "pinyin": "wǔshíqī",
+    "meaning_en": "57",
+    "meaning_vi": "57",
+    "example_hanzi": "我有五十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十八",
+    "pinyin": "wǔshíbā",
+    "meaning_en": "58",
+    "meaning_vi": "58",
+    "example_hanzi": "我有五十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五十九",
+    "pinyin": "wǔshíjiǔ",
+    "meaning_en": "59",
+    "meaning_vi": "59",
+    "example_hanzi": "我有五十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十",
+    "pinyin": "liùshí",
+    "meaning_en": "60",
+    "meaning_vi": "60",
+    "example_hanzi": "我有六十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十一",
+    "pinyin": "liùshíyī",
+    "meaning_en": "61",
+    "meaning_vi": "61",
+    "example_hanzi": "我有六十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十二",
+    "pinyin": "liùshíèr",
+    "meaning_en": "62",
+    "meaning_vi": "62",
+    "example_hanzi": "我有六十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十三",
+    "pinyin": "liùshísān",
+    "meaning_en": "63",
+    "meaning_vi": "63",
+    "example_hanzi": "我有六十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十四",
+    "pinyin": "liùshísì",
+    "meaning_en": "64",
+    "meaning_vi": "64",
+    "example_hanzi": "我有六十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十五",
+    "pinyin": "liùshíwǔ",
+    "meaning_en": "65",
+    "meaning_vi": "65",
+    "example_hanzi": "我有六十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十六",
+    "pinyin": "liùshíliù",
+    "meaning_en": "66",
+    "meaning_vi": "66",
+    "example_hanzi": "我有六十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十七",
+    "pinyin": "liùshíqī",
+    "meaning_en": "67",
+    "meaning_vi": "67",
+    "example_hanzi": "我有六十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十八",
+    "pinyin": "liùshíbā",
+    "meaning_en": "68",
+    "meaning_vi": "68",
+    "example_hanzi": "我有六十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六十九",
+    "pinyin": "liùshíjiǔ",
+    "meaning_en": "69",
+    "meaning_vi": "69",
+    "example_hanzi": "我有六十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十",
+    "pinyin": "qīshí",
+    "meaning_en": "70",
+    "meaning_vi": "70",
+    "example_hanzi": "我有七十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十一",
+    "pinyin": "qīshíyī",
+    "meaning_en": "71",
+    "meaning_vi": "71",
+    "example_hanzi": "我有七十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十二",
+    "pinyin": "qīshíèr",
+    "meaning_en": "72",
+    "meaning_vi": "72",
+    "example_hanzi": "我有七十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十三",
+    "pinyin": "qīshísān",
+    "meaning_en": "73",
+    "meaning_vi": "73",
+    "example_hanzi": "我有七十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十四",
+    "pinyin": "qīshísì",
+    "meaning_en": "74",
+    "meaning_vi": "74",
+    "example_hanzi": "我有七十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十五",
+    "pinyin": "qīshíwǔ",
+    "meaning_en": "75",
+    "meaning_vi": "75",
+    "example_hanzi": "我有七十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十六",
+    "pinyin": "qīshíliù",
+    "meaning_en": "76",
+    "meaning_vi": "76",
+    "example_hanzi": "我有七十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十七",
+    "pinyin": "qīshíqī",
+    "meaning_en": "77",
+    "meaning_vi": "77",
+    "example_hanzi": "我有七十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十八",
+    "pinyin": "qīshíbā",
+    "meaning_en": "78",
+    "meaning_vi": "78",
+    "example_hanzi": "我有七十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七十九",
+    "pinyin": "qīshíjiǔ",
+    "meaning_en": "79",
+    "meaning_vi": "79",
+    "example_hanzi": "我有七十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十",
+    "pinyin": "bāshí",
+    "meaning_en": "80",
+    "meaning_vi": "80",
+    "example_hanzi": "我有八十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十一",
+    "pinyin": "bāshíyī",
+    "meaning_en": "81",
+    "meaning_vi": "81",
+    "example_hanzi": "我有八十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十二",
+    "pinyin": "bāshíèr",
+    "meaning_en": "82",
+    "meaning_vi": "82",
+    "example_hanzi": "我有八十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十三",
+    "pinyin": "bāshísān",
+    "meaning_en": "83",
+    "meaning_vi": "83",
+    "example_hanzi": "我有八十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十四",
+    "pinyin": "bāshísì",
+    "meaning_en": "84",
+    "meaning_vi": "84",
+    "example_hanzi": "我有八十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十五",
+    "pinyin": "bāshíwǔ",
+    "meaning_en": "85",
+    "meaning_vi": "85",
+    "example_hanzi": "我有八十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十六",
+    "pinyin": "bāshíliù",
+    "meaning_en": "86",
+    "meaning_vi": "86",
+    "example_hanzi": "我有八十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十七",
+    "pinyin": "bāshíqī",
+    "meaning_en": "87",
+    "meaning_vi": "87",
+    "example_hanzi": "我有八十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十八",
+    "pinyin": "bāshíbā",
+    "meaning_en": "88",
+    "meaning_vi": "88",
+    "example_hanzi": "我有八十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八十九",
+    "pinyin": "bāshíjiǔ",
+    "meaning_en": "89",
+    "meaning_vi": "89",
+    "example_hanzi": "我有八十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十",
+    "pinyin": "jiǔshí",
+    "meaning_en": "90",
+    "meaning_vi": "90",
+    "example_hanzi": "我有九十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十一",
+    "pinyin": "jiǔshíyī",
+    "meaning_en": "91",
+    "meaning_vi": "91",
+    "example_hanzi": "我有九十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十二",
+    "pinyin": "jiǔshíèr",
+    "meaning_en": "92",
+    "meaning_vi": "92",
+    "example_hanzi": "我有九十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十三",
+    "pinyin": "jiǔshísān",
+    "meaning_en": "93",
+    "meaning_vi": "93",
+    "example_hanzi": "我有九十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十四",
+    "pinyin": "jiǔshísì",
+    "meaning_en": "94",
+    "meaning_vi": "94",
+    "example_hanzi": "我有九十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十五",
+    "pinyin": "jiǔshíwǔ",
+    "meaning_en": "95",
+    "meaning_vi": "95",
+    "example_hanzi": "我有九十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十六",
+    "pinyin": "jiǔshíliù",
+    "meaning_en": "96",
+    "meaning_vi": "96",
+    "example_hanzi": "我有九十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十七",
+    "pinyin": "jiǔshíqī",
+    "meaning_en": "97",
+    "meaning_vi": "97",
+    "example_hanzi": "我有九十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十八",
+    "pinyin": "jiǔshíbā",
+    "meaning_en": "98",
+    "meaning_vi": "98",
+    "example_hanzi": "我有九十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九十九",
+    "pinyin": "jiǔshíjiǔ",
+    "meaning_en": "99",
+    "meaning_vi": "99",
+    "example_hanzi": "我有九十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百",
+    "pinyin": "yìbǎi",
+    "meaning_en": "100",
+    "meaning_vi": "100",
+    "example_hanzi": "我有一百本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零一",
+    "pinyin": "yìbǎi líng yī",
+    "meaning_en": "101",
+    "meaning_vi": "101",
+    "example_hanzi": "我有一百零一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零二",
+    "pinyin": "yìbǎi líng èr",
+    "meaning_en": "102",
+    "meaning_vi": "102",
+    "example_hanzi": "我有一百零二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零三",
+    "pinyin": "yìbǎi líng sān",
+    "meaning_en": "103",
+    "meaning_vi": "103",
+    "example_hanzi": "我有一百零三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零四",
+    "pinyin": "yìbǎi líng sì",
+    "meaning_en": "104",
+    "meaning_vi": "104",
+    "example_hanzi": "我有一百零四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零五",
+    "pinyin": "yìbǎi líng wǔ",
+    "meaning_en": "105",
+    "meaning_vi": "105",
+    "example_hanzi": "我有一百零五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零六",
+    "pinyin": "yìbǎi líng liù",
+    "meaning_en": "106",
+    "meaning_vi": "106",
+    "example_hanzi": "我有一百零六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零七",
+    "pinyin": "yìbǎi líng qī",
+    "meaning_en": "107",
+    "meaning_vi": "107",
+    "example_hanzi": "我有一百零七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零八",
+    "pinyin": "yìbǎi líng bā",
+    "meaning_en": "108",
+    "meaning_vi": "108",
+    "example_hanzi": "我有一百零八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百零九",
+    "pinyin": "yìbǎi líng jiǔ",
+    "meaning_en": "109",
+    "meaning_vi": "109",
+    "example_hanzi": "我有一百零九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十",
+    "pinyin": "yìbǎi shí",
+    "meaning_en": "110",
+    "meaning_vi": "110",
+    "example_hanzi": "我有一百十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十一",
+    "pinyin": "yìbǎi shíyī",
+    "meaning_en": "111",
+    "meaning_vi": "111",
+    "example_hanzi": "我有一百十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十二",
+    "pinyin": "yìbǎi shíèr",
+    "meaning_en": "112",
+    "meaning_vi": "112",
+    "example_hanzi": "我有一百十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十三",
+    "pinyin": "yìbǎi shísān",
+    "meaning_en": "113",
+    "meaning_vi": "113",
+    "example_hanzi": "我有一百十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十四",
+    "pinyin": "yìbǎi shísì",
+    "meaning_en": "114",
+    "meaning_vi": "114",
+    "example_hanzi": "我有一百十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十五",
+    "pinyin": "yìbǎi shíwǔ",
+    "meaning_en": "115",
+    "meaning_vi": "115",
+    "example_hanzi": "我有一百十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十六",
+    "pinyin": "yìbǎi shíliù",
+    "meaning_en": "116",
+    "meaning_vi": "116",
+    "example_hanzi": "我有一百十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十七",
+    "pinyin": "yìbǎi shíqī",
+    "meaning_en": "117",
+    "meaning_vi": "117",
+    "example_hanzi": "我有一百十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十八",
+    "pinyin": "yìbǎi shíbā",
+    "meaning_en": "118",
+    "meaning_vi": "118",
+    "example_hanzi": "我有一百十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百十九",
+    "pinyin": "yìbǎi shíjiǔ",
+    "meaning_en": "119",
+    "meaning_vi": "119",
+    "example_hanzi": "我有一百十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十",
+    "pinyin": "yìbǎi èrshí",
+    "meaning_en": "120",
+    "meaning_vi": "120",
+    "example_hanzi": "我有一百二十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十一",
+    "pinyin": "yìbǎi èrshíyī",
+    "meaning_en": "121",
+    "meaning_vi": "121",
+    "example_hanzi": "我有一百二十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十二",
+    "pinyin": "yìbǎi èrshíèr",
+    "meaning_en": "122",
+    "meaning_vi": "122",
+    "example_hanzi": "我有一百二十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十三",
+    "pinyin": "yìbǎi èrshísān",
+    "meaning_en": "123",
+    "meaning_vi": "123",
+    "example_hanzi": "我有一百二十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十四",
+    "pinyin": "yìbǎi èrshísì",
+    "meaning_en": "124",
+    "meaning_vi": "124",
+    "example_hanzi": "我有一百二十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十五",
+    "pinyin": "yìbǎi èrshíwǔ",
+    "meaning_en": "125",
+    "meaning_vi": "125",
+    "example_hanzi": "我有一百二十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十六",
+    "pinyin": "yìbǎi èrshíliù",
+    "meaning_en": "126",
+    "meaning_vi": "126",
+    "example_hanzi": "我有一百二十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十七",
+    "pinyin": "yìbǎi èrshíqī",
+    "meaning_en": "127",
+    "meaning_vi": "127",
+    "example_hanzi": "我有一百二十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十八",
+    "pinyin": "yìbǎi èrshíbā",
+    "meaning_en": "128",
+    "meaning_vi": "128",
+    "example_hanzi": "我有一百二十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百二十九",
+    "pinyin": "yìbǎi èrshíjiǔ",
+    "meaning_en": "129",
+    "meaning_vi": "129",
+    "example_hanzi": "我有一百二十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十",
+    "pinyin": "yìbǎi sānshí",
+    "meaning_en": "130",
+    "meaning_vi": "130",
+    "example_hanzi": "我有一百三十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十一",
+    "pinyin": "yìbǎi sānshíyī",
+    "meaning_en": "131",
+    "meaning_vi": "131",
+    "example_hanzi": "我有一百三十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十二",
+    "pinyin": "yìbǎi sānshíèr",
+    "meaning_en": "132",
+    "meaning_vi": "132",
+    "example_hanzi": "我有一百三十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十三",
+    "pinyin": "yìbǎi sānshísān",
+    "meaning_en": "133",
+    "meaning_vi": "133",
+    "example_hanzi": "我有一百三十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十四",
+    "pinyin": "yìbǎi sānshísì",
+    "meaning_en": "134",
+    "meaning_vi": "134",
+    "example_hanzi": "我有一百三十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十五",
+    "pinyin": "yìbǎi sānshíwǔ",
+    "meaning_en": "135",
+    "meaning_vi": "135",
+    "example_hanzi": "我有一百三十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十六",
+    "pinyin": "yìbǎi sānshíliù",
+    "meaning_en": "136",
+    "meaning_vi": "136",
+    "example_hanzi": "我有一百三十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十七",
+    "pinyin": "yìbǎi sānshíqī",
+    "meaning_en": "137",
+    "meaning_vi": "137",
+    "example_hanzi": "我有一百三十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十八",
+    "pinyin": "yìbǎi sānshíbā",
+    "meaning_en": "138",
+    "meaning_vi": "138",
+    "example_hanzi": "我有一百三十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百三十九",
+    "pinyin": "yìbǎi sānshíjiǔ",
+    "meaning_en": "139",
+    "meaning_vi": "139",
+    "example_hanzi": "我有一百三十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十",
+    "pinyin": "yìbǎi sìshí",
+    "meaning_en": "140",
+    "meaning_vi": "140",
+    "example_hanzi": "我有一百四十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十一",
+    "pinyin": "yìbǎi sìshíyī",
+    "meaning_en": "141",
+    "meaning_vi": "141",
+    "example_hanzi": "我有一百四十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十二",
+    "pinyin": "yìbǎi sìshíèr",
+    "meaning_en": "142",
+    "meaning_vi": "142",
+    "example_hanzi": "我有一百四十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十三",
+    "pinyin": "yìbǎi sìshísān",
+    "meaning_en": "143",
+    "meaning_vi": "143",
+    "example_hanzi": "我有一百四十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十四",
+    "pinyin": "yìbǎi sìshísì",
+    "meaning_en": "144",
+    "meaning_vi": "144",
+    "example_hanzi": "我有一百四十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十五",
+    "pinyin": "yìbǎi sìshíwǔ",
+    "meaning_en": "145",
+    "meaning_vi": "145",
+    "example_hanzi": "我有一百四十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十六",
+    "pinyin": "yìbǎi sìshíliù",
+    "meaning_en": "146",
+    "meaning_vi": "146",
+    "example_hanzi": "我有一百四十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十七",
+    "pinyin": "yìbǎi sìshíqī",
+    "meaning_en": "147",
+    "meaning_vi": "147",
+    "example_hanzi": "我有一百四十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十八",
+    "pinyin": "yìbǎi sìshíbā",
+    "meaning_en": "148",
+    "meaning_vi": "148",
+    "example_hanzi": "我有一百四十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百四十九",
+    "pinyin": "yìbǎi sìshíjiǔ",
+    "meaning_en": "149",
+    "meaning_vi": "149",
+    "example_hanzi": "我有一百四十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十",
+    "pinyin": "yìbǎi wǔshí",
+    "meaning_en": "150",
+    "meaning_vi": "150",
+    "example_hanzi": "我有一百五十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十一",
+    "pinyin": "yìbǎi wǔshíyī",
+    "meaning_en": "151",
+    "meaning_vi": "151",
+    "example_hanzi": "我有一百五十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十二",
+    "pinyin": "yìbǎi wǔshíèr",
+    "meaning_en": "152",
+    "meaning_vi": "152",
+    "example_hanzi": "我有一百五十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十三",
+    "pinyin": "yìbǎi wǔshísān",
+    "meaning_en": "153",
+    "meaning_vi": "153",
+    "example_hanzi": "我有一百五十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十四",
+    "pinyin": "yìbǎi wǔshísì",
+    "meaning_en": "154",
+    "meaning_vi": "154",
+    "example_hanzi": "我有一百五十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十五",
+    "pinyin": "yìbǎi wǔshíwǔ",
+    "meaning_en": "155",
+    "meaning_vi": "155",
+    "example_hanzi": "我有一百五十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十六",
+    "pinyin": "yìbǎi wǔshíliù",
+    "meaning_en": "156",
+    "meaning_vi": "156",
+    "example_hanzi": "我有一百五十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十七",
+    "pinyin": "yìbǎi wǔshíqī",
+    "meaning_en": "157",
+    "meaning_vi": "157",
+    "example_hanzi": "我有一百五十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十八",
+    "pinyin": "yìbǎi wǔshíbā",
+    "meaning_en": "158",
+    "meaning_vi": "158",
+    "example_hanzi": "我有一百五十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百五十九",
+    "pinyin": "yìbǎi wǔshíjiǔ",
+    "meaning_en": "159",
+    "meaning_vi": "159",
+    "example_hanzi": "我有一百五十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十",
+    "pinyin": "yìbǎi liùshí",
+    "meaning_en": "160",
+    "meaning_vi": "160",
+    "example_hanzi": "我有一百六十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十一",
+    "pinyin": "yìbǎi liùshíyī",
+    "meaning_en": "161",
+    "meaning_vi": "161",
+    "example_hanzi": "我有一百六十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十二",
+    "pinyin": "yìbǎi liùshíèr",
+    "meaning_en": "162",
+    "meaning_vi": "162",
+    "example_hanzi": "我有一百六十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十三",
+    "pinyin": "yìbǎi liùshísān",
+    "meaning_en": "163",
+    "meaning_vi": "163",
+    "example_hanzi": "我有一百六十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十四",
+    "pinyin": "yìbǎi liùshísì",
+    "meaning_en": "164",
+    "meaning_vi": "164",
+    "example_hanzi": "我有一百六十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十五",
+    "pinyin": "yìbǎi liùshíwǔ",
+    "meaning_en": "165",
+    "meaning_vi": "165",
+    "example_hanzi": "我有一百六十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十六",
+    "pinyin": "yìbǎi liùshíliù",
+    "meaning_en": "166",
+    "meaning_vi": "166",
+    "example_hanzi": "我有一百六十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十七",
+    "pinyin": "yìbǎi liùshíqī",
+    "meaning_en": "167",
+    "meaning_vi": "167",
+    "example_hanzi": "我有一百六十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十八",
+    "pinyin": "yìbǎi liùshíbā",
+    "meaning_en": "168",
+    "meaning_vi": "168",
+    "example_hanzi": "我有一百六十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百六十九",
+    "pinyin": "yìbǎi liùshíjiǔ",
+    "meaning_en": "169",
+    "meaning_vi": "169",
+    "example_hanzi": "我有一百六十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十",
+    "pinyin": "yìbǎi qīshí",
+    "meaning_en": "170",
+    "meaning_vi": "170",
+    "example_hanzi": "我有一百七十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十一",
+    "pinyin": "yìbǎi qīshíyī",
+    "meaning_en": "171",
+    "meaning_vi": "171",
+    "example_hanzi": "我有一百七十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十二",
+    "pinyin": "yìbǎi qīshíèr",
+    "meaning_en": "172",
+    "meaning_vi": "172",
+    "example_hanzi": "我有一百七十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十三",
+    "pinyin": "yìbǎi qīshísān",
+    "meaning_en": "173",
+    "meaning_vi": "173",
+    "example_hanzi": "我有一百七十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十四",
+    "pinyin": "yìbǎi qīshísì",
+    "meaning_en": "174",
+    "meaning_vi": "174",
+    "example_hanzi": "我有一百七十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十五",
+    "pinyin": "yìbǎi qīshíwǔ",
+    "meaning_en": "175",
+    "meaning_vi": "175",
+    "example_hanzi": "我有一百七十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十六",
+    "pinyin": "yìbǎi qīshíliù",
+    "meaning_en": "176",
+    "meaning_vi": "176",
+    "example_hanzi": "我有一百七十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十七",
+    "pinyin": "yìbǎi qīshíqī",
+    "meaning_en": "177",
+    "meaning_vi": "177",
+    "example_hanzi": "我有一百七十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十八",
+    "pinyin": "yìbǎi qīshíbā",
+    "meaning_en": "178",
+    "meaning_vi": "178",
+    "example_hanzi": "我有一百七十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百七十九",
+    "pinyin": "yìbǎi qīshíjiǔ",
+    "meaning_en": "179",
+    "meaning_vi": "179",
+    "example_hanzi": "我有一百七十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十",
+    "pinyin": "yìbǎi bāshí",
+    "meaning_en": "180",
+    "meaning_vi": "180",
+    "example_hanzi": "我有一百八十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十一",
+    "pinyin": "yìbǎi bāshíyī",
+    "meaning_en": "181",
+    "meaning_vi": "181",
+    "example_hanzi": "我有一百八十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十二",
+    "pinyin": "yìbǎi bāshíèr",
+    "meaning_en": "182",
+    "meaning_vi": "182",
+    "example_hanzi": "我有一百八十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十三",
+    "pinyin": "yìbǎi bāshísān",
+    "meaning_en": "183",
+    "meaning_vi": "183",
+    "example_hanzi": "我有一百八十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十四",
+    "pinyin": "yìbǎi bāshísì",
+    "meaning_en": "184",
+    "meaning_vi": "184",
+    "example_hanzi": "我有一百八十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十五",
+    "pinyin": "yìbǎi bāshíwǔ",
+    "meaning_en": "185",
+    "meaning_vi": "185",
+    "example_hanzi": "我有一百八十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十六",
+    "pinyin": "yìbǎi bāshíliù",
+    "meaning_en": "186",
+    "meaning_vi": "186",
+    "example_hanzi": "我有一百八十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十七",
+    "pinyin": "yìbǎi bāshíqī",
+    "meaning_en": "187",
+    "meaning_vi": "187",
+    "example_hanzi": "我有一百八十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十八",
+    "pinyin": "yìbǎi bāshíbā",
+    "meaning_en": "188",
+    "meaning_vi": "188",
+    "example_hanzi": "我有一百八十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百八十九",
+    "pinyin": "yìbǎi bāshíjiǔ",
+    "meaning_en": "189",
+    "meaning_vi": "189",
+    "example_hanzi": "我有一百八十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十",
+    "pinyin": "yìbǎi jiǔshí",
+    "meaning_en": "190",
+    "meaning_vi": "190",
+    "example_hanzi": "我有一百九十本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十一",
+    "pinyin": "yìbǎi jiǔshíyī",
+    "meaning_en": "191",
+    "meaning_vi": "191",
+    "example_hanzi": "我有一百九十一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十二",
+    "pinyin": "yìbǎi jiǔshíèr",
+    "meaning_en": "192",
+    "meaning_vi": "192",
+    "example_hanzi": "我有一百九十二本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十三",
+    "pinyin": "yìbǎi jiǔshísān",
+    "meaning_en": "193",
+    "meaning_vi": "193",
+    "example_hanzi": "我有一百九十三本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十四",
+    "pinyin": "yìbǎi jiǔshísì",
+    "meaning_en": "194",
+    "meaning_vi": "194",
+    "example_hanzi": "我有一百九十四本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十五",
+    "pinyin": "yìbǎi jiǔshíwǔ",
+    "meaning_en": "195",
+    "meaning_vi": "195",
+    "example_hanzi": "我有一百九十五本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十六",
+    "pinyin": "yìbǎi jiǔshíliù",
+    "meaning_en": "196",
+    "meaning_vi": "196",
+    "example_hanzi": "我有一百九十六本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十七",
+    "pinyin": "yìbǎi jiǔshíqī",
+    "meaning_en": "197",
+    "meaning_vi": "197",
+    "example_hanzi": "我有一百九十七本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十八",
+    "pinyin": "yìbǎi jiǔshíbā",
+    "meaning_en": "198",
+    "meaning_vi": "198",
+    "example_hanzi": "我有一百九十八本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一百九十九",
+    "pinyin": "yìbǎi jiǔshíjiǔ",
+    "meaning_en": "199",
+    "meaning_vi": "199",
+    "example_hanzi": "我有一百九十九本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "200",
+    "pinyin": "200",
+    "meaning_en": "200",
+    "meaning_vi": "200",
+    "example_hanzi": "我有200本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "201",
+    "pinyin": "201",
+    "meaning_en": "201",
+    "meaning_vi": "201",
+    "example_hanzi": "我有201本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "202",
+    "pinyin": "202",
+    "meaning_en": "202",
+    "meaning_vi": "202",
+    "example_hanzi": "我有202本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "203",
+    "pinyin": "203",
+    "meaning_en": "203",
+    "meaning_vi": "203",
+    "example_hanzi": "我有203本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "204",
+    "pinyin": "204",
+    "meaning_en": "204",
+    "meaning_vi": "204",
+    "example_hanzi": "我有204本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "205",
+    "pinyin": "205",
+    "meaning_en": "205",
+    "meaning_vi": "205",
+    "example_hanzi": "我有205本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "206",
+    "pinyin": "206",
+    "meaning_en": "206",
+    "meaning_vi": "206",
+    "example_hanzi": "我有206本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "207",
+    "pinyin": "207",
+    "meaning_en": "207",
+    "meaning_vi": "207",
+    "example_hanzi": "我有207本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "208",
+    "pinyin": "208",
+    "meaning_en": "208",
+    "meaning_vi": "208",
+    "example_hanzi": "我有208本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "209",
+    "pinyin": "209",
+    "meaning_en": "209",
+    "meaning_vi": "209",
+    "example_hanzi": "我有209本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "210",
+    "pinyin": "210",
+    "meaning_en": "210",
+    "meaning_vi": "210",
+    "example_hanzi": "我有210本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "211",
+    "pinyin": "211",
+    "meaning_en": "211",
+    "meaning_vi": "211",
+    "example_hanzi": "我有211本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "212",
+    "pinyin": "212",
+    "meaning_en": "212",
+    "meaning_vi": "212",
+    "example_hanzi": "我有212本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "213",
+    "pinyin": "213",
+    "meaning_en": "213",
+    "meaning_vi": "213",
+    "example_hanzi": "我有213本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "214",
+    "pinyin": "214",
+    "meaning_en": "214",
+    "meaning_vi": "214",
+    "example_hanzi": "我有214本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "215",
+    "pinyin": "215",
+    "meaning_en": "215",
+    "meaning_vi": "215",
+    "example_hanzi": "我有215本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "216",
+    "pinyin": "216",
+    "meaning_en": "216",
+    "meaning_vi": "216",
+    "example_hanzi": "我有216本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "217",
+    "pinyin": "217",
+    "meaning_en": "217",
+    "meaning_vi": "217",
+    "example_hanzi": "我有217本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "218",
+    "pinyin": "218",
+    "meaning_en": "218",
+    "meaning_vi": "218",
+    "example_hanzi": "我有218本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "219",
+    "pinyin": "219",
+    "meaning_en": "219",
+    "meaning_vi": "219",
+    "example_hanzi": "我有219本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "220",
+    "pinyin": "220",
+    "meaning_en": "220",
+    "meaning_vi": "220",
+    "example_hanzi": "我有220本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "221",
+    "pinyin": "221",
+    "meaning_en": "221",
+    "meaning_vi": "221",
+    "example_hanzi": "我有221本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "222",
+    "pinyin": "222",
+    "meaning_en": "222",
+    "meaning_vi": "222",
+    "example_hanzi": "我有222本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "223",
+    "pinyin": "223",
+    "meaning_en": "223",
+    "meaning_vi": "223",
+    "example_hanzi": "我有223本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "224",
+    "pinyin": "224",
+    "meaning_en": "224",
+    "meaning_vi": "224",
+    "example_hanzi": "我有224本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "225",
+    "pinyin": "225",
+    "meaning_en": "225",
+    "meaning_vi": "225",
+    "example_hanzi": "我有225本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "226",
+    "pinyin": "226",
+    "meaning_en": "226",
+    "meaning_vi": "226",
+    "example_hanzi": "我有226本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "227",
+    "pinyin": "227",
+    "meaning_en": "227",
+    "meaning_vi": "227",
+    "example_hanzi": "我有227本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "228",
+    "pinyin": "228",
+    "meaning_en": "228",
+    "meaning_vi": "228",
+    "example_hanzi": "我有228本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "229",
+    "pinyin": "229",
+    "meaning_en": "229",
+    "meaning_vi": "229",
+    "example_hanzi": "我有229本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "230",
+    "pinyin": "230",
+    "meaning_en": "230",
+    "meaning_vi": "230",
+    "example_hanzi": "我有230本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "231",
+    "pinyin": "231",
+    "meaning_en": "231",
+    "meaning_vi": "231",
+    "example_hanzi": "我有231本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "232",
+    "pinyin": "232",
+    "meaning_en": "232",
+    "meaning_vi": "232",
+    "example_hanzi": "我有232本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "233",
+    "pinyin": "233",
+    "meaning_en": "233",
+    "meaning_vi": "233",
+    "example_hanzi": "我有233本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "234",
+    "pinyin": "234",
+    "meaning_en": "234",
+    "meaning_vi": "234",
+    "example_hanzi": "我有234本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "235",
+    "pinyin": "235",
+    "meaning_en": "235",
+    "meaning_vi": "235",
+    "example_hanzi": "我有235本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "236",
+    "pinyin": "236",
+    "meaning_en": "236",
+    "meaning_vi": "236",
+    "example_hanzi": "我有236本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "237",
+    "pinyin": "237",
+    "meaning_en": "237",
+    "meaning_vi": "237",
+    "example_hanzi": "我有237本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "238",
+    "pinyin": "238",
+    "meaning_en": "238",
+    "meaning_vi": "238",
+    "example_hanzi": "我有238本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "239",
+    "pinyin": "239",
+    "meaning_en": "239",
+    "meaning_vi": "239",
+    "example_hanzi": "我有239本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "240",
+    "pinyin": "240",
+    "meaning_en": "240",
+    "meaning_vi": "240",
+    "example_hanzi": "我有240本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "241",
+    "pinyin": "241",
+    "meaning_en": "241",
+    "meaning_vi": "241",
+    "example_hanzi": "我有241本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "242",
+    "pinyin": "242",
+    "meaning_en": "242",
+    "meaning_vi": "242",
+    "example_hanzi": "我有242本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "243",
+    "pinyin": "243",
+    "meaning_en": "243",
+    "meaning_vi": "243",
+    "example_hanzi": "我有243本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "244",
+    "pinyin": "244",
+    "meaning_en": "244",
+    "meaning_vi": "244",
+    "example_hanzi": "我有244本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "245",
+    "pinyin": "245",
+    "meaning_en": "245",
+    "meaning_vi": "245",
+    "example_hanzi": "我有245本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "246",
+    "pinyin": "246",
+    "meaning_en": "246",
+    "meaning_vi": "246",
+    "example_hanzi": "我有246本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "247",
+    "pinyin": "247",
+    "meaning_en": "247",
+    "meaning_vi": "247",
+    "example_hanzi": "我有247本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "248",
+    "pinyin": "248",
+    "meaning_en": "248",
+    "meaning_vi": "248",
+    "example_hanzi": "我有248本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "249",
+    "pinyin": "249",
+    "meaning_en": "249",
+    "meaning_vi": "249",
+    "example_hanzi": "我有249本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "250",
+    "pinyin": "250",
+    "meaning_en": "250",
+    "meaning_vi": "250",
+    "example_hanzi": "我有250本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "251",
+    "pinyin": "251",
+    "meaning_en": "251",
+    "meaning_vi": "251",
+    "example_hanzi": "我有251本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "252",
+    "pinyin": "252",
+    "meaning_en": "252",
+    "meaning_vi": "252",
+    "example_hanzi": "我有252本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "253",
+    "pinyin": "253",
+    "meaning_en": "253",
+    "meaning_vi": "253",
+    "example_hanzi": "我有253本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "254",
+    "pinyin": "254",
+    "meaning_en": "254",
+    "meaning_vi": "254",
+    "example_hanzi": "我有254本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "255",
+    "pinyin": "255",
+    "meaning_en": "255",
+    "meaning_vi": "255",
+    "example_hanzi": "我有255本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "256",
+    "pinyin": "256",
+    "meaning_en": "256",
+    "meaning_vi": "256",
+    "example_hanzi": "我有256本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "257",
+    "pinyin": "257",
+    "meaning_en": "257",
+    "meaning_vi": "257",
+    "example_hanzi": "我有257本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "258",
+    "pinyin": "258",
+    "meaning_en": "258",
+    "meaning_vi": "258",
+    "example_hanzi": "我有258本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "259",
+    "pinyin": "259",
+    "meaning_en": "259",
+    "meaning_vi": "259",
+    "example_hanzi": "我有259本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "260",
+    "pinyin": "260",
+    "meaning_en": "260",
+    "meaning_vi": "260",
+    "example_hanzi": "我有260本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "261",
+    "pinyin": "261",
+    "meaning_en": "261",
+    "meaning_vi": "261",
+    "example_hanzi": "我有261本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "262",
+    "pinyin": "262",
+    "meaning_en": "262",
+    "meaning_vi": "262",
+    "example_hanzi": "我有262本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "263",
+    "pinyin": "263",
+    "meaning_en": "263",
+    "meaning_vi": "263",
+    "example_hanzi": "我有263本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "264",
+    "pinyin": "264",
+    "meaning_en": "264",
+    "meaning_vi": "264",
+    "example_hanzi": "我有264本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "265",
+    "pinyin": "265",
+    "meaning_en": "265",
+    "meaning_vi": "265",
+    "example_hanzi": "我有265本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "266",
+    "pinyin": "266",
+    "meaning_en": "266",
+    "meaning_vi": "266",
+    "example_hanzi": "我有266本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "267",
+    "pinyin": "267",
+    "meaning_en": "267",
+    "meaning_vi": "267",
+    "example_hanzi": "我有267本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "268",
+    "pinyin": "268",
+    "meaning_en": "268",
+    "meaning_vi": "268",
+    "example_hanzi": "我有268本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "269",
+    "pinyin": "269",
+    "meaning_en": "269",
+    "meaning_vi": "269",
+    "example_hanzi": "我有269本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "270",
+    "pinyin": "270",
+    "meaning_en": "270",
+    "meaning_vi": "270",
+    "example_hanzi": "我有270本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "271",
+    "pinyin": "271",
+    "meaning_en": "271",
+    "meaning_vi": "271",
+    "example_hanzi": "我有271本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "272",
+    "pinyin": "272",
+    "meaning_en": "272",
+    "meaning_vi": "272",
+    "example_hanzi": "我有272本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "273",
+    "pinyin": "273",
+    "meaning_en": "273",
+    "meaning_vi": "273",
+    "example_hanzi": "我有273本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "274",
+    "pinyin": "274",
+    "meaning_en": "274",
+    "meaning_vi": "274",
+    "example_hanzi": "我有274本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "275",
+    "pinyin": "275",
+    "meaning_en": "275",
+    "meaning_vi": "275",
+    "example_hanzi": "我有275本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "276",
+    "pinyin": "276",
+    "meaning_en": "276",
+    "meaning_vi": "276",
+    "example_hanzi": "我有276本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "277",
+    "pinyin": "277",
+    "meaning_en": "277",
+    "meaning_vi": "277",
+    "example_hanzi": "我有277本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "278",
+    "pinyin": "278",
+    "meaning_en": "278",
+    "meaning_vi": "278",
+    "example_hanzi": "我有278本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "279",
+    "pinyin": "279",
+    "meaning_en": "279",
+    "meaning_vi": "279",
+    "example_hanzi": "我有279本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "280",
+    "pinyin": "280",
+    "meaning_en": "280",
+    "meaning_vi": "280",
+    "example_hanzi": "我有280本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "281",
+    "pinyin": "281",
+    "meaning_en": "281",
+    "meaning_vi": "281",
+    "example_hanzi": "我有281本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "282",
+    "pinyin": "282",
+    "meaning_en": "282",
+    "meaning_vi": "282",
+    "example_hanzi": "我有282本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "283",
+    "pinyin": "283",
+    "meaning_en": "283",
+    "meaning_vi": "283",
+    "example_hanzi": "我有283本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "284",
+    "pinyin": "284",
+    "meaning_en": "284",
+    "meaning_vi": "284",
+    "example_hanzi": "我有284本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "285",
+    "pinyin": "285",
+    "meaning_en": "285",
+    "meaning_vi": "285",
+    "example_hanzi": "我有285本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "286",
+    "pinyin": "286",
+    "meaning_en": "286",
+    "meaning_vi": "286",
+    "example_hanzi": "我有286本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "287",
+    "pinyin": "287",
+    "meaning_en": "287",
+    "meaning_vi": "287",
+    "example_hanzi": "我有287本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "288",
+    "pinyin": "288",
+    "meaning_en": "288",
+    "meaning_vi": "288",
+    "example_hanzi": "我有288本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "289",
+    "pinyin": "289",
+    "meaning_en": "289",
+    "meaning_vi": "289",
+    "example_hanzi": "我有289本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "290",
+    "pinyin": "290",
+    "meaning_en": "290",
+    "meaning_vi": "290",
+    "example_hanzi": "我有290本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "291",
+    "pinyin": "291",
+    "meaning_en": "291",
+    "meaning_vi": "291",
+    "example_hanzi": "我有291本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "292",
+    "pinyin": "292",
+    "meaning_en": "292",
+    "meaning_vi": "292",
+    "example_hanzi": "我有292本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "293",
+    "pinyin": "293",
+    "meaning_en": "293",
+    "meaning_vi": "293",
+    "example_hanzi": "我有293本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "294",
+    "pinyin": "294",
+    "meaning_en": "294",
+    "meaning_vi": "294",
+    "example_hanzi": "我有294本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "295",
+    "pinyin": "295",
+    "meaning_en": "295",
+    "meaning_vi": "295",
+    "example_hanzi": "我有295本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "296",
+    "pinyin": "296",
+    "meaning_en": "296",
+    "meaning_vi": "296",
+    "example_hanzi": "我有296本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "297",
+    "pinyin": "297",
+    "meaning_en": "297",
+    "meaning_vi": "297",
+    "example_hanzi": "我有297本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "298",
+    "pinyin": "298",
+    "meaning_en": "298",
+    "meaning_vi": "298",
+    "example_hanzi": "我有298本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "299",
+    "pinyin": "299",
+    "meaning_en": "299",
+    "meaning_vi": "299",
+    "example_hanzi": "我有299本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "300",
+    "pinyin": "300",
+    "meaning_en": "300",
+    "meaning_vi": "300",
+    "example_hanzi": "我有300本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "301",
+    "pinyin": "301",
+    "meaning_en": "301",
+    "meaning_vi": "301",
+    "example_hanzi": "我有301本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "302",
+    "pinyin": "302",
+    "meaning_en": "302",
+    "meaning_vi": "302",
+    "example_hanzi": "我有302本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "303",
+    "pinyin": "303",
+    "meaning_en": "303",
+    "meaning_vi": "303",
+    "example_hanzi": "我有303本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "304",
+    "pinyin": "304",
+    "meaning_en": "304",
+    "meaning_vi": "304",
+    "example_hanzi": "我有304本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "305",
+    "pinyin": "305",
+    "meaning_en": "305",
+    "meaning_vi": "305",
+    "example_hanzi": "我有305本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "306",
+    "pinyin": "306",
+    "meaning_en": "306",
+    "meaning_vi": "306",
+    "example_hanzi": "我有306本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "307",
+    "pinyin": "307",
+    "meaning_en": "307",
+    "meaning_vi": "307",
+    "example_hanzi": "我有307本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "308",
+    "pinyin": "308",
+    "meaning_en": "308",
+    "meaning_vi": "308",
+    "example_hanzi": "我有308本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "309",
+    "pinyin": "309",
+    "meaning_en": "309",
+    "meaning_vi": "309",
+    "example_hanzi": "我有309本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "310",
+    "pinyin": "310",
+    "meaning_en": "310",
+    "meaning_vi": "310",
+    "example_hanzi": "我有310本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "311",
+    "pinyin": "311",
+    "meaning_en": "311",
+    "meaning_vi": "311",
+    "example_hanzi": "我有311本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "312",
+    "pinyin": "312",
+    "meaning_en": "312",
+    "meaning_vi": "312",
+    "example_hanzi": "我有312本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "313",
+    "pinyin": "313",
+    "meaning_en": "313",
+    "meaning_vi": "313",
+    "example_hanzi": "我有313本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "314",
+    "pinyin": "314",
+    "meaning_en": "314",
+    "meaning_vi": "314",
+    "example_hanzi": "我有314本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "315",
+    "pinyin": "315",
+    "meaning_en": "315",
+    "meaning_vi": "315",
+    "example_hanzi": "我有315本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "316",
+    "pinyin": "316",
+    "meaning_en": "316",
+    "meaning_vi": "316",
+    "example_hanzi": "我有316本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "317",
+    "pinyin": "317",
+    "meaning_en": "317",
+    "meaning_vi": "317",
+    "example_hanzi": "我有317本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "318",
+    "pinyin": "318",
+    "meaning_en": "318",
+    "meaning_vi": "318",
+    "example_hanzi": "我有318本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "319",
+    "pinyin": "319",
+    "meaning_en": "319",
+    "meaning_vi": "319",
+    "example_hanzi": "我有319本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "320",
+    "pinyin": "320",
+    "meaning_en": "320",
+    "meaning_vi": "320",
+    "example_hanzi": "我有320本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "321",
+    "pinyin": "321",
+    "meaning_en": "321",
+    "meaning_vi": "321",
+    "example_hanzi": "我有321本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "322",
+    "pinyin": "322",
+    "meaning_en": "322",
+    "meaning_vi": "322",
+    "example_hanzi": "我有322本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "323",
+    "pinyin": "323",
+    "meaning_en": "323",
+    "meaning_vi": "323",
+    "example_hanzi": "我有323本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "324",
+    "pinyin": "324",
+    "meaning_en": "324",
+    "meaning_vi": "324",
+    "example_hanzi": "我有324本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "325",
+    "pinyin": "325",
+    "meaning_en": "325",
+    "meaning_vi": "325",
+    "example_hanzi": "我有325本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "326",
+    "pinyin": "326",
+    "meaning_en": "326",
+    "meaning_vi": "326",
+    "example_hanzi": "我有326本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "327",
+    "pinyin": "327",
+    "meaning_en": "327",
+    "meaning_vi": "327",
+    "example_hanzi": "我有327本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "328",
+    "pinyin": "328",
+    "meaning_en": "328",
+    "meaning_vi": "328",
+    "example_hanzi": "我有328本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "329",
+    "pinyin": "329",
+    "meaning_en": "329",
+    "meaning_vi": "329",
+    "example_hanzi": "我有329本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "330",
+    "pinyin": "330",
+    "meaning_en": "330",
+    "meaning_vi": "330",
+    "example_hanzi": "我有330本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "331",
+    "pinyin": "331",
+    "meaning_en": "331",
+    "meaning_vi": "331",
+    "example_hanzi": "我有331本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "332",
+    "pinyin": "332",
+    "meaning_en": "332",
+    "meaning_vi": "332",
+    "example_hanzi": "我有332本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "333",
+    "pinyin": "333",
+    "meaning_en": "333",
+    "meaning_vi": "333",
+    "example_hanzi": "我有333本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "334",
+    "pinyin": "334",
+    "meaning_en": "334",
+    "meaning_vi": "334",
+    "example_hanzi": "我有334本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "335",
+    "pinyin": "335",
+    "meaning_en": "335",
+    "meaning_vi": "335",
+    "example_hanzi": "我有335本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "336",
+    "pinyin": "336",
+    "meaning_en": "336",
+    "meaning_vi": "336",
+    "example_hanzi": "我有336本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "337",
+    "pinyin": "337",
+    "meaning_en": "337",
+    "meaning_vi": "337",
+    "example_hanzi": "我有337本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "338",
+    "pinyin": "338",
+    "meaning_en": "338",
+    "meaning_vi": "338",
+    "example_hanzi": "我有338本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "339",
+    "pinyin": "339",
+    "meaning_en": "339",
+    "meaning_vi": "339",
+    "example_hanzi": "我有339本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "340",
+    "pinyin": "340",
+    "meaning_en": "340",
+    "meaning_vi": "340",
+    "example_hanzi": "我有340本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "341",
+    "pinyin": "341",
+    "meaning_en": "341",
+    "meaning_vi": "341",
+    "example_hanzi": "我有341本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "342",
+    "pinyin": "342",
+    "meaning_en": "342",
+    "meaning_vi": "342",
+    "example_hanzi": "我有342本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "343",
+    "pinyin": "343",
+    "meaning_en": "343",
+    "meaning_vi": "343",
+    "example_hanzi": "我有343本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "344",
+    "pinyin": "344",
+    "meaning_en": "344",
+    "meaning_vi": "344",
+    "example_hanzi": "我有344本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "345",
+    "pinyin": "345",
+    "meaning_en": "345",
+    "meaning_vi": "345",
+    "example_hanzi": "我有345本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "346",
+    "pinyin": "346",
+    "meaning_en": "346",
+    "meaning_vi": "346",
+    "example_hanzi": "我有346本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "347",
+    "pinyin": "347",
+    "meaning_en": "347",
+    "meaning_vi": "347",
+    "example_hanzi": "我有347本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "348",
+    "pinyin": "348",
+    "meaning_en": "348",
+    "meaning_vi": "348",
+    "example_hanzi": "我有348本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "349",
+    "pinyin": "349",
+    "meaning_en": "349",
+    "meaning_vi": "349",
+    "example_hanzi": "我有349本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "350",
+    "pinyin": "350",
+    "meaning_en": "350",
+    "meaning_vi": "350",
+    "example_hanzi": "我有350本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "351",
+    "pinyin": "351",
+    "meaning_en": "351",
+    "meaning_vi": "351",
+    "example_hanzi": "我有351本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "352",
+    "pinyin": "352",
+    "meaning_en": "352",
+    "meaning_vi": "352",
+    "example_hanzi": "我有352本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "353",
+    "pinyin": "353",
+    "meaning_en": "353",
+    "meaning_vi": "353",
+    "example_hanzi": "我有353本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "354",
+    "pinyin": "354",
+    "meaning_en": "354",
+    "meaning_vi": "354",
+    "example_hanzi": "我有354本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "355",
+    "pinyin": "355",
+    "meaning_en": "355",
+    "meaning_vi": "355",
+    "example_hanzi": "我有355本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "356",
+    "pinyin": "356",
+    "meaning_en": "356",
+    "meaning_vi": "356",
+    "example_hanzi": "我有356本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "357",
+    "pinyin": "357",
+    "meaning_en": "357",
+    "meaning_vi": "357",
+    "example_hanzi": "我有357本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "358",
+    "pinyin": "358",
+    "meaning_en": "358",
+    "meaning_vi": "358",
+    "example_hanzi": "我有358本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "359",
+    "pinyin": "359",
+    "meaning_en": "359",
+    "meaning_vi": "359",
+    "example_hanzi": "我有359本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "360",
+    "pinyin": "360",
+    "meaning_en": "360",
+    "meaning_vi": "360",
+    "example_hanzi": "我有360本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "361",
+    "pinyin": "361",
+    "meaning_en": "361",
+    "meaning_vi": "361",
+    "example_hanzi": "我有361本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "362",
+    "pinyin": "362",
+    "meaning_en": "362",
+    "meaning_vi": "362",
+    "example_hanzi": "我有362本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "363",
+    "pinyin": "363",
+    "meaning_en": "363",
+    "meaning_vi": "363",
+    "example_hanzi": "我有363本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "364",
+    "pinyin": "364",
+    "meaning_en": "364",
+    "meaning_vi": "364",
+    "example_hanzi": "我有364本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "365",
+    "pinyin": "365",
+    "meaning_en": "365",
+    "meaning_vi": "365",
+    "example_hanzi": "我有365本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "366",
+    "pinyin": "366",
+    "meaning_en": "366",
+    "meaning_vi": "366",
+    "example_hanzi": "我有366本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "367",
+    "pinyin": "367",
+    "meaning_en": "367",
+    "meaning_vi": "367",
+    "example_hanzi": "我有367本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "368",
+    "pinyin": "368",
+    "meaning_en": "368",
+    "meaning_vi": "368",
+    "example_hanzi": "我有368本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "369",
+    "pinyin": "369",
+    "meaning_en": "369",
+    "meaning_vi": "369",
+    "example_hanzi": "我有369本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "370",
+    "pinyin": "370",
+    "meaning_en": "370",
+    "meaning_vi": "370",
+    "example_hanzi": "我有370本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "371",
+    "pinyin": "371",
+    "meaning_en": "371",
+    "meaning_vi": "371",
+    "example_hanzi": "我有371本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "372",
+    "pinyin": "372",
+    "meaning_en": "372",
+    "meaning_vi": "372",
+    "example_hanzi": "我有372本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "373",
+    "pinyin": "373",
+    "meaning_en": "373",
+    "meaning_vi": "373",
+    "example_hanzi": "我有373本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "374",
+    "pinyin": "374",
+    "meaning_en": "374",
+    "meaning_vi": "374",
+    "example_hanzi": "我有374本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "375",
+    "pinyin": "375",
+    "meaning_en": "375",
+    "meaning_vi": "375",
+    "example_hanzi": "我有375本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "376",
+    "pinyin": "376",
+    "meaning_en": "376",
+    "meaning_vi": "376",
+    "example_hanzi": "我有376本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "377",
+    "pinyin": "377",
+    "meaning_en": "377",
+    "meaning_vi": "377",
+    "example_hanzi": "我有377本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "378",
+    "pinyin": "378",
+    "meaning_en": "378",
+    "meaning_vi": "378",
+    "example_hanzi": "我有378本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "379",
+    "pinyin": "379",
+    "meaning_en": "379",
+    "meaning_vi": "379",
+    "example_hanzi": "我有379本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "380",
+    "pinyin": "380",
+    "meaning_en": "380",
+    "meaning_vi": "380",
+    "example_hanzi": "我有380本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "381",
+    "pinyin": "381",
+    "meaning_en": "381",
+    "meaning_vi": "381",
+    "example_hanzi": "我有381本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "382",
+    "pinyin": "382",
+    "meaning_en": "382",
+    "meaning_vi": "382",
+    "example_hanzi": "我有382本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "383",
+    "pinyin": "383",
+    "meaning_en": "383",
+    "meaning_vi": "383",
+    "example_hanzi": "我有383本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "384",
+    "pinyin": "384",
+    "meaning_en": "384",
+    "meaning_vi": "384",
+    "example_hanzi": "我有384本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "385",
+    "pinyin": "385",
+    "meaning_en": "385",
+    "meaning_vi": "385",
+    "example_hanzi": "我有385本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "386",
+    "pinyin": "386",
+    "meaning_en": "386",
+    "meaning_vi": "386",
+    "example_hanzi": "我有386本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "387",
+    "pinyin": "387",
+    "meaning_en": "387",
+    "meaning_vi": "387",
+    "example_hanzi": "我有387本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "388",
+    "pinyin": "388",
+    "meaning_en": "388",
+    "meaning_vi": "388",
+    "example_hanzi": "我有388本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "389",
+    "pinyin": "389",
+    "meaning_en": "389",
+    "meaning_vi": "389",
+    "example_hanzi": "我有389本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "390",
+    "pinyin": "390",
+    "meaning_en": "390",
+    "meaning_vi": "390",
+    "example_hanzi": "我有390本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "391",
+    "pinyin": "391",
+    "meaning_en": "391",
+    "meaning_vi": "391",
+    "example_hanzi": "我有391本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "392",
+    "pinyin": "392",
+    "meaning_en": "392",
+    "meaning_vi": "392",
+    "example_hanzi": "我有392本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "393",
+    "pinyin": "393",
+    "meaning_en": "393",
+    "meaning_vi": "393",
+    "example_hanzi": "我有393本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "394",
+    "pinyin": "394",
+    "meaning_en": "394",
+    "meaning_vi": "394",
+    "example_hanzi": "我有394本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "395",
+    "pinyin": "395",
+    "meaning_en": "395",
+    "meaning_vi": "395",
+    "example_hanzi": "我有395本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "396",
+    "pinyin": "396",
+    "meaning_en": "396",
+    "meaning_vi": "396",
+    "example_hanzi": "我有396本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "397",
+    "pinyin": "397",
+    "meaning_en": "397",
+    "meaning_vi": "397",
+    "example_hanzi": "我有397本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "398",
+    "pinyin": "398",
+    "meaning_en": "398",
+    "meaning_vi": "398",
+    "example_hanzi": "我有398本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "399",
+    "pinyin": "399",
+    "meaning_en": "399",
+    "meaning_vi": "399",
+    "example_hanzi": "我有399本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "400",
+    "pinyin": "400",
+    "meaning_en": "400",
+    "meaning_vi": "400",
+    "example_hanzi": "我有400本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "401",
+    "pinyin": "401",
+    "meaning_en": "401",
+    "meaning_vi": "401",
+    "example_hanzi": "我有401本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "402",
+    "pinyin": "402",
+    "meaning_en": "402",
+    "meaning_vi": "402",
+    "example_hanzi": "我有402本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "403",
+    "pinyin": "403",
+    "meaning_en": "403",
+    "meaning_vi": "403",
+    "example_hanzi": "我有403本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "404",
+    "pinyin": "404",
+    "meaning_en": "404",
+    "meaning_vi": "404",
+    "example_hanzi": "我有404本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "405",
+    "pinyin": "405",
+    "meaning_en": "405",
+    "meaning_vi": "405",
+    "example_hanzi": "我有405本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "406",
+    "pinyin": "406",
+    "meaning_en": "406",
+    "meaning_vi": "406",
+    "example_hanzi": "我有406本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "407",
+    "pinyin": "407",
+    "meaning_en": "407",
+    "meaning_vi": "407",
+    "example_hanzi": "我有407本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "408",
+    "pinyin": "408",
+    "meaning_en": "408",
+    "meaning_vi": "408",
+    "example_hanzi": "我有408本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "409",
+    "pinyin": "409",
+    "meaning_en": "409",
+    "meaning_vi": "409",
+    "example_hanzi": "我有409本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "410",
+    "pinyin": "410",
+    "meaning_en": "410",
+    "meaning_vi": "410",
+    "example_hanzi": "我有410本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "411",
+    "pinyin": "411",
+    "meaning_en": "411",
+    "meaning_vi": "411",
+    "example_hanzi": "我有411本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "412",
+    "pinyin": "412",
+    "meaning_en": "412",
+    "meaning_vi": "412",
+    "example_hanzi": "我有412本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "413",
+    "pinyin": "413",
+    "meaning_en": "413",
+    "meaning_vi": "413",
+    "example_hanzi": "我有413本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "414",
+    "pinyin": "414",
+    "meaning_en": "414",
+    "meaning_vi": "414",
+    "example_hanzi": "我有414本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "415",
+    "pinyin": "415",
+    "meaning_en": "415",
+    "meaning_vi": "415",
+    "example_hanzi": "我有415本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "416",
+    "pinyin": "416",
+    "meaning_en": "416",
+    "meaning_vi": "416",
+    "example_hanzi": "我有416本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "417",
+    "pinyin": "417",
+    "meaning_en": "417",
+    "meaning_vi": "417",
+    "example_hanzi": "我有417本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "418",
+    "pinyin": "418",
+    "meaning_en": "418",
+    "meaning_vi": "418",
+    "example_hanzi": "我有418本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "419",
+    "pinyin": "419",
+    "meaning_en": "419",
+    "meaning_vi": "419",
+    "example_hanzi": "我有419本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "420",
+    "pinyin": "420",
+    "meaning_en": "420",
+    "meaning_vi": "420",
+    "example_hanzi": "我有420本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "421",
+    "pinyin": "421",
+    "meaning_en": "421",
+    "meaning_vi": "421",
+    "example_hanzi": "我有421本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "422",
+    "pinyin": "422",
+    "meaning_en": "422",
+    "meaning_vi": "422",
+    "example_hanzi": "我有422本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "423",
+    "pinyin": "423",
+    "meaning_en": "423",
+    "meaning_vi": "423",
+    "example_hanzi": "我有423本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "424",
+    "pinyin": "424",
+    "meaning_en": "424",
+    "meaning_vi": "424",
+    "example_hanzi": "我有424本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "425",
+    "pinyin": "425",
+    "meaning_en": "425",
+    "meaning_vi": "425",
+    "example_hanzi": "我有425本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "426",
+    "pinyin": "426",
+    "meaning_en": "426",
+    "meaning_vi": "426",
+    "example_hanzi": "我有426本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "427",
+    "pinyin": "427",
+    "meaning_en": "427",
+    "meaning_vi": "427",
+    "example_hanzi": "我有427本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "428",
+    "pinyin": "428",
+    "meaning_en": "428",
+    "meaning_vi": "428",
+    "example_hanzi": "我有428本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "429",
+    "pinyin": "429",
+    "meaning_en": "429",
+    "meaning_vi": "429",
+    "example_hanzi": "我有429本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "430",
+    "pinyin": "430",
+    "meaning_en": "430",
+    "meaning_vi": "430",
+    "example_hanzi": "我有430本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "431",
+    "pinyin": "431",
+    "meaning_en": "431",
+    "meaning_vi": "431",
+    "example_hanzi": "我有431本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "432",
+    "pinyin": "432",
+    "meaning_en": "432",
+    "meaning_vi": "432",
+    "example_hanzi": "我有432本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "433",
+    "pinyin": "433",
+    "meaning_en": "433",
+    "meaning_vi": "433",
+    "example_hanzi": "我有433本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "434",
+    "pinyin": "434",
+    "meaning_en": "434",
+    "meaning_vi": "434",
+    "example_hanzi": "我有434本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "435",
+    "pinyin": "435",
+    "meaning_en": "435",
+    "meaning_vi": "435",
+    "example_hanzi": "我有435本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "436",
+    "pinyin": "436",
+    "meaning_en": "436",
+    "meaning_vi": "436",
+    "example_hanzi": "我有436本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "437",
+    "pinyin": "437",
+    "meaning_en": "437",
+    "meaning_vi": "437",
+    "example_hanzi": "我有437本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "438",
+    "pinyin": "438",
+    "meaning_en": "438",
+    "meaning_vi": "438",
+    "example_hanzi": "我有438本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "439",
+    "pinyin": "439",
+    "meaning_en": "439",
+    "meaning_vi": "439",
+    "example_hanzi": "我有439本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "440",
+    "pinyin": "440",
+    "meaning_en": "440",
+    "meaning_vi": "440",
+    "example_hanzi": "我有440本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "441",
+    "pinyin": "441",
+    "meaning_en": "441",
+    "meaning_vi": "441",
+    "example_hanzi": "我有441本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "442",
+    "pinyin": "442",
+    "meaning_en": "442",
+    "meaning_vi": "442",
+    "example_hanzi": "我有442本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "443",
+    "pinyin": "443",
+    "meaning_en": "443",
+    "meaning_vi": "443",
+    "example_hanzi": "我有443本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "444",
+    "pinyin": "444",
+    "meaning_en": "444",
+    "meaning_vi": "444",
+    "example_hanzi": "我有444本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "445",
+    "pinyin": "445",
+    "meaning_en": "445",
+    "meaning_vi": "445",
+    "example_hanzi": "我有445本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "446",
+    "pinyin": "446",
+    "meaning_en": "446",
+    "meaning_vi": "446",
+    "example_hanzi": "我有446本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "447",
+    "pinyin": "447",
+    "meaning_en": "447",
+    "meaning_vi": "447",
+    "example_hanzi": "我有447本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "448",
+    "pinyin": "448",
+    "meaning_en": "448",
+    "meaning_vi": "448",
+    "example_hanzi": "我有448本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "449",
+    "pinyin": "449",
+    "meaning_en": "449",
+    "meaning_vi": "449",
+    "example_hanzi": "我有449本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "450",
+    "pinyin": "450",
+    "meaning_en": "450",
+    "meaning_vi": "450",
+    "example_hanzi": "我有450本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "451",
+    "pinyin": "451",
+    "meaning_en": "451",
+    "meaning_vi": "451",
+    "example_hanzi": "我有451本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "452",
+    "pinyin": "452",
+    "meaning_en": "452",
+    "meaning_vi": "452",
+    "example_hanzi": "我有452本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "453",
+    "pinyin": "453",
+    "meaning_en": "453",
+    "meaning_vi": "453",
+    "example_hanzi": "我有453本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "454",
+    "pinyin": "454",
+    "meaning_en": "454",
+    "meaning_vi": "454",
+    "example_hanzi": "我有454本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "455",
+    "pinyin": "455",
+    "meaning_en": "455",
+    "meaning_vi": "455",
+    "example_hanzi": "我有455本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "456",
+    "pinyin": "456",
+    "meaning_en": "456",
+    "meaning_vi": "456",
+    "example_hanzi": "我有456本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "457",
+    "pinyin": "457",
+    "meaning_en": "457",
+    "meaning_vi": "457",
+    "example_hanzi": "我有457本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "458",
+    "pinyin": "458",
+    "meaning_en": "458",
+    "meaning_vi": "458",
+    "example_hanzi": "我有458本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "459",
+    "pinyin": "459",
+    "meaning_en": "459",
+    "meaning_vi": "459",
+    "example_hanzi": "我有459本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "460",
+    "pinyin": "460",
+    "meaning_en": "460",
+    "meaning_vi": "460",
+    "example_hanzi": "我有460本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "461",
+    "pinyin": "461",
+    "meaning_en": "461",
+    "meaning_vi": "461",
+    "example_hanzi": "我有461本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "462",
+    "pinyin": "462",
+    "meaning_en": "462",
+    "meaning_vi": "462",
+    "example_hanzi": "我有462本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "463",
+    "pinyin": "463",
+    "meaning_en": "463",
+    "meaning_vi": "463",
+    "example_hanzi": "我有463本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "464",
+    "pinyin": "464",
+    "meaning_en": "464",
+    "meaning_vi": "464",
+    "example_hanzi": "我有464本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "465",
+    "pinyin": "465",
+    "meaning_en": "465",
+    "meaning_vi": "465",
+    "example_hanzi": "我有465本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "466",
+    "pinyin": "466",
+    "meaning_en": "466",
+    "meaning_vi": "466",
+    "example_hanzi": "我有466本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "467",
+    "pinyin": "467",
+    "meaning_en": "467",
+    "meaning_vi": "467",
+    "example_hanzi": "我有467本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "468",
+    "pinyin": "468",
+    "meaning_en": "468",
+    "meaning_vi": "468",
+    "example_hanzi": "我有468本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "469",
+    "pinyin": "469",
+    "meaning_en": "469",
+    "meaning_vi": "469",
+    "example_hanzi": "我有469本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "470",
+    "pinyin": "470",
+    "meaning_en": "470",
+    "meaning_vi": "470",
+    "example_hanzi": "我有470本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "471",
+    "pinyin": "471",
+    "meaning_en": "471",
+    "meaning_vi": "471",
+    "example_hanzi": "我有471本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "472",
+    "pinyin": "472",
+    "meaning_en": "472",
+    "meaning_vi": "472",
+    "example_hanzi": "我有472本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "473",
+    "pinyin": "473",
+    "meaning_en": "473",
+    "meaning_vi": "473",
+    "example_hanzi": "我有473本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "474",
+    "pinyin": "474",
+    "meaning_en": "474",
+    "meaning_vi": "474",
+    "example_hanzi": "我有474本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "475",
+    "pinyin": "475",
+    "meaning_en": "475",
+    "meaning_vi": "475",
+    "example_hanzi": "我有475本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "476",
+    "pinyin": "476",
+    "meaning_en": "476",
+    "meaning_vi": "476",
+    "example_hanzi": "我有476本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "477",
+    "pinyin": "477",
+    "meaning_en": "477",
+    "meaning_vi": "477",
+    "example_hanzi": "我有477本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "478",
+    "pinyin": "478",
+    "meaning_en": "478",
+    "meaning_vi": "478",
+    "example_hanzi": "我有478本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "479",
+    "pinyin": "479",
+    "meaning_en": "479",
+    "meaning_vi": "479",
+    "example_hanzi": "我有479本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "480",
+    "pinyin": "480",
+    "meaning_en": "480",
+    "meaning_vi": "480",
+    "example_hanzi": "我有480本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "481",
+    "pinyin": "481",
+    "meaning_en": "481",
+    "meaning_vi": "481",
+    "example_hanzi": "我有481本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "482",
+    "pinyin": "482",
+    "meaning_en": "482",
+    "meaning_vi": "482",
+    "example_hanzi": "我有482本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "483",
+    "pinyin": "483",
+    "meaning_en": "483",
+    "meaning_vi": "483",
+    "example_hanzi": "我有483本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "484",
+    "pinyin": "484",
+    "meaning_en": "484",
+    "meaning_vi": "484",
+    "example_hanzi": "我有484本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "485",
+    "pinyin": "485",
+    "meaning_en": "485",
+    "meaning_vi": "485",
+    "example_hanzi": "我有485本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "486",
+    "pinyin": "486",
+    "meaning_en": "486",
+    "meaning_vi": "486",
+    "example_hanzi": "我有486本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "487",
+    "pinyin": "487",
+    "meaning_en": "487",
+    "meaning_vi": "487",
+    "example_hanzi": "我有487本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "488",
+    "pinyin": "488",
+    "meaning_en": "488",
+    "meaning_vi": "488",
+    "example_hanzi": "我有488本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "489",
+    "pinyin": "489",
+    "meaning_en": "489",
+    "meaning_vi": "489",
+    "example_hanzi": "我有489本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "490",
+    "pinyin": "490",
+    "meaning_en": "490",
+    "meaning_vi": "490",
+    "example_hanzi": "我有490本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "491",
+    "pinyin": "491",
+    "meaning_en": "491",
+    "meaning_vi": "491",
+    "example_hanzi": "我有491本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "492",
+    "pinyin": "492",
+    "meaning_en": "492",
+    "meaning_vi": "492",
+    "example_hanzi": "我有492本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "493",
+    "pinyin": "493",
+    "meaning_en": "493",
+    "meaning_vi": "493",
+    "example_hanzi": "我有493本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "494",
+    "pinyin": "494",
+    "meaning_en": "494",
+    "meaning_vi": "494",
+    "example_hanzi": "我有494本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "495",
+    "pinyin": "495",
+    "meaning_en": "495",
+    "meaning_vi": "495",
+    "example_hanzi": "我有495本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "496",
+    "pinyin": "496",
+    "meaning_en": "496",
+    "meaning_vi": "496",
+    "example_hanzi": "我有496本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "497",
+    "pinyin": "497",
+    "meaning_en": "497",
+    "meaning_vi": "497",
+    "example_hanzi": "我有497本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "498",
+    "pinyin": "498",
+    "meaning_en": "498",
+    "meaning_vi": "498",
+    "example_hanzi": "我有498本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "499",
+    "pinyin": "499",
+    "meaning_en": "499",
+    "meaning_vi": "499",
+    "example_hanzi": "我有499本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "500",
+    "pinyin": "500",
+    "meaning_en": "500",
+    "meaning_vi": "500",
+    "example_hanzi": "我有500本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期一",
+    "pinyin": "xīngqīyī",
+    "meaning_en": "Monday",
+    "meaning_vi": "thứ hai",
+    "example_hanzi": "今天是星期一"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期二",
+    "pinyin": "xīngqī’èr",
+    "meaning_en": "Tuesday",
+    "meaning_vi": "thứ ba",
+    "example_hanzi": "今天是星期二"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期三",
+    "pinyin": "xīngqīsān",
+    "meaning_en": "Wednesday",
+    "meaning_vi": "thứ tư",
+    "example_hanzi": "今天是星期三"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期四",
+    "pinyin": "xīngqīsì",
+    "meaning_en": "Thursday",
+    "meaning_vi": "thứ năm",
+    "example_hanzi": "今天是星期四"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期五",
+    "pinyin": "xīngqīwǔ",
+    "meaning_en": "Friday",
+    "meaning_vi": "thứ sáu",
+    "example_hanzi": "今天是星期五"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期六",
+    "pinyin": "xīngqīliù",
+    "meaning_en": "Saturday",
+    "meaning_vi": "thứ bảy",
+    "example_hanzi": "今天是星期六"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "星期天",
+    "pinyin": "xīngqītiān",
+    "meaning_en": "Sunday",
+    "meaning_vi": "chủ nhật",
+    "example_hanzi": "今天是星期天"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "一月",
+    "pinyin": "yīyuè",
+    "meaning_en": "January",
+    "meaning_vi": "tháng 1",
+    "example_hanzi": "一月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "二月",
+    "pinyin": "èryuè",
+    "meaning_en": "February",
+    "meaning_vi": "tháng 2",
+    "example_hanzi": "二月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "三月",
+    "pinyin": "sānyuè",
+    "meaning_en": "March",
+    "meaning_vi": "tháng 3",
+    "example_hanzi": "三月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "四月",
+    "pinyin": "sìyuè",
+    "meaning_en": "April",
+    "meaning_vi": "tháng 4",
+    "example_hanzi": "四月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "五月",
+    "pinyin": "wǔyuè",
+    "meaning_en": "May",
+    "meaning_vi": "tháng 5",
+    "example_hanzi": "五月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "六月",
+    "pinyin": "liùyuè",
+    "meaning_en": "June",
+    "meaning_vi": "tháng 6",
+    "example_hanzi": "六月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "七月",
+    "pinyin": "qīyuè",
+    "meaning_en": "July",
+    "meaning_vi": "tháng 7",
+    "example_hanzi": "七月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "八月",
+    "pinyin": "bāyuè",
+    "meaning_en": "August",
+    "meaning_vi": "tháng 8",
+    "example_hanzi": "八月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "九月",
+    "pinyin": "jiǔyuè",
+    "meaning_en": "September",
+    "meaning_vi": "tháng 9",
+    "example_hanzi": "九月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十月",
+    "pinyin": "shíyuè",
+    "meaning_en": "October",
+    "meaning_vi": "tháng 10",
+    "example_hanzi": "十月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十一月",
+    "pinyin": "shíyīyuè",
+    "meaning_en": "November",
+    "meaning_vi": "tháng 11",
+    "example_hanzi": "十一月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十二月",
+    "pinyin": "shí’èryuè",
+    "meaning_en": "December",
+    "meaning_vi": "tháng 12",
+    "example_hanzi": "十二月我的生日"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "meaning_en": "to open; start",
+    "meaning_vi": "mở; bắt đầu",
+    "example_hanzi": "开门"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "关",
+    "pinyin": "guān",
+    "meaning_en": "to close; shut",
+    "meaning_vi": "đóng",
+    "example_hanzi": "关灯"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "meaning_en": "to wear",
+    "meaning_vi": "mặc",
+    "example_hanzi": "穿衣服"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "脱",
+    "pinyin": "tuō",
+    "meaning_en": "to take off",
+    "meaning_vi": "cởi",
+    "example_hanzi": "脱外套"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "meaning_en": "to buy",
+    "meaning_vi": "mua",
+    "example_hanzi": "买东西"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "meaning_en": "to sell",
+    "meaning_vi": "bán",
+    "example_hanzi": "卖书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "meaning_en": "to give",
+    "meaning_vi": "cho; tặng",
+    "example_hanzi": "给你礼物"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "拿",
+    "pinyin": "ná",
+    "meaning_en": "to take; hold",
+    "meaning_vi": "cầm; lấy",
+    "example_hanzi": "拿铅笔"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "放",
+    "pinyin": "fàng",
+    "meaning_en": "to put; place",
+    "meaning_vi": "đặt; để",
+    "example_hanzi": "把书放桌子上"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "meaning_en": "to look for",
+    "meaning_vi": "tìm",
+    "example_hanzi": "找朋友"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "等",
+    "pinyin": "děng",
+    "meaning_en": "to wait",
+    "meaning_vi": "đợi",
+    "example_hanzi": "等一会儿"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "meaning_en": "to call",
+    "meaning_vi": "gọi",
+    "example_hanzi": "叫他过来"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "meaning_en": "to help",
+    "meaning_vi": "giúp đỡ",
+    "example_hanzi": "帮助同学"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "meaning_en": "to know (someone)",
+    "meaning_vi": "biết (người)",
+    "example_hanzi": "我认识他"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "了解",
+    "pinyin": "liǎojiě",
+    "meaning_en": "to understand",
+    "meaning_vi": "hiểu",
+    "example_hanzi": "了解情况"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "记得",
+    "pinyin": "jìde",
+    "meaning_en": "to remember",
+    "meaning_vi": "nhớ",
+    "example_hanzi": "我记得名字"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "忘记",
+    "pinyin": "wàngjì",
+    "meaning_en": "to forget",
+    "meaning_vi": "quên",
+    "example_hanzi": "别忘记作业"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "打开",
+    "pinyin": "dǎkāi",
+    "meaning_en": "to open",
+    "meaning_vi": "mở",
+    "example_hanzi": "打开书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "关闭",
+    "pinyin": "guānbì",
+    "meaning_en": "to close",
+    "meaning_vi": "đóng",
+    "example_hanzi": "关闭电视"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "参加",
+    "pinyin": "cānjiā",
+    "meaning_en": "to participate",
+    "meaning_vi": "tham gia",
+    "example_hanzi": "参加比赛"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "练习",
+    "pinyin": "liànxí",
+    "meaning_en": "to practice",
+    "meaning_vi": "luyện tập",
+    "example_hanzi": "练习写字"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "教",
+    "pinyin": "jiāo",
+    "meaning_en": "to teach",
+    "meaning_vi": "dạy",
+    "example_hanzi": "老师教我们"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "meaning_en": "to rest",
+    "meaning_vi": "nghỉ ngơi",
+    "example_hanzi": "休息一下"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "meaning_en": "to work",
+    "meaning_vi": "làm việc",
+    "example_hanzi": "妈妈在工作"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "meaning_en": "to go to work",
+    "meaning_vi": "đi làm",
+    "example_hanzi": "爸爸上班了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "meaning_en": "to finish work",
+    "meaning_vi": "tan làm",
+    "example_hanzi": "他六点下班"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "上课",
+    "pinyin": "shàngkè",
+    "meaning_en": "to have class",
+    "meaning_vi": "lên lớp",
+    "example_hanzi": "我们八点上课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "下课",
+    "pinyin": "xiàkè",
+    "meaning_en": "to finish class",
+    "meaning_vi": "tan học",
+    "example_hanzi": "十点下课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "游泳",
+    "pinyin": "yóuyǒng",
+    "meaning_en": "to swim",
+    "meaning_vi": "bơi",
+    "example_hanzi": "在池里游泳"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "洗澡",
+    "pinyin": "xǐzǎo",
+    "meaning_en": "to bathe",
+    "meaning_vi": "tắm",
+    "example_hanzi": "晚上洗澡"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "刷牙",
+    "pinyin": "shuāyá",
+    "meaning_en": "to brush teeth",
+    "meaning_vi": "đánh răng",
+    "example_hanzi": "每天刷牙"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "洗手",
+    "pinyin": "xǐshǒu",
+    "meaning_en": "to wash hands",
+    "meaning_vi": "rửa tay",
+    "example_hanzi": "吃饭前洗手"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "做饭",
+    "pinyin": "zuòfàn",
+    "meaning_en": "to cook",
+    "meaning_vi": "nấu ăn",
+    "example_hanzi": "妈妈做饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "切菜",
+    "pinyin": "qiēcài",
+    "meaning_en": "to cut vegetables",
+    "meaning_vi": "xắt rau",
+    "example_hanzi": "切菜很快"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "打扫",
+    "pinyin": "dǎsǎo",
+    "meaning_en": "to clean",
+    "meaning_vi": "dọn dẹp",
+    "example_hanzi": "打扫房间"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "扫地",
+    "pinyin": "sǎodì",
+    "meaning_en": "to sweep the floor",
+    "meaning_vi": "quét nhà",
+    "example_hanzi": "用扫把扫地"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "擦桌子",
+    "pinyin": "cā zhuōzi",
+    "meaning_en": "to wipe table",
+    "meaning_vi": "lau bàn",
+    "example_hanzi": "擦桌子很干净"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "meaning_en": "to borrow",
+    "meaning_vi": "mượn",
+    "example_hanzi": "借一本书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "还",
+    "pinyin": "huán",
+    "meaning_en": "to return (borrowed)",
+    "meaning_vi": "trả",
+    "example_hanzi": "还书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning_en": "pretty",
+    "meaning_vi": "đẹp",
+    "example_hanzi": "她很漂亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "可爱",
+    "pinyin": "kě’ài",
+    "meaning_en": "cute",
+    "meaning_vi": "dễ thương",
+    "example_hanzi": "小猫很可爱"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "聪明",
+    "pinyin": "cōngmíng",
+    "meaning_en": "smart",
+    "meaning_vi": "thông minh",
+    "example_hanzi": "他很聪明"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "勤劳",
+    "pinyin": "qínláo",
+    "meaning_en": "hardworking",
+    "meaning_vi": "chăm chỉ",
+    "example_hanzi": "她很勤劳"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "懒惰",
+    "pinyin": "lǎnduò",
+    "meaning_en": "lazy",
+    "meaning_vi": "lười biếng",
+    "example_hanzi": "不要懒惰"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "安静",
+    "pinyin": "ānjìng",
+    "meaning_en": "quiet",
+    "meaning_vi": "yên tĩnh",
+    "example_hanzi": "教室要安静"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "热闹",
+    "pinyin": "rènao",
+    "meaning_en": "lively",
+    "meaning_vi": "náo nhiệt",
+    "example_hanzi": "公园很热闹"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "干净",
+    "pinyin": "gānjìng",
+    "meaning_en": "clean",
+    "meaning_vi": "sạch sẽ",
+    "example_hanzi": "房间很干净"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "meaning_en": "dirty",
+    "meaning_vi": "bẩn",
+    "example_hanzi": "衣服很脏"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "甜",
+    "pinyin": "tián",
+    "meaning_en": "sweet",
+    "meaning_vi": "ngọt",
+    "example_hanzi": "水果很甜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "苦",
+    "pinyin": "kǔ",
+    "meaning_en": "bitter",
+    "meaning_vi": "đắng",
+    "example_hanzi": "药很苦"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "酸",
+    "pinyin": "suān",
+    "meaning_en": "sour",
+    "meaning_vi": "chua",
+    "example_hanzi": "柠檬很酸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "咸",
+    "pinyin": "xián",
+    "meaning_en": "salty",
+    "meaning_vi": "mặn",
+    "example_hanzi": "汤有点咸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "香",
+    "pinyin": "xiāng",
+    "meaning_en": "fragrant",
+    "meaning_vi": "thơm",
+    "example_hanzi": "花很香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "软",
+    "pinyin": "ruǎn",
+    "meaning_en": "soft",
+    "meaning_vi": "mềm",
+    "example_hanzi": "床很软"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "硬",
+    "pinyin": "yìng",
+    "meaning_en": "hard",
+    "meaning_vi": "cứng",
+    "example_hanzi": "桌子很硬"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "轻",
+    "pinyin": "qīng",
+    "meaning_en": "light (weight)",
+    "meaning_vi": "nhẹ",
+    "example_hanzi": "书包很轻"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "重",
+    "pinyin": "zhòng",
+    "meaning_en": "heavy",
+    "meaning_vi": "nặng",
+    "example_hanzi": "箱子很重"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "meaning_en": "long",
+    "meaning_vi": "dài",
+    "example_hanzi": "头发很长"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "短",
+    "pinyin": "duǎn",
+    "meaning_en": "short",
+    "meaning_vi": "ngắn",
+    "example_hanzi": "裤子很短"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "宽",
+    "pinyin": "kuān",
+    "meaning_en": "wide",
+    "meaning_vi": "rộng",
+    "example_hanzi": "路很宽"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "窄",
+    "pinyin": "zhǎi",
+    "meaning_en": "narrow",
+    "meaning_vi": "hẹp",
+    "example_hanzi": "路很窄"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "亮",
+    "pinyin": "liàng",
+    "meaning_en": "bright",
+    "meaning_vi": "sáng",
+    "example_hanzi": "灯很亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "暗",
+    "pinyin": "àn",
+    "meaning_en": "dark; dim",
+    "meaning_vi": "tối",
+    "example_hanzi": "房间很暗"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "开心",
+    "pinyin": "kāixīn",
+    "meaning_en": "happy",
+    "meaning_vi": "vui vẻ",
+    "example_hanzi": "孩子很开心"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "难过",
+    "pinyin": "nánguò",
+    "meaning_en": "sad",
+    "meaning_vi": "buồn",
+    "example_hanzi": "他很难过"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "害怕",
+    "pinyin": "hàipà",
+    "meaning_en": "afraid",
+    "meaning_vi": "sợ hãi",
+    "example_hanzi": "不要害怕"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "生气",
+    "pinyin": "shēngqì",
+    "meaning_en": "angry",
+    "meaning_vi": "tức giận",
+    "example_hanzi": "她生气了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "安全",
+    "pinyin": "ānquán",
+    "meaning_en": "safe",
+    "meaning_vi": "an toàn",
+    "example_hanzi": "这里很安全"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "危险",
+    "pinyin": "wēixiǎn",
+    "meaning_en": "dangerous",
+    "meaning_vi": "nguy hiểm",
+    "example_hanzi": "那里很危险"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电视机",
+    "pinyin": "diànshìjī",
+    "meaning_en": "television set",
+    "meaning_vi": "máy tivi",
+    "example_hanzi": "家里有电视机"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "遥控器",
+    "pinyin": "yáokòngqì",
+    "meaning_en": "remote control",
+    "meaning_vi": "điều khiển",
+    "example_hanzi": "找遥控器"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电风扇",
+    "pinyin": "diànfēngshàn",
+    "meaning_en": "electric fan",
+    "meaning_vi": "quạt điện",
+    "example_hanzi": "开电风扇"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "洗衣机",
+    "pinyin": "xǐyījī",
+    "meaning_en": "washing machine",
+    "meaning_vi": "máy giặt",
+    "example_hanzi": "用洗衣机洗衣服"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "微波炉",
+    "pinyin": "wēibōlú",
+    "meaning_en": "microwave oven",
+    "meaning_vi": "lò vi sóng",
+    "example_hanzi": "用微波炉热饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "烤箱",
+    "pinyin": "kǎoxiāng",
+    "meaning_en": "oven",
+    "meaning_vi": "lò nướng",
+    "example_hanzi": "烤箱烤面包"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电饭锅",
+    "pinyin": "diànfànguō",
+    "meaning_en": "rice cooker",
+    "meaning_vi": "nồi cơm điện",
+    "example_hanzi": "电饭锅煮饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "锅",
+    "pinyin": "guō",
+    "meaning_en": "pot",
+    "meaning_vi": "nồi",
+    "example_hanzi": "用锅做饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "碗",
+    "pinyin": "wǎn",
+    "meaning_en": "bowl",
+    "meaning_vi": "bát",
+    "example_hanzi": "一个碗"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "盘子",
+    "pinyin": "pánzi",
+    "meaning_en": "plate",
+    "meaning_vi": "đĩa",
+    "example_hanzi": "三个盘子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "勺子",
+    "pinyin": "sháozi",
+    "meaning_en": "spoon",
+    "meaning_vi": "muỗng",
+    "example_hanzi": "用勺子喝汤"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "刀",
+    "pinyin": "dāo",
+    "meaning_en": "knife",
+    "meaning_vi": "dao",
+    "example_hanzi": "用刀切菜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "叉子",
+    "pinyin": "chāzi",
+    "meaning_en": "fork",
+    "meaning_vi": "nĩa",
+    "example_hanzi": "用叉子吃饭"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "牙刷",
+    "pinyin": "yáshuā",
+    "meaning_en": "toothbrush",
+    "meaning_vi": "bàn chải",
+    "example_hanzi": "用牙刷刷牙"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "牙膏",
+    "pinyin": "yágāo",
+    "meaning_en": "toothpaste",
+    "meaning_vi": "kem đánh răng",
+    "example_hanzi": "牙膏用完了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "毛巾",
+    "pinyin": "máojīn",
+    "meaning_en": "towel",
+    "meaning_vi": "khăn tắm",
+    "example_hanzi": "用毛巾擦手"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "肥皂",
+    "pinyin": "féizào",
+    "meaning_en": "soap",
+    "meaning_vi": "xà phòng",
+    "example_hanzi": "用肥皂洗手"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "洗发水",
+    "pinyin": "xǐfàshuǐ",
+    "meaning_en": "shampoo",
+    "meaning_vi": "dầu gội",
+    "example_hanzi": "用洗发水洗头"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "梳子",
+    "pinyin": "shūzi",
+    "meaning_en": "comb",
+    "meaning_vi": "lược",
+    "example_hanzi": "用梳子梳头"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "书架",
+    "pinyin": "shūjià",
+    "meaning_en": "bookshelf",
+    "meaning_vi": "kệ sách",
+    "example_hanzi": "书架上有书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "画",
+    "pinyin": "huà",
+    "meaning_en": "painting; picture",
+    "meaning_vi": "bức tranh",
+    "example_hanzi": "墙上有画"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "照片",
+    "pinyin": "zhàopiàn",
+    "meaning_en": "photo",
+    "meaning_vi": "ảnh",
+    "example_hanzi": "看照片"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "钟",
+    "pinyin": "zhōng",
+    "meaning_en": "clock",
+    "meaning_vi": "đồng hồ treo tường",
+    "example_hanzi": "墙上有钟"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "表",
+    "pinyin": "biǎo",
+    "meaning_en": "watch",
+    "meaning_vi": "đồng hồ đeo tay",
+    "example_hanzi": "戴表"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "镜子",
+    "pinyin": "jìngzi",
+    "meaning_en": "mirror",
+    "meaning_vi": "gương",
+    "example_hanzi": "照镜子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "垃圾桶",
+    "pinyin": "lājītǒng",
+    "meaning_en": "trash bin",
+    "meaning_vi": "thùng rác",
+    "example_hanzi": "把垃圾放进垃圾桶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "地毯",
+    "pinyin": "dìtǎn",
+    "meaning_en": "carpet",
+    "meaning_vi": "thảm",
+    "example_hanzi": "地毯很软"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "窗帘",
+    "pinyin": "chuānglián",
+    "meaning_en": "curtain",
+    "meaning_vi": "rèm cửa",
+    "example_hanzi": "拉窗帘"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "花瓶",
+    "pinyin": "huāpíng",
+    "meaning_en": "vase",
+    "meaning_vi": "bình hoa",
+    "example_hanzi": "桌上有花瓶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "钥匙",
+    "pinyin": "yàoshi",
+    "meaning_en": "key",
+    "meaning_vi": "chìa khóa",
+    "example_hanzi": "拿钥匙"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "书店",
+    "pinyin": "shūdiàn",
+    "meaning_en": "bookstore",
+    "meaning_vi": "hiệu sách",
+    "example_hanzi": "去书店买书"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "面包店",
+    "pinyin": "miànbāodiàn",
+    "meaning_en": "bakery",
+    "meaning_vi": "tiệm bánh",
+    "example_hanzi": "面包店很香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "meaning_en": "pharmacy",
+    "meaning_vi": "hiệu thuốc",
+    "example_hanzi": "去药店买药"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "花店",
+    "pinyin": "huādiàn",
+    "meaning_en": "flower shop",
+    "meaning_vi": "tiệm hoa",
+    "example_hanzi": "花店有很多花"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "玩具店",
+    "pinyin": "wánjùdiàn",
+    "meaning_en": "toy store",
+    "meaning_vi": "cửa hàng đồ chơi",
+    "example_hanzi": "孩子去玩具店"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "文具店",
+    "pinyin": "wénjùdiàn",
+    "meaning_en": "stationery shop",
+    "meaning_vi": "văn phòng phẩm",
+    "example_hanzi": "买笔在文具店"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "警察局",
+    "pinyin": "jǐngchájú",
+    "meaning_en": "police station",
+    "meaning_vi": "đồn cảnh sát",
+    "example_hanzi": "去警察局"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "消防站",
+    "pinyin": "xiāofángzhàn",
+    "meaning_en": "fire station",
+    "meaning_vi": "trạm cứu hỏa",
+    "example_hanzi": "消防站工作"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "博物馆",
+    "pinyin": "bówùguǎn",
+    "meaning_en": "museum",
+    "meaning_vi": "bảo tàng",
+    "example_hanzi": "去博物馆参观"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "动物园",
+    "pinyin": "dòngwùyuán",
+    "meaning_en": "zoo",
+    "meaning_vi": "sở thú",
+    "example_hanzi": "周末去动物园"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "水族馆",
+    "pinyin": "shuǐzúguǎn",
+    "meaning_en": "aquarium",
+    "meaning_vi": "thủy cung",
+    "example_hanzi": "水族馆看鱼"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "meaning_en": "cinema",
+    "meaning_vi": "rạp chiếu phim",
+    "example_hanzi": "在电影院看电影"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "体育馆",
+    "pinyin": "tǐyùguǎn",
+    "meaning_en": "gymnasium",
+    "meaning_vi": "nhà thi đấu",
+    "example_hanzi": "去体育馆打球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "游泳池",
+    "pinyin": "yóuyǒngchí",
+    "meaning_en": "swimming pool",
+    "meaning_vi": "hồ bơi",
+    "example_hanzi": "在游泳池游泳"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "火车站",
+    "pinyin": "huǒchēzhàn",
+    "meaning_en": "train station",
+    "meaning_vi": "ga tàu",
+    "example_hanzi": "到火车站"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "机场",
+    "pinyin": "jīchǎng",
+    "meaning_en": "airport",
+    "meaning_vi": "sân bay",
+    "example_hanzi": "去机场接人"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "港口",
+    "pinyin": "gǎngkǒu",
+    "meaning_en": "port; harbor",
+    "meaning_vi": "cảng",
+    "example_hanzi": "港口有很多船"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "市场",
+    "pinyin": "shìchǎng",
+    "meaning_en": "market",
+    "meaning_vi": "chợ",
+    "example_hanzi": "去市场买菜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "菜市场",
+    "pinyin": "càishìchǎng",
+    "meaning_en": "vegetable market",
+    "meaning_vi": "chợ rau",
+    "example_hanzi": "菜市场很热闹"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "医务室",
+    "pinyin": "yīwùshì",
+    "meaning_en": "medical room",
+    "meaning_vi": "phòng y tế",
+    "example_hanzi": "学校有医务室"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "幼儿园",
+    "pinyin": "yòu’éryuán",
+    "meaning_en": "kindergarten",
+    "meaning_vi": "mẫu giáo",
+    "example_hanzi": "孩子上幼儿园"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "小学",
+    "pinyin": "xiǎoxué",
+    "meaning_en": "primary school",
+    "meaning_vi": "tiểu học",
+    "example_hanzi": "我在小学"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "中学",
+    "pinyin": "zhōngxué",
+    "meaning_en": "middle school",
+    "meaning_vi": "trung học cơ sở",
+    "example_hanzi": "她在中学"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "高中",
+    "pinyin": "gāozhōng",
+    "meaning_en": "high school",
+    "meaning_vi": "trung học phổ thông",
+    "example_hanzi": "他们在高中"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "数学",
+    "pinyin": "shùxué",
+    "meaning_en": "mathematics",
+    "meaning_vi": "toán học",
+    "example_hanzi": "我学数学"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "语文",
+    "pinyin": "yǔwén",
+    "meaning_en": "Chinese (subject)",
+    "meaning_vi": "ngữ văn (TQ)",
+    "example_hanzi": "上语文课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "科学",
+    "pinyin": "kēxué",
+    "meaning_en": "science",
+    "meaning_vi": "khoa học",
+    "example_hanzi": "我们学科学"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "美术",
+    "pinyin": "měishù",
+    "meaning_en": "art",
+    "meaning_vi": "mỹ thuật",
+    "example_hanzi": "美术课画画"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "历史",
+    "pinyin": "lìshǐ",
+    "meaning_en": "history",
+    "meaning_vi": "lịch sử",
+    "example_hanzi": "学习历史"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "地理",
+    "pinyin": "dìlǐ",
+    "meaning_en": "geography",
+    "meaning_vi": "địa lý",
+    "example_hanzi": "地理很有意思"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "生物",
+    "pinyin": "shēngwù",
+    "meaning_en": "biology",
+    "meaning_vi": "sinh học",
+    "example_hanzi": "生物课"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "计算机",
+    "pinyin": "jìsuànjī",
+    "meaning_en": "computer science",
+    "meaning_vi": "tin học",
+    "example_hanzi": "学计算机"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鲸鱼",
+    "pinyin": "jīngyú",
+    "meaning_en": "whale",
+    "meaning_vi": "cá voi",
+    "example_hanzi": "鲸鱼在海里"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "海豚",
+    "pinyin": "hǎitún",
+    "meaning_en": "dolphin",
+    "meaning_vi": "cá heo",
+    "example_hanzi": "海豚很聪明"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "海狮",
+    "pinyin": "hǎishī",
+    "meaning_en": "sea lion",
+    "meaning_vi": "sư tử biển",
+    "example_hanzi": "海狮会表演"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "海龟",
+    "pinyin": "hǎiguī",
+    "meaning_en": "sea turtle",
+    "meaning_vi": "rùa biển",
+    "example_hanzi": "海龟游得慢"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "蛇",
+    "pinyin": "shé",
+    "meaning_en": "snake",
+    "meaning_vi": "rắn",
+    "example_hanzi": "蛇在草里"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "蜥蜴",
+    "pinyin": "xīyì",
+    "meaning_en": "lizard",
+    "meaning_vi": "thằn lằn",
+    "example_hanzi": "蜥蜴爬墙"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "青蛙",
+    "pinyin": "qīngwā",
+    "meaning_en": "frog",
+    "meaning_vi": "ếch",
+    "example_hanzi": "青蛙会跳"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "乌龟",
+    "pinyin": "wūguī",
+    "meaning_en": "turtle",
+    "meaning_vi": "rùa",
+    "example_hanzi": "乌龟很慢"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "熊猫",
+    "pinyin": "xióngmāo",
+    "meaning_en": "panda",
+    "meaning_vi": "gấu trúc",
+    "example_hanzi": "熊猫很可爱"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "狐狸",
+    "pinyin": "húlí",
+    "meaning_en": "fox",
+    "meaning_vi": "cáo",
+    "example_hanzi": "狐狸很聪明"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "狼",
+    "pinyin": "láng",
+    "meaning_en": "wolf",
+    "meaning_vi": "sói",
+    "example_hanzi": "狼在山里"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鹿",
+    "pinyin": "lù",
+    "meaning_en": "deer",
+    "meaning_vi": "hươu",
+    "example_hanzi": "鹿跑得快"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "斑马",
+    "pinyin": "bānmǎ",
+    "meaning_en": "zebra",
+    "meaning_vi": "ngựa vằn",
+    "example_hanzi": "斑马有条纹"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "长颈鹿",
+    "pinyin": "chángjǐnglù",
+    "meaning_en": "giraffe",
+    "meaning_vi": "hươu cao cổ",
+    "example_hanzi": "长颈鹿很高"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "袋鼠",
+    "pinyin": "dàishǔ",
+    "meaning_en": "kangaroo",
+    "meaning_vi": "chuột túi",
+    "example_hanzi": "袋鼠会跳"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "考拉",
+    "pinyin": "kǎolā",
+    "meaning_en": "koala",
+    "meaning_vi": "gấu túi",
+    "example_hanzi": "考拉在树上"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "老鼠",
+    "pinyin": "lǎoshǔ",
+    "meaning_en": "mouse; rat",
+    "meaning_vi": "chuột",
+    "example_hanzi": "老鼠很小"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "麻雀",
+    "pinyin": "máquè",
+    "meaning_en": "sparrow",
+    "meaning_vi": "chim sẻ",
+    "example_hanzi": "麻雀在树上"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "鹦鹉",
+    "pinyin": "yīngwǔ",
+    "meaning_en": "parrot",
+    "meaning_vi": "chim két",
+    "example_hanzi": "鹦鹉会说话"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning_en": "dumplings",
+    "meaning_vi": "bánh há cảo",
+    "example_hanzi": "吃饺子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "meaning_en": "steamed bun",
+    "meaning_vi": "bánh bao",
+    "example_hanzi": "买包子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "米粉",
+    "pinyin": "mǐfěn",
+    "meaning_en": "rice noodles",
+    "meaning_vi": "bún",
+    "example_hanzi": "吃米粉"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "粥",
+    "pinyin": "zhōu",
+    "meaning_en": "porridge",
+    "meaning_vi": "cháo",
+    "example_hanzi": "喝粥"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "豆浆",
+    "pinyin": "dòujiāng",
+    "meaning_en": "soy milk",
+    "meaning_vi": "sữa đậu nành",
+    "example_hanzi": "喝豆浆"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "豆腐",
+    "pinyin": "dòufu",
+    "meaning_en": "tofu",
+    "meaning_vi": "đậu phụ",
+    "example_hanzi": "豆腐很嫩"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "蛋糕",
+    "pinyin": "dàngāo",
+    "meaning_en": "cake",
+    "meaning_vi": "bánh kem",
+    "example_hanzi": "吃蛋糕"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "饼干",
+    "pinyin": "bǐnggān",
+    "meaning_en": "cookies; biscuits",
+    "meaning_vi": "bánh quy",
+    "example_hanzi": "吃饼干"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "巧克力",
+    "pinyin": "qiǎokèlì",
+    "meaning_en": "chocolate",
+    "meaning_vi": "sô cô la",
+    "example_hanzi": "巧克力很甜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "冰淇淋",
+    "pinyin": "bīngqílín",
+    "meaning_en": "ice cream",
+    "meaning_vi": "kem",
+    "example_hanzi": "吃冰淇淋"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "果汁",
+    "pinyin": "guǒzhī",
+    "meaning_en": "fruit juice",
+    "meaning_vi": "nước trái cây",
+    "example_hanzi": "喝果汁"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "酸奶",
+    "pinyin": "suānnǎi",
+    "meaning_en": "yogurt",
+    "meaning_vi": "sữa chua",
+    "example_hanzi": "喝酸奶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "茶叶",
+    "pinyin": "cháyè",
+    "meaning_en": "tea leaves",
+    "meaning_vi": "lá trà",
+    "example_hanzi": "泡茶叶"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "咖啡豆",
+    "pinyin": "kāfēidòu",
+    "meaning_en": "coffee beans",
+    "meaning_vi": "hạt cà phê",
+    "example_hanzi": "磨咖啡豆"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "橄榄油",
+    "pinyin": "gǎnlǎnyóu",
+    "meaning_en": "olive oil",
+    "meaning_vi": "dầu ô liu",
+    "example_hanzi": "用橄榄油做菜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "黄油",
+    "pinyin": "huángyóu",
+    "meaning_en": "butter",
+    "meaning_vi": "bơ",
+    "example_hanzi": "黄油很香"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "蜂蜜",
+    "pinyin": "fēngmì",
+    "meaning_en": "honey",
+    "meaning_vi": "mật ong",
+    "example_hanzi": "蜂蜜很甜"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "盐",
+    "pinyin": "yán",
+    "meaning_en": "salt",
+    "meaning_vi": "muối",
+    "example_hanzi": "放盐"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "胡椒",
+    "pinyin": "hújiāo",
+    "meaning_en": "pepper",
+    "meaning_vi": "tiêu",
+    "example_hanzi": "加胡椒"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "红绿灯",
+    "pinyin": "hónglǜdēng",
+    "meaning_en": "traffic light",
+    "meaning_vi": "đèn giao thông",
+    "example_hanzi": "看红绿灯"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "十字路口",
+    "pinyin": "shízìlùkǒu",
+    "meaning_en": "crossroads",
+    "meaning_vi": "ngã tư đường",
+    "example_hanzi": "到十字路口"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "人行道",
+    "pinyin": "rénxíngdào",
+    "meaning_en": "sidewalk",
+    "meaning_vi": "vỉa hè",
+    "example_hanzi": "走在人行道上"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "天桥",
+    "pinyin": "tiānqiáo",
+    "meaning_en": "footbridge",
+    "meaning_vi": "cầu vượt",
+    "example_hanzi": "过天桥"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "地下通道",
+    "pinyin": "dìxià tōngdào",
+    "meaning_en": "underpass",
+    "meaning_vi": "hầm đi bộ",
+    "example_hanzi": "走地下通道"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "单车道",
+    "pinyin": "dān chēdào",
+    "meaning_en": "single lane",
+    "meaning_vi": "làn đơn",
+    "example_hanzi": "这条路是单车道"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "停车场",
+    "pinyin": "tíngchēchǎng",
+    "meaning_en": "parking lot",
+    "meaning_vi": "bãi đỗ xe",
+    "example_hanzi": "在停车场停车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "加油站",
+    "pinyin": "jiāyóuzhàn",
+    "meaning_en": "gas station",
+    "meaning_vi": "trạm xăng",
+    "example_hanzi": "去加油站加油"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "公交站",
+    "pinyin": "gōngjiāo zhàn",
+    "meaning_en": "bus stop",
+    "meaning_vi": "trạm xe buýt",
+    "example_hanzi": "在公交站等车"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "地铁站",
+    "pinyin": "dìtiězhàn",
+    "meaning_en": "subway station",
+    "meaning_vi": "ga tàu điện ngầm",
+    "example_hanzi": "到地铁站"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "意大利",
+    "pinyin": "Yìdàlì",
+    "meaning_en": "Italy",
+    "meaning_vi": "Ý",
+    "example_hanzi": "他去意大利"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "西班牙",
+    "pinyin": "Xībānyá",
+    "meaning_en": "Spain",
+    "meaning_vi": "Tây Ban Nha",
+    "example_hanzi": "我们喜欢西班牙"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "葡萄牙",
+    "pinyin": "Pútáoyá",
+    "meaning_en": "Portugal",
+    "meaning_vi": "Bồ Đào Nha",
+    "example_hanzi": "葡萄牙在欧洲"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "荷兰",
+    "pinyin": "Hélán",
+    "meaning_en": "Netherlands",
+    "meaning_vi": "Hà Lan",
+    "example_hanzi": "荷兰有很多花"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "瑞典",
+    "pinyin": "Ruìdiǎn",
+    "meaning_en": "Sweden",
+    "meaning_vi": "Thụy Điển",
+    "example_hanzi": "瑞典很冷"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "挪威",
+    "pinyin": "Nuówēi",
+    "meaning_en": "Norway",
+    "meaning_vi": "Na Uy",
+    "example_hanzi": "挪威在北方"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "丹麦",
+    "pinyin": "Dānmài",
+    "meaning_en": "Denmark",
+    "meaning_vi": "Đan Mạch",
+    "example_hanzi": "丹麦很漂亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "俄罗斯",
+    "pinyin": "Éluósī",
+    "meaning_en": "Russia",
+    "meaning_vi": "Nga",
+    "example_hanzi": "俄罗斯很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "乌克兰",
+    "pinyin": "Wūkèlán",
+    "meaning_en": "Ukraine",
+    "meaning_vi": "Ukraina",
+    "example_hanzi": "乌克兰在欧洲"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "波兰",
+    "pinyin": "Bōlán",
+    "meaning_en": "Poland",
+    "meaning_vi": "Ba Lan",
+    "example_hanzi": "波兰有历史"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "捷克",
+    "pinyin": "Jiékè",
+    "meaning_en": "Czechia",
+    "meaning_vi": "Séc",
+    "example_hanzi": "捷克很美"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "匈牙利",
+    "pinyin": "Xiōngyálì",
+    "meaning_en": "Hungary",
+    "meaning_vi": "Hungary",
+    "example_hanzi": "匈牙利在欧洲"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "瑞士",
+    "pinyin": "Ruìshì",
+    "meaning_en": "Switzerland",
+    "meaning_vi": "Thụy Sĩ",
+    "example_hanzi": "瑞士有山"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "奥地利",
+    "pinyin": "Àodìlì",
+    "meaning_en": "Austria",
+    "meaning_vi": "Áo",
+    "example_hanzi": "奥地利很安静"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "澳大利亚",
+    "pinyin": "Àodàlìyà",
+    "meaning_en": "Australia",
+    "meaning_vi": "Úc",
+    "example_hanzi": "去澳大利亚看袋鼠"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "新西兰",
+    "pinyin": "Xīnxīlán",
+    "meaning_en": "New Zealand",
+    "meaning_vi": "New Zealand",
+    "example_hanzi": "新西兰很美"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "加拿大",
+    "pinyin": "Jiānádà",
+    "meaning_en": "Canada",
+    "meaning_vi": "Canada",
+    "example_hanzi": "加拿大很大"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "墨西哥",
+    "pinyin": "Mòxīgē",
+    "meaning_en": "Mexico",
+    "meaning_vi": "Mexico",
+    "example_hanzi": "墨西哥很热闹"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "巴西",
+    "pinyin": "Bāxī",
+    "meaning_en": "Brazil",
+    "meaning_vi": "Brazil",
+    "example_hanzi": "巴西在南美"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "阿根廷",
+    "pinyin": "Āgēntíng",
+    "meaning_en": "Argentina",
+    "meaning_vi": "Argentina",
+    "example_hanzi": "阿根廷踢足球"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "肩膀",
+    "pinyin": "jiānbǎng",
+    "meaning_en": "shoulder",
+    "meaning_vi": "vai",
+    "example_hanzi": "肩膀很酸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "胳膊",
+    "pinyin": "gēbo",
+    "meaning_en": "arm",
+    "meaning_vi": "cánh tay",
+    "example_hanzi": "胳膊受伤了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手腕",
+    "pinyin": "shǒuwàn",
+    "meaning_en": "wrist",
+    "meaning_vi": "cổ tay",
+    "example_hanzi": "手腕疼"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手背",
+    "pinyin": "shǒubèi",
+    "meaning_en": "back of hand",
+    "meaning_vi": "mu bàn tay",
+    "example_hanzi": "手背干净"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手掌",
+    "pinyin": "shǒuzhǎng",
+    "meaning_en": "palm",
+    "meaning_vi": "lòng bàn tay",
+    "example_hanzi": "手掌很暖"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "大腿",
+    "pinyin": "dàtuǐ",
+    "meaning_en": "thigh",
+    "meaning_vi": "đùi",
+    "example_hanzi": "大腿很累"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "小腿",
+    "pinyin": "xiǎotuǐ",
+    "meaning_en": "calf",
+    "meaning_vi": "bắp chân",
+    "example_hanzi": "小腿酸痛"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "膝盖",
+    "pinyin": "xīgài",
+    "meaning_en": "knee",
+    "meaning_vi": "đầu gối",
+    "example_hanzi": "膝盖有点疼"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "脚踝",
+    "pinyin": "jiǎohuái",
+    "meaning_en": "ankle",
+    "meaning_vi": "mắt cá chân",
+    "example_hanzi": "脚踝扭了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "脚趾",
+    "pinyin": "jiǎozhǐ",
+    "meaning_en": "toe",
+    "meaning_vi": "ngón chân",
+    "example_hanzi": "脚趾很冷"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "心脏",
+    "pinyin": "xīnzàng",
+    "meaning_en": "heart",
+    "meaning_vi": "trái tim",
+    "example_hanzi": "心脏很强"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "肺",
+    "pinyin": "fèi",
+    "meaning_en": "lung",
+    "meaning_vi": "phổi",
+    "example_hanzi": "肺很健康"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "肝",
+    "pinyin": "gān",
+    "meaning_en": "liver",
+    "meaning_vi": "gan",
+    "example_hanzi": "保护肝"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "胃",
+    "pinyin": "wèi",
+    "meaning_en": "stomach",
+    "meaning_vi": "dạ dày",
+    "example_hanzi": "胃不舒服"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "皮肤",
+    "pinyin": "pífū",
+    "meaning_en": "skin",
+    "meaning_vi": "da",
+    "example_hanzi": "皮肤很好"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "指甲",
+    "pinyin": "zhǐjiǎ",
+    "meaning_en": "nail",
+    "meaning_vi": "móng tay",
+    "example_hanzi": "剪指甲"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "眉毛",
+    "pinyin": "méimáo",
+    "meaning_en": "eyebrow",
+    "meaning_vi": "lông mày",
+    "example_hanzi": "眉毛很浓"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "睫毛",
+    "pinyin": "jiémáo",
+    "meaning_en": "eyelash",
+    "meaning_vi": "lông mi",
+    "example_hanzi": "睫毛很长"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "舌头",
+    "pinyin": "shétou",
+    "meaning_en": "tongue",
+    "meaning_vi": "lưỡi",
+    "example_hanzi": "舌头尝味道"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "喉咙",
+    "pinyin": "hóulóng",
+    "meaning_en": "throat",
+    "meaning_vi": "cổ họng",
+    "example_hanzi": "喉咙疼"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "外衣",
+    "pinyin": "wàiyī",
+    "meaning_en": "outerwear",
+    "meaning_vi": "áo ngoài",
+    "example_hanzi": "穿外衣"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "内衣",
+    "pinyin": "nèiyī",
+    "meaning_en": "underwear",
+    "meaning_vi": "đồ lót",
+    "example_hanzi": "买内衣"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "运动鞋",
+    "pinyin": "yùndòngxié",
+    "meaning_en": "sports shoes",
+    "meaning_vi": "giày thể thao",
+    "example_hanzi": "穿运动鞋"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "凉鞋",
+    "pinyin": "liángxié",
+    "meaning_en": "sandals",
+    "meaning_vi": "dép",
+    "example_hanzi": "穿凉鞋"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "雨衣",
+    "pinyin": "yǔyī",
+    "meaning_en": "raincoat",
+    "meaning_vi": "áo mưa",
+    "example_hanzi": "穿雨衣"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "围巾",
+    "pinyin": "wéijīn",
+    "meaning_en": "scarf",
+    "meaning_vi": "khăn choàng",
+    "example_hanzi": "戴围巾"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "手套",
+    "pinyin": "shǒutào",
+    "meaning_en": "gloves",
+    "meaning_vi": "găng tay",
+    "example_hanzi": "戴手套"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "腰带",
+    "pinyin": "yāodài",
+    "meaning_en": "belt",
+    "meaning_vi": "dây nịt",
+    "example_hanzi": "系腰带"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "皮鞋",
+    "pinyin": "píxié",
+    "meaning_en": "leather shoes",
+    "meaning_vi": "giày da",
+    "example_hanzi": "穿皮鞋"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "阴",
+    "pinyin": "yīn",
+    "meaning_en": "overcast",
+    "meaning_vi": "âm u",
+    "example_hanzi": "今天是阴天"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "雾",
+    "pinyin": "wù",
+    "meaning_en": "fog",
+    "meaning_vi": "sương mù",
+    "example_hanzi": "早上有雾"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "雷",
+    "pinyin": "léi",
+    "meaning_en": "thunder",
+    "meaning_vi": "sấm",
+    "example_hanzi": "打雷了"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "电",
+    "pinyin": "diàn",
+    "meaning_en": "lightning",
+    "meaning_vi": "chớp",
+    "example_hanzi": "闪电很亮"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "彩虹",
+    "pinyin": "cǎihóng",
+    "meaning_en": "rainbow",
+    "meaning_vi": "cầu vồng",
+    "example_hanzi": "看到彩虹"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "温度",
+    "pinyin": "wēndù",
+    "meaning_en": "temperature",
+    "meaning_vi": "nhiệt độ",
+    "example_hanzi": "温度很高"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "天气预报",
+    "pinyin": "tiānqì yùbào",
+    "meaning_en": "weather forecast",
+    "meaning_vi": "dự báo thời tiết",
+    "example_hanzi": "看天气预报"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "meaning_en": "to rain",
+    "meaning_vi": "mưa",
+    "example_hanzi": "外面下雨"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "下雪",
+    "pinyin": "xià xuě",
+    "meaning_en": "to snow",
+    "meaning_vi": "tuyết rơi",
+    "example_hanzi": "冬天下雪"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "铅笔刀",
+    "pinyin": "qiānbǐdāo",
+    "meaning_en": "pencil sharpener",
+    "meaning_vi": "gọt bút chì",
+    "example_hanzi": "用铅笔刀"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "橡皮",
+    "pinyin": "xiàngpí",
+    "meaning_en": "eraser",
+    "meaning_vi": "cục tẩy",
+    "example_hanzi": "用橡皮擦字"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "尺子",
+    "pinyin": "chǐzi",
+    "meaning_en": "ruler",
+    "meaning_vi": "thước kẻ",
+    "example_hanzi": "用尺子画线"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "胶水",
+    "pinyin": "jiāoshuǐ",
+    "meaning_en": "glue",
+    "meaning_vi": "keo dán",
+    "example_hanzi": "用胶水"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "胶带",
+    "pinyin": "jiāodài",
+    "meaning_en": "tape",
+    "meaning_vi": "băng dính",
+    "example_hanzi": "用胶带"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "锤子",
+    "pinyin": "chuízi",
+    "meaning_en": "hammer",
+    "meaning_vi": "búa",
+    "example_hanzi": "用锤子敲钉子"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "螺丝刀",
+    "pinyin": "luósīdāo",
+    "meaning_en": "screwdriver",
+    "meaning_vi": "tua vít",
+    "example_hanzi": "用螺丝刀拧螺丝"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "钳子",
+    "pinyin": "qiánzi",
+    "meaning_en": "pliers",
+    "meaning_vi": "kìm",
+    "example_hanzi": "用钳子夹住"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "画笔",
+    "pinyin": "huàbǐ",
+    "meaning_en": "paintbrush",
+    "meaning_vi": "bút vẽ",
+    "example_hanzi": "用画笔画画"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "颜料",
+    "pinyin": "yánliào",
+    "meaning_en": "paint",
+    "meaning_vi": "sơn; màu vẽ",
+    "example_hanzi": "用颜料涂色"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "彩色笔",
+    "pinyin": "cǎisèbǐ",
+    "meaning_en": "color pens",
+    "meaning_vi": "bút màu",
+    "example_hanzi": "用彩色笔"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "订书机",
+    "pinyin": "dìngshūjī",
+    "meaning_en": "stapler",
+    "meaning_vi": "kim bấm",
+    "example_hanzi": "用订书机订纸"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "订书钉",
+    "pinyin": "dìngshūdīng",
+    "meaning_en": "staples",
+    "meaning_vi": "ghim bấm",
+    "example_hanzi": "加订书钉"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "文件夹",
+    "pinyin": "wénjiànjiā",
+    "meaning_en": "folder",
+    "meaning_vi": "bìa hồ sơ",
+    "example_hanzi": "放在文件夹里"
+  },
+  {
+    "level_id": "HSK1",
+    "hanzi": "信封",
+    "pinyin": "xìnfēng",
+    "meaning_en": "envelope",
+    "meaning_vi": "phong bì",
+    "example_hanzi": "把信放进信封"
+  }
+]

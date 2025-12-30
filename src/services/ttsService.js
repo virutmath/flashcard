@@ -19,13 +19,12 @@ const client = new textToSpeech.TextToSpeechClient({
 });
 
 /**
- * Hàm tạo audio từ văn bản
+ * Hàm tạo audio từ văn bản (trả về buffer)
  * @param {string} text - Từ cần đọc (Ví dụ: "你好")
- * @param {string} filename - Tên file muốn lưu (Ví dụ: "nihao_uuid")
  * @param {string} langCode - Mã ngôn ngữ (zh-CN, en-US, vi-VN)
- * @returns {Promise<string>} - Trả về đường dẫn file tương đối để lưu vào DB
+ * @returns {Promise<Buffer>} - Trả về buffer chứa audio MP3 data
  */
-async function generateAudio(text, filename, langCode = 'zh-CN') {
+async function generateAudio(text, langCode = 'zh-CN') {
   try {
     const request = {
       input: { text: text },
@@ -37,22 +36,11 @@ async function generateAudio(text, filename, langCode = 'zh-CN') {
 
     const [response] = await client.synthesizeSpeech(request);
     
-    // Tạo đường dẫn file vật lý
-    const finalFileName = `${filename}.mp3`;
-    const savePath = path.join(AUDIO_DIR, finalFileName);
-    
-    // Ghi file (binary) vào ổ cứng
-    const writeFile = util.promisify(fs.writeFile);
-    await writeFile(savePath, response.audioContent, 'binary');
-    
-    console.log(`Audio content written to file: ${savePath}`);
-    
-    // Trả về đường dẫn public (để frontend truy cập)
-    // Ví dụ: /uploads/audio/uuid.mp3
-    return `/uploads/audio/${finalFileName}`;
+    // Trả về buffer audio content (để upload tới Cloudinary)
+    return response.audioContent;
   } catch (error) {
     console.error('TTS Error:', error);
-    return null; // Trả về null nếu lỗi để không chết app
+    throw error; // Throw error để controller xử lý
   }
 }
 

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Flashcard = require('../models/Flashcard');
 const CloudinaryService = require('../utils/CloudinaryService');
+const { generateAudio } = require('../services/ttsService');
 const Topic = require('../models/Topic');
 const Level = require('../models/Level');
 const { v4: uuidv4 } = require('uuid');
@@ -60,11 +61,22 @@ class FlashcardAdminController {
     return payload;
   }
 
-  // Helper: Validate required fields
-  static validatePayload(payload) {
-    const required = ['levelId', 'hanzi', 'pinyin', 'meaningEn', 'meaningVi'];
-    const missing = required.filter(field => !payload[field]);
-    return missing.length > 0 ? missing : null;
+  // Helper: Auto-generate audio if needed
+  static async autoGenerateAudio(hanzi, audioFile, flashcardId) {
+    try {
+      // If audio file not provided, generate from hanzi text using TTS
+      if (!audioFile) {
+        console.log(`[autoGenerateAudio] Generating audio for flashcard ${flashcardId}, hanzi: ${hanzi}`);
+        const audioBuffer = await generateAudio(hanzi, 'zh-CN');
+        const publicId = `flashcard_audio_${flashcardId}`;
+        const audioUrl = await CloudinaryService.uploadAudio(audioBuffer, publicId);
+        return audioUrl;
+      }
+      return null;
+    } catch (error) {
+      console.error('Auto-generate audio failed', { flashcardId, hanzi, error: error.message });
+      throw error;
+    }
   }
 
   // Helper: Ensure topic exists
@@ -100,6 +112,7 @@ class FlashcardAdminController {
 
     // Helper to support both upload.single and upload.fields
     const imageFile = req.file || (req.files && req.files.image && req.files.image[0]);
+    const audioFile = req.files && req.files.audio && req.files.audio[0];
 
     try {
       const rawBody = req.body || {};
@@ -130,6 +143,18 @@ class FlashcardAdminController {
         payload.imageUrl = await CloudinaryService.uploadImage(imageFile.path, publicId);
       }
 
+      // Auto-generate audio if not provided
+      if (audioFile) {
+        const publicId = `flashcard_audio_${payload.id}`;
+        payload.audioCn = await CloudinaryService.uploadAudio(audioFile.path, publicId);
+      } else {
+        // Generate TTS audio
+        const generatedAudioUrl = await FlashcardAdminController.autoGenerateAudio(payload.hanzi, audioFile, payload.id);
+        if (generatedAudioUrl) {
+          payload.audioCn = generatedAudioUrl;
+        }
+      }
+
       const flashcard = Flashcard.create(payload);
       responseSent = true;
       res.status(201).json(flashcard);
@@ -143,6 +168,9 @@ class FlashcardAdminController {
       // Clean temp upload if exists
       if (imageFile && imageFile.path && fs.existsSync(imageFile.path)) {
         fs.unlinkSync(imageFile.path);
+      }
+      if (audioFile && audioFile.path && fs.existsSync(audioFile.path)) {
+        fs.unlinkSync(audioFile.path);
       }
     }
   }
@@ -181,6 +209,7 @@ class FlashcardAdminController {
 
     // Support both upload.single and upload.fields
     const imageFile = req.file || (req.files && req.files.image && req.files.image[0]);
+    const audioFile = req.files && req.files.audio && req.files.audio[0];
 
     try {
       // Get existing flashcard to preserve fields not in update
@@ -206,17 +235,44 @@ class FlashcardAdminController {
         imageUrl = await CloudinaryService.uploadImage(imageFile.path, publicId);
       }
 
+      // Determine new hanzi value and check if it changed
+      const newHanzi = updateData.hanzi || existing.content.hanzi;
+      const hanziChanged = newHanzi !== existing.content.hanzi;
+
+      // Handle audio: if changed or not provided, regenerate
+      let audioCn = updateData.audioCn || existing.content.audio.cn;
+      
+      if (audioFile) {
+        // User uploaded new audio file
+        const publicId = `flashcard_audio_${req.params.id}`;
+        audioCn = await CloudinaryService.uploadAudio(audioFile.path, publicId);
+      } else if (hanziChanged && !updateData.audioCn && !audioFile) {
+        // Hanzi changed and no audio file provided, regenerate TTS
+        console.log(`[update] Hanzi changed for flashcard ${req.params.id}, regenerating audio`);
+        const generatedAudioUrl = await FlashcardAdminController.autoGenerateAudio(newHanzi, audioFile, req.params.id);
+        if (generatedAudioUrl) {
+          audioCn = generatedAudioUrl;
+        }
+      } else if (!audioCn && !audioFile && !hanziChanged) {
+        // No audio exists and no file provided, generate TTS
+        console.log(`[update] No audio found for flashcard ${req.params.id}, generating TTS`);
+        const generatedAudioUrl = await FlashcardAdminController.autoGenerateAudio(newHanzi, audioFile, req.params.id);
+        if (generatedAudioUrl) {
+          audioCn = generatedAudioUrl;
+        }
+      }
+
       const payload = {
         topicId: updateData.topicId || existing.topic,
         levelId: updateData.levelId || existing.level,
         isPremium: (body.isPremium !== undefined || body.is_premium !== undefined)
           ? updateData.isPremium
           : existing.is_premium,
-        hanzi: updateData.hanzi || existing.content.hanzi,
+        hanzi: newHanzi,
         pinyin: updateData.pinyin || existing.content.pinyin,
         englishPhonetic: updateData.englishPhonetic || existing.content.english_phonetic,
         imageUrl,
-        audioCn: updateData.audioCn || existing.content.audio.cn,
+        audioCn,
         audioEn: updateData.audioEn || existing.content.audio.en,
         audioVi: updateData.audioVi || existing.content.audio.vi,
         meaningEn: updateData.meaningEn || existing.content.meanings.en,
@@ -241,6 +297,9 @@ class FlashcardAdminController {
     } finally {
       if (imageFile && imageFile.path && fs.existsSync(imageFile.path)) {
         fs.unlinkSync(imageFile.path);
+      }
+      if (audioFile && audioFile.path && fs.existsSync(audioFile.path)) {
+        fs.unlinkSync(audioFile.path);
       }
     }
   }

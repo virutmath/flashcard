@@ -205,10 +205,25 @@ async function deleteAdmin(adminId) {
 // Flashcards (with pagination)
 let flashcardsPage = 1;
 let flashcardsPageSize = 20;
+let topicsMap = {}; // Cache topics for display
 
 async function loadFlashcards(page = flashcardsPage) {
     flashcardsPage = page;
     try {
+        // Always load topics to ensure fresh data
+        try {
+            const topicsRes = await fetch(`${API_URL}/topics`, {
+                headers: { 'Authorization': `Bearer ${adminToken}` }
+            });
+            const topicsData = await topicsRes.json();
+            topicsMap = { '0': 'Chưa phân loại' }; // Reset and rebuild
+            (topicsData.data || []).forEach(t => {
+                topicsMap[t.id] = t.label;
+            });
+        } catch (err) {
+            console.error('Error loading topics for display', err);
+        }
+
         const response = await fetch(`${API_URL}/flashcards?page=${flashcardsPage}&pageSize=${flashcardsPageSize}` , {
             headers: { 'Authorization': `Bearer ${adminToken}` }
         });
@@ -221,6 +236,8 @@ async function loadFlashcards(page = flashcardsPage) {
             const meaningEn = fc.content?.meanings?.en || '-';
             const meaningVi = fc.content?.meanings?.vi || '-';
             const audioCn = fc.content?.audio?.cn;
+            const topicLabel = topicsMap[fc.topic] || fc.topic;
+            const levelLabel = fc.level.toUpperCase();
             tbody.innerHTML += `
                 <tr>
                     <td><img src="${imageUrl}" alt="flashcard" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px;"></td>
@@ -229,8 +246,8 @@ async function loadFlashcards(page = flashcardsPage) {
                     <td>${audioCn ? `<audio controls preload="none" style="width: 140px;"><source src="${audioCn}" type="audio/mpeg">Audio</audio>` : '-'}</td>
                     <td>${meaningEn}</td>
                     <td>${meaningVi}</td>
-                    <td>${fc.topic}</td>
-                    <td>${fc.level}</td>
+                    <td>${topicLabel}</td>
+                    <td>${levelLabel}</td>
                     <td>${fc.is_premium ? 'Có' : 'Không'}</td>
                     <td>
                         <button class="btn btn-sm btn-warning" onclick="editFlashcard('${fc.id}')">Sửa</button>
@@ -362,7 +379,7 @@ async function showAddFlashcardForm() {
     `;
     modal.show();
 
-    document.getElementById('flashcardForm').addEventListener('submit', async (e) => {
+    document.getElementById('flashcardForm').onsubmit = async (e) => {
         e.preventDefault();
 
         const submitBtn = document.getElementById('submitFlashcard');
@@ -410,7 +427,7 @@ async function showAddFlashcardForm() {
             submitBtn.disabled = false;
             submitBtn.textContent = 'Lưu';
         }
-    });
+    };
 }
 
 async function editFlashcard(flashcardId) {
@@ -506,7 +523,7 @@ async function editFlashcard(flashcardId) {
         `;
         modal.show();
 
-        document.getElementById('editFlashcardForm').addEventListener('submit', async (e) => {
+        document.getElementById('editFlashcardForm').onsubmit = async (e) => {
             e.preventDefault();
             const submitBtn = document.getElementById('submitEditFlashcard');
             submitBtn.disabled = true;
@@ -552,7 +569,7 @@ async function editFlashcard(flashcardId) {
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Lưu';
             }
-        });
+        };
     } catch (error) {
         alert('Lỗi: ' + error.message);
     }
@@ -614,7 +631,7 @@ function showAddTopicForm() {
     `;
     modal.show();
 
-    document.getElementById('topicForm').addEventListener('submit', async (e) => {
+    document.getElementById('topicForm').onsubmit = async (e) => {
         e.preventDefault();
         const topicData = {
             id: Date.now().toString(),
@@ -636,7 +653,7 @@ function showAddTopicForm() {
         } catch (error) {
             alert('Lỗi: ' + error.message);
         }
-    });
+    };
 }
 
 async function editTopic(topicId) {
@@ -660,7 +677,7 @@ async function editTopic(topicId) {
         `;
         modal.show();
 
-        document.getElementById('editTopicForm').addEventListener('submit', async (e) => {
+        document.getElementById('editTopicForm').onsubmit = async (e) => {
             e.preventDefault();
             const submitBtn = document.getElementById('submitEditTopic');
             submitBtn.disabled = true;
@@ -685,7 +702,7 @@ async function editTopic(topicId) {
             } finally {
                 submitBtn.disabled = false;
             }
-        });
+        };
     } catch (error) {
         alert('Lỗi: ' + error.message);
     }
@@ -747,7 +764,7 @@ function showAddLevelForm() {
     `;
     modal.show();
 
-    document.getElementById('levelForm').addEventListener('submit', async (e) => {
+    document.getElementById('levelForm').onsubmit = async (e) => {
         e.preventDefault();
         const levelData = {
             id: Date.now().toString(),
@@ -769,7 +786,7 @@ function showAddLevelForm() {
         } catch (error) {
             alert('Lỗi: ' + error.message);
         }
-    });
+    };
 }
 
 async function editLevel(levelId) {
@@ -793,7 +810,7 @@ async function editLevel(levelId) {
         `;
         modal.show();
 
-        document.getElementById('editLevelForm').addEventListener('submit', async (e) => {
+        document.getElementById('editLevelForm').onsubmit = async (e) => {
             e.preventDefault();
             const submitBtn = document.getElementById('submitEditLevel');
             submitBtn.disabled = true;
@@ -818,7 +835,7 @@ async function editLevel(levelId) {
             } finally {
                 submitBtn.disabled = false;
             }
-        });
+        };
     } catch (error) {
         alert('Lỗi: ' + error.message);
     }
@@ -888,7 +905,7 @@ function showAddBadgeForm() {
     `;
     modal.show();
 
-    document.getElementById('badgeForm').addEventListener('submit', async (e) => {
+    document.getElementById('badgeForm').onsubmit = async (e) => {
         e.preventDefault();
         const badgeData = {
             id: Date.now().toString(),
@@ -912,7 +929,7 @@ function showAddBadgeForm() {
         } catch (error) {
             alert('Lỗi: ' + error.message);
         }
-    });
+    };
 }
 
 async function editBadge(badgeId) {
@@ -944,7 +961,7 @@ async function editBadge(badgeId) {
         `;
         modal.show();
 
-        document.getElementById('editBadgeForm').addEventListener('submit', async (e) => {
+        document.getElementById('editBadgeForm').onsubmit = async (e) => {
             e.preventDefault();
             const submitBtn = document.getElementById('submitEditBadge');
             submitBtn.disabled = true;
@@ -975,7 +992,7 @@ async function editBadge(badgeId) {
             } finally {
                 submitBtn.disabled = false;
             }
-        });
+        };
     } catch (error) {
         alert('Lỗi: ' + error.message);
     }

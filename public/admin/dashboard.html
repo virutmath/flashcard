@@ -109,6 +109,9 @@
             <a class="nav-link" href="#badges" onclick="showPage('badges')">
                 <i class="fas fa-medal"></i> Badges
             </a>
+            <a class="nav-link" href="#backup" onclick="showPage('backup')">
+                <i class="fas fa-database"></i> Backup &amp; Restore
+            </a>
             <hr class="bg-light">
             <a class="nav-link" href="#" onclick="logout()">
                 <i class="fas fa-sign-out-alt"></i> Đăng xuất
@@ -309,6 +312,74 @@
                         </thead>
                         <tbody></tbody>
                     </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backup Page -->
+        <div id="backup" class="page hidden">
+            <div class="card">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <h5>Sao lưu / Phục hồi</h5>
+                    <small class="text-muted">Yêu cầu nhập lại mật khẩu admin để xác thực</small>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-header bg-light">
+                                    <strong>flashcard.db</strong>
+                                </div>
+                                <div class="card-body">
+                                    <form class="mb-3" onsubmit="downloadDatabase(event)">
+                                        <label class="form-label">Mật khẩu admin để tải xuống</label>
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" id="dbDownloadPassword" placeholder="Nhập mật khẩu" required>
+                                            <button class="btn btn-outline-primary" type="submit">
+                                                <i class="fas fa-download"></i> Tải xuống
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <form onsubmit="uploadDatabase(event)">
+                                        <label class="form-label">Phục hồi flashcard.db</label>
+                                        <input type="password" class="form-control mb-2" id="dbUploadPassword" placeholder="Nhập mật khẩu" required>
+                                        <input type="file" class="form-control mb-2" id="dbUploadFile" accept=".db,application/octet-stream" required>
+                                        <button class="btn btn-primary w-100" type="submit">
+                                            <i class="fas fa-rotate"></i> Khôi phục flashcard.db
+                                        </button>
+                                        <small class="text-muted">Hệ thống sẽ tạm dừng kết nối DB, sao lưu file cũ và khởi tạo lại.</small>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-header bg-light">
+                                    <strong>hsk1_words.json</strong>
+                                </div>
+                                <div class="card-body">
+                                    <form class="mb-3" onsubmit="downloadHsk(event)">
+                                        <label class="form-label">Mật khẩu admin để tải xuống</label>
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" id="hskDownloadPassword" placeholder="Nhập mật khẩu" required>
+                                            <button class="btn btn-outline-primary" type="submit">
+                                                <i class="fas fa-download"></i> Tải xuống
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <form onsubmit="uploadHsk(event)">
+                                        <label class="form-label">Phục hồi hsk1_words.json</label>
+                                        <input type="password" class="form-control mb-2" id="hskUploadPassword" placeholder="Nhập mật khẩu" required>
+                                        <input type="file" class="form-control mb-2" id="hskUploadFile" accept="application/json" required>
+                                        <button class="btn btn-primary w-100" type="submit">
+                                            <i class="fas fa-rotate"></i> Khôi phục hsk1_words.json
+                                        </button>
+                                        <small class="text-muted">File phải là JSON hợp lệ chứa danh sách từ HSK1.</small>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

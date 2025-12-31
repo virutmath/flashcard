@@ -13,6 +13,13 @@ function setAdminInfo() {
     document.getElementById('adminName').textContent = `Admin #${decoded.adminId}`;
     document.getElementById('adminRole').textContent = adminRole === 'admin' ? 'Admin' : 'Moderator';
     document.getElementById('adminRole').className = `role-badge role-${adminRole}`;
+
+    if (adminRole !== 'admin') {
+        const backupLink = document.querySelector('a[href="#backup"]');
+        if (backupLink) {
+            backupLink.style.display = 'none';
+        }
+    }
 }
 
 // Show/Hide pages
@@ -29,6 +36,7 @@ function showPage(pageName) {
     if (pageName === 'topics') loadTopics();
     if (pageName === 'levels') loadLevels();
     if (pageName === 'badges') loadBadges();
+    if (pageName === 'backup') resetBackupForms();
 }
 
 // Dashboard
@@ -1009,6 +1017,137 @@ async function deleteBadge(badgeId) {
         loadBadges();
     } catch (error) {
         alert('Lỗi: ' + error.message);
+    }
+}
+
+// Backup & Restore
+function resetBackupForms() {
+    ['dbDownloadPassword', 'dbUploadPassword', 'dbUploadFile', 'hskDownloadPassword', 'hskUploadPassword', 'hskUploadFile'].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.value = '';
+    });
+}
+
+async function downloadWithPassword(url, password, filename) {
+    if (!password) {
+        throw new Error('Vui lòng nhập mật khẩu admin');
+    }
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${adminToken}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ password })
+    });
+
+    const contentType = response.headers.get('content-type') || '';
+    if (!response.ok) {
+        let message = 'Tải xuống thất bại';
+        try {
+            if (contentType.includes('application/json')) {
+                const data = await response.json();
+                message = data.error || message;
+            } else {
+                message = await response.text();
+            }
+        } catch (_err) {
+            // Ignore parsing error and fall back to default message
+        }
+        throw new Error(message);
+    }
+
+    const blob = await response.blob();
+    const urlObject = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = urlObject;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    window.URL.revokeObjectURL(urlObject);
+}
+
+async function downloadDatabase(event) {
+    event.preventDefault();
+    try {
+        const password = document.getElementById('dbDownloadPassword').value;
+        await downloadWithPassword(`${API_URL}/backup/flashcard-db/download`, password, 'flashcard.db');
+        alert('Đã tải flashcard.db');
+    } catch (error) {
+        alert(error.message);
+    }
+}
+
+async function downloadHsk(event) {
+    event.preventDefault();
+    try {
+        const password = document.getElementById('hskDownloadPassword').value;
+        await downloadWithPassword(`${API_URL}/backup/hsk1/download`, password, 'hsk1_words.json');
+        alert('Đã tải hsk1_words.json');
+    } catch (error) {
+        alert(error.message);
+    }
+}
+
+async function uploadWithPassword(url, fileInputId, passwordInputId, successMessage) {
+    const passwordInput = document.getElementById(passwordInputId);
+    const fileInput = document.getElementById(fileInputId);
+
+    if (!passwordInput || !fileInput) {
+        throw new Error('Thiếu dữ liệu bắt buộc');
+    }
+
+    if (!passwordInput.value) {
+        throw new Error('Vui lòng nhập mật khẩu admin');
+    }
+
+    if (!fileInput.files || fileInput.files.length === 0) {
+        throw new Error('Vui lòng chọn file');
+    }
+
+    const formData = new FormData();
+    formData.append('password', passwordInput.value);
+    formData.append('file', fileInput.files[0]);
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${adminToken}` },
+        body: formData
+    });
+
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) {
+        throw new Error(result.error || 'Upload thất bại');
+    }
+
+    return result || { success: true, message: successMessage };
+}
+
+async function uploadDatabase(event) {
+    event.preventDefault();
+    try {
+        await uploadWithPassword(`${API_URL}/backup/flashcard-db/upload`, 'dbUploadFile', 'dbUploadPassword', 'Khôi phục flashcard.db thành công');
+        alert('Khôi phục flashcard.db thành công');
+        resetBackupForms();
+    } catch (error) {
+        alert(error.message);
+    }
+}
+
+async function uploadHsk(event) {
+    event.preventDefault();
+    try {
+        const result = await uploadWithPassword(`${API_URL}/backup/hsk1/upload`, 'hskUploadFile', 'hskUploadPassword', 'Khôi phục hsk1_words.json thành công');
+        const message = result && result.count !== undefined
+            ? `Đã cập nhật ${result.count} từ`
+            : 'Khôi phục hsk1_words.json thành công';
+        alert(message);
+        resetBackupForms();
+    } catch (error) {
+        alert(error.message);
     }
 }
 

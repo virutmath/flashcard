@@ -8,6 +8,7 @@ const FlashcardAdminController = require('../controllers/FlashcardAdminControlle
 const TopicAdminController = require('../controllers/TopicAdminController');
 const LevelAdminController = require('../controllers/LevelAdminController');
 const BadgeAdminController = require('../controllers/BadgeAdminController');
+const BackupController = require('../controllers/BackupController');
 const { authenticateAdmin } = require('../middlewares/authenticate');
 const { requireAdmin, requireAdminOrModerator } = require('../middlewares/authorize');
 
@@ -69,5 +70,12 @@ router.put('/badges/:id', requireAdminOrModerator, BadgeAdminController.update);
 router.delete('/badges/:id', requireAdminOrModerator, BadgeAdminController.delete);
 router.post('/badges/:id/assign', requireAdminOrModerator, BadgeAdminController.assignToUser);
 router.delete('/badges/:id/unassign', requireAdminOrModerator, BadgeAdminController.unassignFromUser);
+
+// Backup & Restore routes (require admin)
+const backupUpload = upload.single('file');
+router.post('/backup/flashcard-db/download', requireAdmin, BackupController.downloadDatabase);
+router.post('/backup/flashcard-db/upload', requireAdmin, backupUpload, BackupController.uploadDatabase);
+router.post('/backup/hsk1/download', requireAdmin, BackupController.downloadHsk);
+router.post('/backup/hsk1/upload', requireAdmin, backupUpload, BackupController.uploadHsk);
 
 module.exports = router;

@@ -10,7 +10,8 @@ class FlashcardController {
     const topic = req.query.topic || null;
     const level = req.query.level || null;
 
-    const result = Flashcard.getAll(page, pageSize, topic, level);
+    // Public API only returns flashcards that have an image available
+    const result = Flashcard.getAll(page, pageSize, topic, level, { onlyWithImage: true });
 
     // Get available topics và levels
     const topics = Topic.getAll();

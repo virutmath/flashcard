@@ -225,6 +225,41 @@
                     <button class="btn btn-primary btn-sm" onclick="showAddFlashcardForm()">+ Thêm</button>
                 </div>
                 <div class="card-body">
+                    <form id="flashcardSearchForm" class="mb-3">
+                        <div class="row g-2 align-items-end">
+                            <div class="col-md-4">
+                                <label class="form-label mb-1">Tìm kiếm (Hán / Pinyin / Anh / Việt)</label>
+                                <input type="text" class="form-control" id="flashcardKeyword" placeholder="Nhập từ khóa...">
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label mb-1">Topic</label>
+                                <select class="form-select" id="flashcardTopicFilter"></select>
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label mb-1">Level</label>
+                                <select class="form-select" id="flashcardLevelFilter">
+                                    <option value="all">Tất cả</option>
+                                    <option value="hsk1">HSK 1</option>
+                                    <option value="hsk2">HSK 2</option>
+                                    <option value="hsk3">HSK 3</option>
+                                    <option value="hsk4">HSK 4</option>
+                                    <option value="hsk5">HSK 5</option>
+                                    <option value="hsk6">HSK 6</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label mb-1">Premium</label>
+                                <select class="form-select" id="flashcardPremiumFilter">
+                                    <option value="all">Tất cả</option>
+                                    <option value="1">Có</option>
+                                    <option value="0">Không</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary w-100"><i class="fas fa-search"></i> Tìm</button>
+                            </div>
+                        </div>
+                    </form>
                     <table class="table table-hover" id="flashcardsTable">
                         <thead>
                             <tr>

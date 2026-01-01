@@ -106,6 +106,18 @@ class FlashcardAdminController {
     }
   }
 
+  // Helper: Validate required fields in payload
+  static validatePayload(payload) {
+    const required = ['hanzi', 'pinyin', 'levelId'];
+    const missing = [];
+    for (const field of required) {
+      if (!payload[field]) {
+        missing.push(field);
+      }
+    }
+    return missing.length > 0 ? missing : null;
+  }
+
   // POST /admin/flashcards - Tạo flashcard mới (admin/moderator)
   static async create(req, res) {
     let responseSent = false;
@@ -181,8 +193,10 @@ class FlashcardAdminController {
     const pageSize = Math.min(parseInt(req.query.pageSize) || 20, 100);
     const topic = req.query.topic || null;
     const level = req.query.level || null;
+    const keyword = (req.query.keyword || '').trim() || null;
+    const premium = req.query.premium === '1' ? true : req.query.premium === '0' ? false : null;
 
-    const result = Flashcard.getAll(page, pageSize, topic, level);
+    const result = Flashcard.getAll(page, pageSize, topic, level, { keyword, premium });
     res.json({
       data: result.flashcards,
       meta: {

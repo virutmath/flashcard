@@ -213,10 +213,39 @@ async function deleteAdmin(adminId) {
 // Flashcards (with pagination)
 let flashcardsPage = 1;
 let flashcardsPageSize = 20;
+let flashcardsKeyword = '';
+let flashcardsTopicFilter = 'all';
+let flashcardsLevelFilter = 'all';
+let flashcardsPremiumFilter = 'all';
 let topicsMap = {}; // Cache topics for display
+
+function setupFlashcardFilterHandlers() {
+    const searchForm = document.getElementById('flashcardSearchForm');
+    const keywordInput = document.getElementById('flashcardKeyword');
+    const topicSelect = document.getElementById('flashcardTopicFilter');
+    const levelSelect = document.getElementById('flashcardLevelFilter');
+    const premiumSelect = document.getElementById('flashcardPremiumFilter');
+
+    if (searchForm && !searchForm.dataset.bound) {
+        searchForm.dataset.bound = '1';
+        searchForm.onsubmit = (e) => {
+            e.preventDefault();
+            flashcardsKeyword = keywordInput ? keywordInput.value.trim() : '';
+            flashcardsTopicFilter = topicSelect ? topicSelect.value : 'all';
+            flashcardsLevelFilter = levelSelect ? levelSelect.value : 'all';
+            flashcardsPremiumFilter = premiumSelect ? premiumSelect.value : 'all';
+            loadFlashcards(1);
+        };
+    }
+}
 
 async function loadFlashcards(page = flashcardsPage) {
     flashcardsPage = page;
+    setupFlashcardFilterHandlers();
+    const keywordInput = document.getElementById('flashcardKeyword');
+    if (keywordInput && keywordInput.value !== flashcardsKeyword) {
+        keywordInput.value = flashcardsKeyword;
+    }
     try {
         // Always load topics to ensure fresh data
         try {
@@ -228,11 +257,34 @@ async function loadFlashcards(page = flashcardsPage) {
             (topicsData.data || []).forEach(t => {
                 topicsMap[t.id] = t.label;
             });
+
+            // Populate topic filter dropdown
+            const topicSelect = document.getElementById('flashcardTopicFilter');
+            if (topicSelect) {
+                const options = ['<option value="all">Tất cả</option>', '<option value="0">Chưa phân loại</option>']
+                    .concat((topicsData.data || []).map(t => `<option value="${t.id}">${t.label}</option>`))
+                    .join('');
+                topicSelect.innerHTML = options;
+                topicSelect.value = flashcardsTopicFilter;
+            }
+
+            // Sync level and premium filter selects
+            const levelSelect = document.getElementById('flashcardLevelFilter');
+            if (levelSelect) levelSelect.value = flashcardsLevelFilter;
+            const premiumSelect = document.getElementById('flashcardPremiumFilter');
+            if (premiumSelect) premiumSelect.value = flashcardsPremiumFilter;
         } catch (err) {
             console.error('Error loading topics for display', err);
         }
 
-        const response = await fetch(`${API_URL}/flashcards?page=${flashcardsPage}&pageSize=${flashcardsPageSize}` , {
+        const params = new URLSearchParams({ page: flashcardsPage, pageSize: flashcardsPageSize });
+        const trimmedKeyword = (flashcardsKeyword || '').trim();
+        if (trimmedKeyword) params.append('keyword', trimmedKeyword);
+        if (flashcardsTopicFilter !== 'all') params.append('topic', flashcardsTopicFilter);
+        if (flashcardsLevelFilter !== 'all') params.append('level', flashcardsLevelFilter);
+        if (flashcardsPremiumFilter !== 'all') params.append('premium', flashcardsPremiumFilter);
+
+        const response = await fetch(`${API_URL}/flashcards?${params.toString()}` , {
             headers: { 'Authorization': `Bearer ${adminToken}` }
         });
         const data = await response.json();
@@ -277,11 +329,12 @@ function renderFlashcardsPagination(meta) {
     const container = document.getElementById('flashcardsPagination');
     if (!container) return;
     const { page, totalPages, total } = meta;
+    const safeTotalPages = Math.max(totalPages, 1);
     const disablePrev = page <= 1 ? 'disabled' : '';
     const disableNext = page >= totalPages ? 'disabled' : '';
 
     container.innerHTML = `
-        <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
             <div>
                 <label class="form-label me-2 mb-0">Kích thước trang:</label>
                 <select id="flashcardsPageSize" class="form-select form-select-sm d-inline-block" style="width: auto;">
@@ -289,10 +342,18 @@ function renderFlashcardsPagination(meta) {
                 </select>
                 <span class="ms-3">Tổng: ${total}</span>
             </div>
-            <div class="btn-group">
-                <button class="btn btn-outline-secondary btn-sm" ${disablePrev} onclick="loadFlashcards(${page-1})">« Trước</button>
-                <span class="btn btn-outline-secondary btn-sm disabled">Trang ${page} / ${totalPages}</span>
-                <button class="btn btn-outline-secondary btn-sm" ${disableNext} onclick="loadFlashcards(${page+1})">Sau »</button>
+            <div class="d-flex align-items-center gap-2">
+                <div class="btn-group">
+                    <button class="btn btn-outline-secondary btn-sm" ${disablePrev} onclick="loadFlashcards(1)">⟪ Đầu</button>
+                    <button class="btn btn-outline-secondary btn-sm" ${disablePrev} onclick="loadFlashcards(${page-1})">« Trước</button>
+                    <span class="btn btn-outline-secondary btn-sm disabled">Trang ${page} / ${safeTotalPages}</span>
+                    <button class="btn btn-outline-secondary btn-sm" ${disableNext} onclick="loadFlashcards(${page+1})">Sau »</button>
+                    <button class="btn btn-outline-secondary btn-sm" ${disableNext} onclick="loadFlashcards(${safeTotalPages})">Cuối ⟫</button>
+                </div>
+                <div class="input-group" style="width: 150px;">
+                    <input type="number" class="form-control form-control-sm" id="flashcardsPageInput" min="1" max="${safeTotalPages}" value="${page}" placeholder="Trang">
+                    <button class="btn btn-outline-secondary btn-sm" id="flashcardsPageJumpBtn">Đi</button>
+                </div>
             </div>
         </div>
     `;
@@ -303,6 +364,28 @@ function renderFlashcardsPagination(meta) {
             flashcardsPageSize = parseInt(select.value, 10) || 20;
             loadFlashcards(1);
         };
+    }
+
+    // Setup page jump handlers
+    const jumpBtn = document.getElementById('flashcardsPageJumpBtn');
+    const jumpInput = document.getElementById('flashcardsPageInput');
+    
+    if (jumpBtn) {
+        jumpBtn.onclick = () => {
+            if (!jumpInput) return;
+            const target = Math.max(1, Math.min(parseInt(jumpInput.value, 10) || 1, safeTotalPages));
+            loadFlashcards(target);
+        };
+    }
+
+    if (jumpInput) {
+        jumpInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                const target = Math.max(1, Math.min(parseInt(jumpInput.value, 10) || 1, safeTotalPages));
+                loadFlashcards(target);
+            }
+        });
     }
 }
 

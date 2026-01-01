@@ -38,9 +38,10 @@ class Flashcard {
     return flashcard ? this._format(flashcard) : null;
   }
 
-  static getAll(page = 1, pageSize = 20, topic = null, level = null) {
+  static getAll(page = 1, pageSize = 20, topic = null, level = null, options = {}) {
     const db = this.getDb();
     const offset = (page - 1) * pageSize;
+    const { onlyWithImage = false, keyword = null, premium = null } = options;
     let query = 'SELECT * FROM flashcards WHERE 1=1';
     const params = [];
 
@@ -52,6 +53,21 @@ class Flashcard {
     if (level) {
       query += ' AND level_id = ?';
       params.push(level);
+    }
+
+    if (onlyWithImage) {
+      query += ' AND image_url IS NOT NULL AND image_url != ""';
+    }
+
+    if (keyword) {
+      const kw = `%${keyword}%`;
+      query += ' AND (hanzi LIKE ? OR pinyin LIKE ? OR meaning_en LIKE ? OR meaning_vi LIKE ? OR english_phonetic LIKE ?)';
+      params.push(kw, kw, kw, kw, kw);
+    }
+
+    if (premium !== null) {
+      query += ' AND is_premium = ?';
+      params.push(premium ? 1 : 0);
     }
 
     query += ' ORDER BY created_at DESC LIMIT ? OFFSET ?';
@@ -70,6 +86,21 @@ class Flashcard {
     if (level) {
       countQuery += ' AND level_id = ?';
       countParams.push(level);
+    }
+
+    if (onlyWithImage) {
+      countQuery += ' AND image_url IS NOT NULL AND image_url != ""';
+    }
+
+    if (keyword) {
+      const kw = `%${keyword}%`;
+      countQuery += ' AND (hanzi LIKE ? OR pinyin LIKE ? OR meaning_en LIKE ? OR meaning_vi LIKE ? OR english_phonetic LIKE ?)';
+      countParams.push(kw, kw, kw, kw, kw);
+    }
+
+    if (premium !== null) {
+      countQuery += ' AND is_premium = ?';
+      countParams.push(premium ? 1 : 0);
     }
 
     const total = db.prepare(countQuery).get(...countParams).count;
